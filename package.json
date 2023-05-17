@@ -1,0 +1,23 @@
+{
+  "name": "excel_to_json",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niechao136/excel_to_json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niechao136/excel_to_json/issues"
+  },
+  "homepage": "https://github.com/niechao136/excel_to_json#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
