@@ -1,0 +1,2856 @@
+{
+  "language": "zh-TW",
+  "languageStore": "TW",
+  "app": "WISE-iService",
+  "Import": "匯入",
+  "Export": "匯出",
+  "chooseAreas": "按區域選擇",
+  "nonSelectedText": "無資料",
+  "Loading": "載入中",
+  "Monday": "一",
+  "Tuesday": "二",
+  "Wednesday": "三",
+  "Thursday": "四",
+  "Friday": "五",
+  "Saturday": "六",
+  "Sunday": "日",
+  "deptno": "已選部門",
+  "new": "最新",
+  "exportWeeklyReport": "正在匯出週報",
+  "changeAccount": "切換失敗，用戶或公司已停用。",
+  "in": "中",
+  "mgt2": {
+    "business": "營業時間",
+    "none_biz": "休假時間",
+    "custom": "自訂標籤",
+    "other": "其他資訊",
+    "register_key": "設備註冊碼",
+    "region": "區域與群組",
+    "address": "地址",
+    "target": "目標設定&摘要報告 KPI 權重分數設定",
+    "target_workday": "營業額(日)",
+    "target_weekday": "營業額(週)",
+    "kpi": "摘要報告 KPI 權重分數設定",
+    "sum_target": "五個欄位加總需等於100分，不得高於/低於100分",
+    "page_select": "每頁顯示",
+    "page_unit": "筆",
+    "edit_user_list": "編輯用戶清單",
+    "upload_data": "營運數據",
+    "plan": "營業時間",
+    "upload": "匯入數據",
+    "upload_tip": "專屬訂製之範本, 請選擇\"客製範本\"匯入",
+    "no_data_day": "天無數據",
+    "day_hour_total": "天-時總額範本",
+    "day_hour_detail": "天-時明細範本",
+    "month_day_total": "月-天總額範本",
+    "month_day_detail": "月-天明細範本",
+    "custom_default": "客制範本",
+    "enter": "輸入數據",
+    "total_amount": "交易總金額",
+    "transaction_count": "交易筆數",
+    "item_count": "交易產品件數",
+    "delete_tip": "刪除地點後所有地點資料將從系統移除，刪除後無法復原；此外，已啟用的服務將失效且無法復原或移轉。若您仍確定要刪除地點，請再次輸入密碼後，點擊「確認」來執行刪除任務。",
+    "brand": {
+      "label": {
+        "id": "公司 ID",
+        "name": "公司名稱",
+        "contact_name": "聯絡人",
+        "contact_email": "聯絡信箱",
+        "contact_phone": "聯絡電話",
+        "contact_address": "聯絡地址",
+        "admin_email": "管理員信箱",
+        "admin_name": "管理員姓名",
+        "admin_phone": "管理員電話",
+        "admin": "負責人",
+        "status": "狀態",
+        "stores": "門店數量",
+        "initial_date": "加入日期",
+        "user": "欲新增的用戶",
+        "company": "公司",
+        "email": "用戶信箱",
+        "fullname": "用戶名稱",
+        "no_data": "這裡沒有數據",
+        "base_info": "公司基本資訊",
+        "admin_info": "公司管理員資訊"
+      },
+      "status": {
+        "1": "待啟用",
+        "20": "正常",
+        "40": "已停用"
+      },
+      "title": {
+        "setting": "訂閱站權限設定",
+        "user": "已開啟訂閱站之用戶列表",
+        "add": "新增",
+        "reset": "重置",
+        "total": "總數據：",
+        "now_at_page": "當前頁面",
+        "row_count": "顯示行數",
+        "all": "全選",
+        "update": "修改公司資訊",
+        "info": "公司資訊",
+        "activate": "啟用公司帳戶",
+        "deactivate": "停用公司帳戶",
+        "delete": "刪除公司帳戶"
+      },
+      "tip": {
+        "add": "請輸入公司資訊, 輸入完成後請點擊「確認」。 ",
+        "add_max": "新增公司失敗，已達到公司的最大註冊數量：",
+        "add_confirm": "確認新增公司？",
+        "update": "確認修改公司資訊？",
+        "activate": "確認啟用公司帳戶？",
+        "deactivate": "確認停用公司帳戶？",
+        "deactivated": "公司帳戶已停用",
+        "delete": "刪除公司帳戶後公司帳戶下所有門店資料將從系統移除，刪除後無法復原；此外，已啟用的服務將失效且無法復原或移轉。若您仍確定要刪除公司帳戶，請再次輸入密碼後，點擊「確認」來執行刪除任務。",
+        "deactivate_confirm": "此帳號下已分配了分店，確認停用公司帳戶請點擊 「確認」。",
+        "delete_confirm": "此帳號下已分配了分店，確認刪除公司帳戶請點擊 「確認」。 ",
+        "user": "請選擇用戶",
+        "name": "請輸入公司名稱",
+        "name_error": "公司名稱不能為空或空格",
+        "contact_name": "請輸入聯絡人",
+        "contact_name_error": "聯絡人不能為空格",
+        "contact_email": "請輸入聯絡郵箱",
+        "contact_email_error": "聯絡郵箱不能為空格",
+        "contact_phone": "請輸入聯絡電話",
+        "contact_phone_error": "聯絡電話不能為空格",
+        "contact_address": "請輸入聯絡地址",
+        "contact_address_error": "聯絡地址不能為空格",
+        "admin_email": "管理員郵箱",
+        "admin_email_error": "管理員郵箱不能為空或空格",
+        "admin_name": "請選擇管理員",
+        "admin_name_error": "管理員姓名不能為空格",
+        "admin_phone": "請輸入管理員電話",
+        "admin_phone_error": "管理員電話不能為空格",
+        "email_format": "請輸入正確的郵箱地址",
+        "phone_format": "請輸入正確的電話號碼"
+      },
+      "success": {
+        "update": "已保存公司信息",
+        "accountuserupdate": "用戶清單已保存"
+      },
+      "failed": {
+        "update": "儲存失敗，請重試",
+        "accountuserupdate": "儲存失敗，請重試"
+      }
+    }
+  },
+  "Weekday": [
+    "一",
+    "二",
+    "三",
+    "四",
+    "五",
+    "六",
+    "日"
+  ],
+  "weeks": [
+    "週一",
+    "週二",
+    "週三",
+    "週四",
+    "週五",
+    "週六",
+    "週日"
+  ],
+  "datepicker": {
+    "days": [
+      "星期日",
+      "星期一",
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五",
+      "星期六"
+    ],
+    "daysShort": [
+      "週日",
+      "週一",
+      "週二",
+      "週三",
+      "週四",
+      "週五",
+      "週六"
+    ],
+    "daysMin": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ],
+    "months": [
+      "一月",
+      "二月",
+      "三月",
+      "四月",
+      "五月",
+      "六月",
+      "七月",
+      "八月",
+      "九月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "monthsShort": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "today": "今日",
+    "clear": "清除",
+    "format": "yyyy年mm月dd日",
+    "titleFormat": "yyyy年mm月",
+    "weekStart": "1"
+  },
+  "country": {
+    "Iceland": "冰島",
+    "Afghanistan": "阿富汗",
+    "Aland": "奧蘭群島",
+    "Arab": "阿拉伯聯合酋長國",
+    "Oman": "阿曼",
+    "Azerbaijan": "亞塞拜然",
+    "Estonia": "愛沙尼亞",
+    "Austria": "奧地利",
+    "Ireland": "愛爾蘭",
+    "Bahamas": "巴哈馬",
+    "Botswana": "博茨瓦納",
+    "Albania": "阿爾巴尼亞",
+    "Andorra": "安道爾",
+    "Antarctica": "南極洲",
+    "Egypt": "埃及",
+    "Bouvet": "布威島",
+    "Algeria": "阿爾及利亞",
+    "Ethiopia": "埃塞俄比亞",
+    "Angola": "安哥拉",
+    "Australia": "澳洲",
+    "Antigua": "安地卡島",
+    "Anguilla": "安奎拉(英)",
+    "Aruba": "阿魯巴(荷)",
+    "Argentina": "阿根廷",
+    "Bhutan": "不丹",
+    "Pakistan": "巴基斯坦",
+    "Palestine": "巴勒斯坦",
+    "Bahrain": "巴林",
+    "Belarus": "白俄羅斯",
+    "Poland": "波蘭",
+    "Belgium": "比利時",
+    "Bulgaria": "保加利亞",
+    "Bosnia": "波士尼亞與赫塞哥維納",
+    "Burundi": "蒲隆地",
+    "Burkina": "布吉納法索",
+    "Benin": "貝南",
+    "Papua": "巴布亞",
+    "Northern": "北馬利安納群島",
+    "Belize": "貝里斯",
+    "Panama": "巴拿馬",
+    "Barbados": "巴貝多",
+    "Puerto": "波多黎各(美)",
+    "Bolivia": "玻利維亞",
+    "Brazil": "巴西",
+    "Paraguay": "巴拉圭",
+    "North": "北韓",
+    "Equatorial": "赤道幾內亞共和國",
+    "Timor": "東帝汶",
+    "Denmark": "丹麥",
+    "Germany": "德國",
+    "Togo": "多哥",
+    "Dominican": "多米尼加共和國",
+    "Dominica": "多米尼克",
+    "Russia": "俄羅斯",
+    "Eritrea": "厄立特里亞",
+    "Ecuador": "厄瓜多爾",
+    "Philippines": "菲律賓",
+    "Finland": "芬蘭",
+    "Faroe": "法羅群島(丹)",
+    "France": "法國",
+    "Vatican": "梵蒂岡",
+    "Cape": "佛得角",
+    "Fiji": "斐濟群島",
+    "Polynesia": "法屬波利尼西亞",
+    "Guiana": "法屬圭亞那",
+    "Georgia": "格魯吉亞",
+    "Congo": "剛果共和國",
+    "Democratic": "剛果民主共和國",
+    "Gambia": "岡比亞",
+    "Guam": "關島(美)",
+    "Greenland": "格陵丹(丹)",
+    "Costa": "哥斯達黎加",
+    "Cuba": "古巴",
+    "Grenada": "格林納達",
+    "Guadeloupe": "瓜德羅普(法)",
+    "Columbia": "哥倫比亞",
+    "Guyana": "圭亞那",
+    "Korea": "韓國",
+    "Kazakhstan": "哈薩克斯坦",
+    "Netherlands": "荷蘭",
+    "Honduras": "洪都拉斯",
+    "Haiti": "海地",
+    "Antilles": "荷屬安的列斯",
+    "Cambodia": "柬埔寨",
+    "Kyrgyzstan": "吉爾吉斯斯坦",
+    "Czech": "捷克",
+    "Djibouti": "吉佈提",
+    "Guinea": "幾內亞",
+    "Bissau": "幾內亞比紹",
+    "Ghana": "加納",
+    "Canary": "加那利群島(西)",
+    "Zimbabwe": "津巴布韋",
+    "Kiribati": "基里巴斯",
+    "Canada": "加拿大",
+    "Qatar": "卡塔爾",
+    "Kuwait": "科威特",
+    "Croatia": "克羅地亞",
+    "Kenya": "肯尼亞",
+    "Cameroon": "客麥隆",
+    "Cote": "科特迪瓦",
+    "Comoros": "科摩羅",
+    "Cook": "庫克群島(新)",
+    "Cayman": "開曼群島(英)",
+    "Bermuda": "百慕大(英)",
+    "Laos": "老撾",
+    "Lebanon": "黎巴嫩",
+    "Lithuania": "立陶宛",
+    "Liechtenstein": "列支敦士登",
+    "Luxembourg": "盧森堡",
+    "Romania": "羅馬尼亞",
+    "Libya": "利比亞",
+    "Rwanda": "盧旺達",
+    "Liberia": "利比里亞",
+    "Lesotho": "萊索托",
+    "Reunion": "留尼旺(法)",
+    "Mongolia": "蒙古",
+    "Myanmar": "緬甸",
+    "Malaysia": "馬來西亞",
+    "Bangladesh": "孟加拉國",
+    "Maldives": "馬爾代夫",
+    "Moldova": "摩爾多瓦",
+    "Monaco": "摩納哥",
+    "Macedonia": "馬其頓",
+    "Malta": "馬耳他",
+    "Morocco": "摩洛哥",
+    "Madeira": "马德拉群岛(葡)",
+    "Mauritania": "毛里塔尼亚",
+    "Mali": "马里",
+    "Malawi": "马拉维",
+    "Mozambique": "莫桑比克",
+    "Madagascar": "马达加斯加",
+    "Mauritius": "毛里求斯",
+    "Micronesia": "密克羅尼西亞",
+    "Marshall": "馬紹爾群島",
+    "USA": "美國",
+    "Mexico": "墨西哥",
+    "Virgin": "美屬維爾京群島",
+    "Montserrat": "蒙特塞拉特(英)",
+    "Martinique": "馬提尼克(法)",
+    "Peru": "秘魯",
+    "Nepal": "尼泊爾",
+    "Norway": "挪威",
+    "Niger": "尼日亞",
+    "Namibia": "納米比亞",
+    "Africa": "南非",
+    "Nauru": "瑙魯",
+    "Niue": "紐埃(新)",
+    "Nicaragua": "尼加拉瓜",
+    "Portugal": "葡萄牙",
+    "Palau": "帕勞",
+    "Pitcairn": "皮特凱恩島(英)",
+    "Japan": "日本",
+    "Sweden": "瑞典",
+    "Switzerland": "瑞士",
+    "Sri": "斯里蘭卡",
+    "Saudi": "沙特阿拉伯",
+    "Cyprus": "塞浦路斯",
+    "Slovakia": "斯洛伐克",
+    "Serbia": "塞爾維亞",
+    "Slovenia": "斯洛文尼亞",
+    "San": "聖馬力諾",
+    "Sudan": "蘇丹",
+    "Somalia": "索馬里",
+    "Seychelles": "塞舌爾",
+    "Sao": "聖多美及普林西比",
+    "Senegal": "塞內加爾",
+    "Sierra": "塞拉利昂",
+    "Kingdom": "斯威士蘭",
+    "St": "聖赫勒拿(英)",
+    "Solomon": "所羅門群島",
+    "Samoa": "薩摩亞",
+    "Caledonia": "新克里多尼亞(法)",
+    "El": "薩爾瓦多",
+    "Nevis": "聖基茨和尼維斯",
+    "Grenadines": "聖文森特和格林納丁斯",
+    "Suriname": "蘇里南",
+    "Thailand": "泰國",
+    "Taiwan": "台灣",
+    "Tajikistan": "塔吉克斯坦",
+    "Turkmenistan": "土庫曼斯坦",
+    "Turkey": "土耳其",
+    "Tunisia": "突尼斯",
+    "Tanzania": "坦桑尼亞",
+    "Tuvalu": "圖瓦盧",
+    "Tonga": "湯加",
+    "Tokelau": "托克勞(新)",
+    "Trinidad": "特立尼達和多巴哥",
+    "Turks": "特克斯和凱科斯群島",
+    "Brunei": "文萊",
+    "Uzbekistan": "烏茲別克斯坦",
+    "Ukraine": "烏克蘭",
+    "Uganda": "烏干達",
+    "Vanuatu": "瓦努阿圖",
+    "Wallis": "瓦利斯與富圖納(法)",
+    "Guatemala": "危地馬拉",
+    "Venezuela": "委內瑞拉",
+    "Uruguay": "烏拉圭",
+    "Singapore": "新加坡",
+    "Syria": "敘利亞",
+    "Hungary": "匈牙利",
+    "Greece": "希臘",
+    "Spain": "西班牙",
+    "Sahara": "西撒哈拉",
+    "Zealand": "新西蘭",
+    "Vietnam": "越南",
+    "Indonesia": "印度尼西亞",
+    "India": "印度",
+    "Iraq": "伊拉克",
+    "Jordan": "約旦",
+    "Israel": "以色列",
+    "Yemen": "也門",
+    "Armenia": "亞美尼亞",
+    "UK": "英國",
+    "Italy": "意大利",
+    "Azores": "亞速爾群島(葡)",
+    "Jamaica": "牙買加",
+    "British": "英屬維爾京群島",
+    "China": "中國",
+    "Chad": "乍得",
+    "Central": "中非",
+    "Zambia": "讚比亞",
+    "Chile": "智利"
+  },
+  "timeZone": {
+    "Iceland": "+0",
+    "Afghanistan": "+4",
+    "Aland": "+2",
+    "Bahamas": "-5",
+    "Botswana": "+2",
+    "Antarctica": "+0",
+    "Bouvet": "+0",
+    "Arab": "+4",
+    "Oman": "+4",
+    "Azerbaijan": "+5",
+    "Estonia": "+3",
+    "Austria": "+2",
+    "Ireland": "+1",
+    "Albania": "+2",
+    "Andorra": "+2",
+    "Egypt": "+2",
+    "Algeria": "+1",
+    "Ethiopia": "+3",
+    "Angola": "+1",
+    "Australia": "+10",
+    "Antigua": "-4",
+    "Anguilla": "+2",
+    "Aruba": "+2",
+    "Argentina": "-3",
+    "Bhutan": "+6",
+    "Pakistan": "+6",
+    "Palestine": "+3",
+    "Bahrain": "+3",
+    "Belarus": "+3",
+    "Poland": "+2",
+    "Belgium": "+2",
+    "Bulgaria": "+3",
+    "Bosnia": "+3",
+    "Burundi": "+2",
+    "Burkina": "+0",
+    "Benin": "+1",
+    "Papua": "+10",
+    "Northern": "+10",
+    "Belize": "-6",
+    "Panama": "-5",
+    "Barbados": "-4",
+    "Puerto": "-4",
+    "Bolivia": "-4",
+    "Brazil": "-3",
+    "Paraguay": "-4",
+    "North": "+9",
+    "Equatorial": "+1",
+    "Timor": "+9",
+    "Denmark": "+2",
+    "Germany": "+2",
+    "Togo": "+0",
+    "Dominican": "-4",
+    "Dominica": "-4",
+    "Russia": "-1",
+    "Eritrea": "+3",
+    "Ecuador": "-6",
+    "Philippines": "+8",
+    "Finland": "+3",
+    "Faroe": "-4",
+    "France": "-4",
+    "Vatican": "+2",
+    "Cape": "-1",
+    "Fiji": "-4",
+    "Polynesia": "-4",
+    "Guiana": "-4",
+    "Georgia": "-4",
+    "Congo": "+1",
+    "Democratic": "+1",
+    "Gambia": "+0",
+    "Guam": "+10",
+    "Greenland": "+2",
+    "Costa": "-6",
+    "Cuba": "-4",
+    "Grenada": "-4",
+    "Guadeloupe": "-4",
+    "Columbia": "-5",
+    "Guyana": "-4",
+    "Korea": "+9",
+    "Kazakhstan": "+6",
+    "Netherlands": "+2",
+    "Honduras": "-6",
+    "Haiti": "-5",
+    "Antilles": "-5",
+    "Cambodia": "+7",
+    "Kyrgyzstan": "+2",
+    "Czech": "+2",
+    "Djibouti": "+3",
+    "Guinea": "+0",
+    "Bissau": "+0",
+    "Ghana": "+0",
+    "Canary": "+0",
+    "Zimbabwe": "+2",
+    "Kiribati": "+2",
+    "Canada": "-4",
+    "Qatar": "+3",
+    "Kuwait": "+3",
+    "Croatia": "+2",
+    "Kenya": "+3",
+    "Cameroon": "+1",
+    "Cote": "+0",
+    "Comoros": "+3",
+    "Cook": "-10",
+    "Cayman": "-8",
+    "Bermuda": "-8",
+    "Laos": "+7",
+    "Lebanon": "+2",
+    "Lithuania": "+2",
+    "Liechtenstein": "+1",
+    "Luxembourg": "+1",
+    "Romania": "+2",
+    "Libya": "+2",
+    "Rwanda": "+2",
+    "Liberia": "+0",
+    "Lesotho": "+2",
+    "Reunion": "-4",
+    "Mongolia": "+8",
+    "Myanmar": "+6",
+    "Malaysia": "+8",
+    "Bangladesh": "+6",
+    "Maldives": "+5",
+    "Moldova": "+2",
+    "Monaco": "+1",
+    "Macedonia": "+1",
+    "Malta": "+1",
+    "Morocco": "+0",
+    "Madeira": "-1",
+    "Mauritania": "+0",
+    "Mali": "+0",
+    "Malawi": "+2",
+    "Mozambique": "+2",
+    "Madagascar": "+3",
+    "Mauritius": "+4",
+    "Micronesia": "+11",
+    "Marshall": "+12",
+    "USA": "-10",
+    "Mexico": "-6",
+    "Virgin": "-10",
+    "Montserrat": "-8",
+    "Martinique": "-4",
+    "Peru": "-5",
+    "Nepal": "+6",
+    "Norway": "+1",
+    "Niger": "+1",
+    "Namibia": "+1",
+    "Africa": "+2",
+    "Nauru": "+12",
+    "Niue": "-11",
+    "Nicaragua": "-6",
+    "Portugal": "-1",
+    "Palau": "+9",
+    "Pitcairn": "-8",
+    "Japan": "+9",
+    "Sweden": "+1",
+    "Switzerland": "+1",
+    "Sri": "+5:30",
+    "Saudi": "+3",
+    "Cyprus": "+2",
+    "Slovakia": "+1",
+    "Serbia": "+1",
+    "Slovenia": "+1",
+    "San": "+1",
+    "Sudan": "+3",
+    "Somalia": "+3",
+    "Seychelles": "+4",
+    "Sao": "+4",
+    "Senegal": "+0",
+    "Sierra": "+0",
+    "Kingdom": "+2",
+    "St": "-8",
+    "Solomon": "+11",
+    "Samoa": "+2",
+    "Caledonia": "-4",
+    "El": "-3",
+    "Nevis": "-4",
+    "Grenadines": "-4",
+    "Suriname": "-3",
+    "Thailand": "+7",
+    "Taiwan": "+8",
+    "Tajikistan": "+5",
+    "Turkmenistan": "+5",
+    "Turkey": "+2",
+    "Tunisia": "+1",
+    "Tanzania": "+3",
+    "Tuvalu": "+12",
+    "Tonga": "+13",
+    "Tokelau": "-4",
+    "Trinidad": "-4",
+    "Turks": "-4",
+    "Brunei": "+8",
+    "Uzbekistan": "+2",
+    "Ukraine": "+2",
+    "Uganda": "+3",
+    "Vanuatu": "+11",
+    "Wallis": "-4",
+    "Guatemala": "-6",
+    "Venezuela": "-5",
+    "Uruguay": "-3",
+    "Singapore": "+8",
+    "Syria": "+2",
+    "Hungary": "+1",
+    "Greece": "+2",
+    "Spain": "+1",
+    "Sahara": "+0",
+    "Zealand": "+12",
+    "Vietnam": "+7",
+    "Indonesia": "+9",
+    "India": "+6",
+    "Iraq": "+3",
+    "Jordan": "+2",
+    "Israel": "+2",
+    "Yemen": "+3",
+    "Armenia": "-10",
+    "UK": "-8",
+    "Italy": "+1",
+    "Azores": "-1",
+    "Jamaica": "-5",
+    "British": "-8",
+    "China": "+8",
+    "Chad": "+1",
+    "Central": "+2",
+    "Zambia": "+2",
+    "Chile": "-6"
+  },
+  "title": [
+    [
+      "數據總覽"
+    ],
+    [
+      "毛利分析"
+    ],
+    [
+      "未來預測"
+    ],
+    [
+      "單店分析",
+      "多店分析",
+      "營業分析",
+      "客流分析",
+      "熟客分析",
+      "品項分析",
+      "熱區分析"
+    ],
+    [
+      "客層分析"
+    ],
+    [
+      "摘要報告"
+    ],
+    [
+      "計數單元",
+      "週報設定"
+    ],
+    [
+      "行銷數據",
+      "客流數據",
+      "摘要報告"
+    ],
+    [
+      "營銷報表",
+      "客流報表",
+      "品項報表",
+      "營運週報"
+    ]
+  ],
+  "header": {
+    "Overview": [
+      {
+        "head": "營運指標",
+        "info": "提供四種關鍵營運指標，每項指標可進行週期性比較。"
+      },
+      {
+        "head": "經店人流/進店客流/營業額",
+        "info": "從經店人流、進店客流、營業額三個維度展示各地點營業情況。"
+      },
+      {
+        "head": "地點排名",
+        "info": "按照營業額、消費人數、客單價等關鍵指標對地點進行排名。"
+      },
+      {
+        "head": "分店表現分布圖",
+        "info": "根據分析類型中關鍵指標項，展示各地點營運分布。其中，虛線代表各指標項的平均值。"
+      },
+      {
+        "head": "分店分布圖",
+        "info": "一覽地點分布圖，游標移至定點展開地點基本資訊。"
+      }
+    ],
+    "ProfitAnalysis": [
+      {
+        "head": "地點毛利排行",
+        "info": "根據毛利率對各地點進行排名。"
+      },
+      {
+        "head": "毛利VS營業額分布圖",
+        "info": "通過對各地點毛利、營業額的分布分析，列出各地點待改進項和已達標項。"
+      }
+    ],
+    "Forecast": [
+      {
+        "head": "營業額預測",
+        "info": "基於營業額前三週預測數據和實際數據，預測地點未來一週的營業額走勢。"
+      },
+      {
+        "head": "消費人數預測",
+        "info": "基於消費人數前三週預測數據和實際數據，預測地點未來一週的消費人數走勢。"
+      },
+      {
+        "head": "進店人數預測",
+        "info": "基於進店人數前三週預測數據和實際數據，預測地點未來一週的進店人數走勢。"
+      }
+    ],
+    "BrandAnalysis": [
+      {
+        "head": "營業額/消費人數趨勢",
+        "info": "所選地點之營業額/消費人數加總比較，最多可選擇全部地點。"
+      },
+      {
+        "head": "進店率/進店人數/消費人數趨勢",
+        "info": "所選地點之進店率/進店人數/消費人數加總比較，最多可選擇全部地點。"
+      },
+      {
+        "head": "地點趨勢比較",
+        "info": "提供七種對比資料類型，最多可選擇三間地點進行資料比較。"
+      }
+    ],
+    "MarketingAnalysis": [
+      {
+        "head": "交叉營業比較",
+        "info": "提供類型、時間等多維度，對各地點營業情況綜合分析和展示。"
+      },
+      {
+        "head": "同比營業比較",
+        "info": "提供日同比、週同比、年同比篩選項，對管轄地點營業情況進行週期同比分析和展示。"
+      },
+      {
+        "head": "跨店比較",
+        "info": "提供類型、時間等篩選條件，不同地點之間可針對營業數據進行趨勢比較和加總比較。"
+      }
+    ],
+    "TrafficAnalysis": [
+      {
+        "head": "熱區交叉分析",
+        "info": "展示某一時間的熟客占比情況，並以熱區從高到低的方式展示各地點每日、每週的熟客情況。"
+      },
+      {
+        "head": "交叉客流比較",
+        "info": "提供類型、時間等多維度，對各地點客流情況綜合分析和展示。"
+      },
+      {
+        "head": "同比客流比較",
+        "info": "提供週同比、年同比等篩選項，對熟客到店情況進行週期同比分析和展示。"
+      },
+      {
+        "head": "跨店比較",
+        "info": "提供類型、時間等篩選條件，不同地點之間可針對客流數據進行趨勢比較和加總比較。"
+      }
+    ],
+    "SingleAnalysis": [
+      {
+        "head": "熱區交叉分析",
+        "info": "展示某一時間的熟客占比情況，並以熱區從高到低的方式展示各地點每日、每週的熟客情況。"
+      },
+      {
+        "head": "交叉客流比較",
+        "info": "提供類型、時間等多維度，對各地點客流情況綜合分析和展示。"
+      },
+      {
+        "head": "同比客流比較",
+        "info": "提供週同比、年同比等篩選項，對熟客到店情況進行週期同比分析和展示。"
+      },
+      {
+        "head": "跨群組比較",
+        "info": "提供類型、時間等篩選條件，不同群組之間可針對客流數據進行趨勢比較和加總比較。"
+      }
+    ],
+    "MultipleAnalysis": [
+      {
+        "head": "熱區交叉分析",
+        "info": "展示某一時間的熟客占比情況，並以熱區從高到低的方式展示各地點每日、每週的熟客情況。"
+      },
+      {
+        "head": "交叉客流比較",
+        "info": "提供類型、時間等多維度，對各地點客流情況綜合分析和展示。"
+      },
+      {
+        "head": "同比客流比較",
+        "info": "提供週同比、年同比等篩選項，對熟客到店情況進行週期同比分析和展示。"
+      },
+      {
+        "head": "跨店比較",
+        "info": "提供類型、時間等篩選條件，不同地點之間可針對客流數據進行趨勢比較和加總比較。"
+      }
+    ],
+    "ReturnAnalysis": [
+      {
+        "head": "熟客比例&熟客熱區",
+        "info": "展示某一時間的熟客占比情況并以熱區從高到低的方式展示各地點每日、每周的熟客情況。"
+      },
+      {
+        "head": "熟客趨勢分析",
+        "info": "提供類型、時間等多維度，對熟客到店情況綜合分析和展示。"
+      },
+      {
+        "head": "熟客同比分析",
+        "info": "提供週同比、年同比等篩選項，對熟客到店情況進行周期同比分析和展示。"
+      },
+      {
+        "head": "熟客到店頻率分析",
+        "info": "統計顧客到店1次、到店2次、到店3次及以上的人數及周期走勢。"
+      }
+    ],
+    "BrandItems": [
+      {
+        "head": "品項分類排行",
+        "info": "即品項分類的銷售排名，銷售最佳前6名采用不同顏色標註。"
+      },
+      {
+        "head": "品項排行",
+        "info": "即各品項的銷售排名，銷售最佳前6名采用不同顏色標註。"
+      },
+      {
+        "head": "品項銷售趨勢",
+        "info": "展示每種品項的銷售走勢，最多可選擇兩種品項進行跨時比較。"
+      },
+      {
+        "head": "品項同比分析",
+        "info": "提供日同比、週同比、月同比等篩選項，對每種品項進行週期同比分析和展示。"
+      }
+    ],
+    "ReportKPI": [
+      {
+        "head": "KPI 分析圖",
+        "info": "基於營業額、進店率、消費人數等五項KPI指標，對地點運營進行綜合評分。"
+      }
+    ],
+    "ReportMarketing": [
+      {
+        "head": "營銷數據報表",
+        "info": "提供營銷報表匯出功能，區間為日，最多可匯出365天數據；區間為小時，最多可匯出90天數據。"
+      }
+    ],
+    "ReportPassenger": [
+      {
+        "head": "客流數據報表",
+        "info": "提供客流報表匯出功能，區間為日，最多可匯出365天數據；區間為小時，最多可匯出90天數據。"
+      }
+    ],
+    "ReportProduct": [
+      {
+        "head": "品項報表",
+        "info": "提供品項報表匯出功能，區間為日，最多可匯出365天數據；區間為小時，最多可匯出90天數據。"
+      }
+    ]
+  },
+  "date": {
+    "label": {
+      "custom": "時間自定",
+      "quick": "時間快選",
+      "range": "時間區段",
+      "unit": "時間單位",
+      "compare": "跨時比較",
+      "interval": "自選單位",
+      "cycle": "到店週期"
+    },
+    "custom": {
+      "day": "日",
+      "week": "週",
+      "month": "月",
+      "year": "年"
+    },
+    "quick": {
+      "day": "今日",
+      "yesterday": "昨日",
+      "last_week_day": "上週同日",
+      "last_month_day": "上月同日"
+    },
+    "range": {
+      "day": "日",
+      "week": "週",
+      "month": "月",
+      "year": "年"
+    },
+    "unit": {
+      "day": [
+        "00:00",
+        "01:00",
+        "02:00",
+        "03:00",
+        "04:00",
+        "05:00",
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00",
+        "23:00"
+      ],
+      "week": [
+        "週一",
+        "週二",
+        "週三",
+        "週四",
+        "週五",
+        "週六",
+        "週日"
+      ],
+      "month": "週",
+      "year": [
+        "一月",
+        "二月",
+        "三月",
+        "四月",
+        "五月",
+        "六月",
+        "七月",
+        "八月",
+        "九月",
+        "十月",
+        "十一月",
+        "十二月"
+      ]
+    },
+    "compare": {
+      "previous": "前一區段",
+      "latter": "後一區段",
+      "none": "不比較"
+    },
+    "same": {
+      "day": "日同比",
+      "week": "週同比",
+      "year": "年同比"
+    },
+    "item": {
+      "day": "日同比",
+      "week": "週同比",
+      "month": "月同比"
+    },
+    "wmy": {
+      "week": "週",
+      "month": "月",
+      "year": "年"
+    },
+    "matrix": {
+      "week": "週",
+      "month": "月"
+    },
+    "interval": {
+      "hour": "小時",
+      "day": "日"
+    }
+  },
+  "multiselect": {
+    "label": {
+      "select": "地點篩選",
+      "current": "自訂地點",
+      "location": "比較地點",
+      "material": "資料",
+      "unit": "計數單元",
+      "choice": "已選地點",
+      "type": "類型",
+      "compare": "比較方式",
+      "tag": "標籤快選"
+    },
+    "marketing": {
+      "avg_amount": "客單價",
+      "avg_item_amount": "平均商品價",
+      "avg_item_count": "平均商品數",
+      "total_amount": "營業額",
+      "transaction_count": "消費人數",
+      "item_count": "商品總數"
+    },
+    "traffic": {
+      "return_rate": "熟客率",
+      "turn_in_rate": "進店率",
+      "pout": "經店人流",
+      "pin": "進店客流",
+      "transaction_count": "消費人數"
+    },
+    "multiple": {
+      "pin": "進店客流",
+      "pout": "經店人流",
+      "turn_in_rate": "進店率",
+      "transaction_count": "消費人數",
+      "trans_rate": "轉換率",
+      "total_amount": "營業額"
+    },
+    "single": {
+      "pin": "進店客流",
+      "pout": "經店人流"
+    },
+    "return": {
+      "return_rate": "熟客率",
+      "pin": "進店客流",
+      "return_num": "熟客人數"
+    },
+    "matrix": {
+      "pin": "進店客流",
+      "pout": "經店人流",
+      "transaction_count": "消費人數"
+    },
+    "compare": {
+      "trend": "趨勢比較",
+      "total": "加總比較"
+    },
+    "monitor": {
+      "ppc_store_entry": "出入口",
+      "ppc_store_outside": "店外"
+    },
+    "monitor_type": {
+      "nSelectedText": "單元類型",
+      "nonSelectedText": "單元類型",
+      "selectAllText": "全選",
+      "allSelectedText": "全部單元類型"
+    },
+    "monitor_name": {
+      "nSelectedText": "單元名稱",
+      "nonSelectedText": "單元名稱",
+      "selectAllText": "全選",
+      "allSelectedText": "全部單元"
+    },
+    "tag": {
+      "nSelectedText": "標籤",
+      "nonSelectedText": "選擇標籤",
+      "selectAllText": "全選",
+      "allSelectedText": "全部標籤"
+    },
+    "province": {
+      "nSelectedText": "區域一",
+      "nonSelectedText": "選擇區域一",
+      "selectAllText": "全選",
+      "allSelectedText": "全部區域一"
+    },
+    "city": {
+      "nSelectedText": "區域二",
+      "nonSelectedText": "選擇區域二",
+      "selectAllText": "全選",
+      "allSelectedText": "全部區域二"
+    },
+    "store": {
+      "nSelectedText": "地點",
+      "nonSelectedText": "選擇地點",
+      "selectAllText": "全選",
+      "allSelectedText": "全部地點"
+    },
+    "branch_type": {
+      "nSelectedText": "地點類型",
+      "nonSelectedText": "選擇地點類型",
+      "selectAllText": "全選",
+      "allSelectedText": "全部地點類型"
+    },
+    "region": {
+      "nSelectedText": "地點群組",
+      "nonSelectedText": "選擇地點群組",
+      "selectAllText": "全選",
+      "allSelectedText": "全部地點群組"
+    },
+    "role": {
+      "nSelectedText": "系統權限",
+      "nonSelectedText": "選擇系統權限",
+      "selectAllText": "全選",
+      "allSelectedText": "全部系統權限"
+    },
+    "send": {
+      "nSelectedText": "營運週報收件者",
+      "nonSelectedText": "選擇營運週報收件者",
+      "selectAllText": "全選",
+      "allSelectedText": "全部營運週報收件者",
+      "sendMail": "發送營運週報至地點負責人"
+    },
+    "week": {
+      "nSelectedText": "天",
+      "nonSelectedText": "選擇星期",
+      "selectAllText": "全選",
+      "allSelectedText": "每天"
+    },
+    "itemsClass": {
+      "nSelectedText": "品項分類",
+      "nonSelectedText": "選擇品項分類",
+      "selectAllText": "全選",
+      "allSelectedText": "全部品項分類"
+    },
+    "items": {
+      "nSelectedText": "品項",
+      "nonSelectedText": "選擇品項",
+      "selectAllText": "全選",
+      "allSelectedText": "全部品項"
+    },
+    "store_type": {
+      "nSelectedText": "地點類型",
+      "nonSelectedText": "選擇地點類型",
+      "selectAllText": "全選",
+      "allSelectedText": "全部地點類型"
+    },
+    "device_type": {
+      "nSelectedText": "設備類型二",
+      "nonSelectedText": "選擇設備類型二",
+      "selectAllText": "全選",
+      "allSelectedText": "全選"
+    },
+    "store_group": {
+      "nSelectedText": "地點群組",
+      "nonSelectedText": "選擇地點群組",
+      "selectAllText": "全選",
+      "allSelectedText": "全部地點群組"
+    },
+    "option": {
+      "nSelectedText": "員工職務",
+      "nonSelectedText": "選擇員工職務",
+      "selectAllText": "全選",
+      "allSelectedText": "全部員工職務"
+    },
+    "setting": {
+      "option": {
+        "nSelectedText": "員工職務",
+        "nonSelectedText": "請選擇員工職務",
+        "selectAllText": "全選",
+        "allSelectedText": "全部員工職務"
+      },
+      "store_group": {
+        "nSelectedText": "地點群組",
+        "nonSelectedText": "請選擇地點群組",
+        "selectAllText": "全選",
+        "allSelectedText": "全部地點群組"
+      },
+      "store_type": {
+        "nSelectedText": "地點類型",
+        "nonSelectedText": "請選擇地點類型",
+        "selectAllText": "全選",
+        "allSelectedText": "全部地點類型"
+      },
+      "store": {
+        "nSelectedText": "地點",
+        "nonSelectedText": "請選擇地點",
+        "selectAllText": "全選",
+        "allSelectedText": "全部地點"
+      }
+    }
+  },
+  "analysis": {
+    "hour": {
+      "time": "時段"
+    },
+    "day": {
+      "date": [
+        "昨日",
+        "本日",
+        "明日"
+      ],
+      "time": "日"
+    },
+    "week": {
+      "date": [
+        "上週",
+        "本週",
+        "下週"
+      ],
+      "time": "週"
+    },
+    "month": {
+      "date": [
+        "上月",
+        "本月",
+        "下月"
+      ],
+      "time": "月"
+    },
+    "year": {
+      "date": [
+        "去年",
+        "今年",
+        "明年"
+      ],
+      "time": "年"
+    }
+  },
+  "scatter": {
+    "label": {
+      "below": "低於平均",
+      "above": "高於平均",
+      "same": "與平均相同",
+      "below1": "低於目標",
+      "above1": "高於目標",
+      "same1": "與目標相同"
+    }
+  },
+  "kpi": {
+    "above": "高於",
+    "below": "低於"
+  },
+  "map": [
+    "全國排名第",
+    "名"
+  ],
+  "trend": {
+    "compare": "比較時間"
+  },
+  "report": {
+    "date": "發佈日期：",
+    "download": "下載PDF",
+    "report": "週報",
+    "export": "匯出報表",
+    "empty": "暫無數據"
+  },
+  "heatmap": {
+    "freq": "人次",
+    "dwell": "平均停留",
+    "second": "秒"
+  },
+  "forecast": {
+    "today": "今天",
+    "history": "歷史預測",
+    "forecast": "未來7日預測",
+    "actual": [
+      "實際營業額",
+      "實際消費人數",
+      "實際進店人數"
+    ],
+    "average": "前三周每天的同比平均"
+  },
+  "return": {
+    "return_distribution": "熟客分布",
+    "only_supported": "*熟客分布僅支持按月統計",
+    "visit_1": "到店1次",
+    "visit_2": "到店2次",
+    "visit_3": "到店3次及以上"
+  },
+  "substance": {
+    "xAxis": "X 軸",
+    "yAxis": "Y 軸",
+    "line": "折線圖",
+    "bar": "條形圖",
+    "range": "時間範圍",
+    "Operate": "操作",
+    "Range": "第",
+    "Row": "行",
+    "None": "未填寫。",
+    "Error": "格式不正確。",
+    "space": "中空格為無效字符。",
+    "exists": "已存在當前公司中。",
+    "repeat": "在文件中重複。",
+    "role": "沒有權限。",
+    "negative": "不可為負數。",
+    "Not": "未在清單中。",
+    "black": "不能為空格",
+    "edit": "不能被修改",
+    "Query": "查詢",
+    "SalesVolume": "營業額",
+    "SalesConversion": "購買率",
+    "Transactions": "消費人數",
+    "SalesPerShopper": "客單價",
+    "ProductsCount": "總件數",
+    "AvgProductPrice": "平均商品價",
+    "Traffic": "進店人數",
+    "OutdoorTraffic": "經店人流",
+    "TurnInRate": "進店率",
+    "ReturnRate": "熟客率",
+    "ReturnNum": "熟客人數",
+    "AvgSalesProducts": "平均購買數",
+    "Profit": "毛利",
+    "Avg": "平均",
+    "Quadrant": [
+      "象限一",
+      "象限二",
+      "象限三",
+      "象限四"
+    ],
+    "MatrixWeek": [
+      "第一週",
+      "第二週",
+      "第三週",
+      "第四週",
+      "第五週",
+      "第六週"
+    ],
+    "Min": "低",
+    "Max": "高",
+    "NoData": "暫無數據",
+    "HowToImprove": "如何改善",
+    "Loading": "載入中",
+    "Rank": "排名",
+    "ItemClass": "分類名稱",
+    "Item": "品項名稱",
+    "Proportion": "比例",
+    "Numbers": [
+      "金額",
+      "數量"
+    ],
+    "itemData": [
+      "銷售金額",
+      "銷售個數"
+    ],
+    "Unit": [
+      "$",
+      "個"
+    ],
+    "StoreName": "地點名稱",
+    "RankType": "排序類型",
+    "Type": "類型",
+    "ItemClassType": "品項分類",
+    "ItemsType": "品項",
+    "ReportType": "報表類型",
+    "ItemsReportType": "品項分類報告",
+    "AnalysisType": "分析類型",
+    "SelectTip": "最少選1個，最多選2個",
+    "CompareData": "對比資料",
+    "Human": "人數",
+    "UnitHuman": "人",
+    "Rate": "比率",
+    "Date": "日期",
+    "Time": "時間",
+    "Store": "地點",
+    "Others": "其它",
+    "ItemType": "品項類別",
+    "Number": "數量",
+    "Percent": "占比",
+    "Import": "匯入",
+    "Download": "下載範本",
+    "Export": "匯出",
+    "Date_d": "日",
+    "Day": "日",
+    "Week": "周",
+    "Month": "月",
+    "Year": "年",
+    "Hour": "小時",
+    "Same": "同比",
+    "Today": "今日",
+    "Yesterday": "昨日",
+    "SameDayLastWeek": "上周同日",
+    "SameDayLastMonth": "上月同日"
+  },
+  "viu": {
+    "choose": "請選擇",
+    "chooseDate": "選擇日期",
+    "startDate": "開始日期",
+    "endDate": "結束日期",
+    "dateRangeSeparator": "至",
+    "el_select": {
+      "_7": {
+        "value": "7",
+        "label": "7天"
+      },
+      "_30": {
+        "value": "30",
+        "label": "30天"
+      },
+      "_90": {
+        "value": "90",
+        "label": "90天"
+      }
+    },
+    "chooseCountry": "請選擇國家"
+  },
+  "counting": {
+    "kpi": {
+      "custom": "自訂時間",
+      "ppc_max": "最高人流時段",
+      "sale_max": "最高營業額時段",
+      "keyword": "關鍵字",
+      "placeholder": "請輸入",
+      "select": "請選擇"
+    },
+    "list": {
+      "title": "計數單元清單",
+      "name": "單元名稱",
+      "type": "單元類型",
+      "store_name": "所屬門店",
+      "devices": "設備數量",
+      "operate": "動作",
+      "add": "新增計數單元",
+      "delete_device": "刪除設備",
+      "delete": "刪除計數單元",
+      "set": "單元設定",
+      "sensor": "設備清單",
+      "added": "已新增列表",
+      "data_map": "計數依據",
+      "weight": "權重值",
+      "edit": "編輯計數單元",
+      "group": "計數單元群組"
+    },
+    "tip": {
+      "name": "請輸入單元名稱",
+      "type": "請選擇單元類型",
+      "store_name": "請選擇所屬門店",
+      "delete_device": "請確定是否刪除此設備：{0}？",
+      "delete": "是否確定要刪除此計數單元，刪除後不可復原"
+    },
+    "success": {
+      "add": "新增計數單元成功",
+      "edit": "編輯計數單元成功"
+    },
+    "error": {
+      "add": "新增計數單元失敗，門店數據異常",
+      "addFail": "新增計數單元失敗",
+      "edit": "編輯計數單元失敗"
+    }
+  },
+  "error": {
+    "login_again": "帳號已登出，請重新登入！"
+  },
+  "mgt": {
+    "title": [
+      [
+        {
+          "default": "公司管理"
+        }
+      ],
+      [
+        {
+          "default": "地點管理",
+          "add": "新增地點",
+          "details": "地點詳情"
+        }
+      ],
+      [
+        {
+          "default": "設備管理",
+          "details": "設備詳情",
+          "add": "新增設備"
+        },
+        {
+          "default": "客流設備",
+          "details": "設備詳情",
+          "add": "新增設備"
+        },
+        {
+          "default": "地點客流主機",
+          "details": "設備詳情",
+          "add": "新增設備"
+        },
+        {
+          "default": "人臉識別主機",
+          "details": "設備詳情",
+          "add": "新增設備"
+        },
+        {
+          "default": "虛擬設備",
+          "details": "設備詳情",
+          "add": "新增設備"
+        },
+        {
+          "default": "互動看板設備",
+          "details": "設備詳情",
+          "add": "新增設備"
+        },
+        {
+          "default": "冷鏈管理設備",
+          "details": "設備詳情",
+          "add": "新增設備"
+        },
+        {
+          "default": "IoT感測器",
+          "details": "設備詳情",
+          "add": "新增設備"
+        }
+      ],
+      [
+        {
+          "default": "用戶管理",
+          "details": "使用者資訊查看",
+          "add": "新增用戶"
+        },
+        {
+          "default": "用戶管理",
+          "details": "使用者資訊查看",
+          "add": "修改用戶"
+        }
+      ],
+      [
+        {
+          "default": "營業時間設定"
+        }
+      ],
+      [
+        {
+          "default": "成本管理"
+        }
+      ],
+      [
+        {
+          "default": "部門設定"
+        },
+        {
+          "default": "員工職務"
+        },
+        {
+          "default": "地點類型"
+        },
+        {
+          "default": "地點群組"
+        },
+        {
+          "default": "標籤管理"
+        },
+        {
+          "default": "密鑰管理",
+          "add": "密鑰新增",
+          "details": "密鑰詳情"
+        }
+      ]
+    ],
+    "type": "品項類別",
+    "userStatus": "發送用戶啟用信",
+    "userUse": "請提醒該用戶至帳號信箱驗證啟用。",
+    "userSuccess": "用戶啟用信已發送！",
+    "userFail": "啟用信發送失敗！",
+    "other1": "請於",
+    "minutes": "分鐘後重新嘗試發送。",
+    "name": "品項名稱",
+    "initView": {
+      "search": {
+        "Store": "請輸入關鍵字搜尋地點",
+        "Device": "請輸入關鍵字搜尋設備",
+        "User": "請輸入關鍵字搜尋使用者",
+        "forAccess_keyManagement": "請輸入關鍵字搜尋密鑰"
+      }
+    },
+    "button": {
+      "add": "新增",
+      "batch": "批次",
+      "cancel": "取消",
+      "delete": "刪除",
+      "edit": "編輯",
+      "save": "保存",
+      "sure": "確定",
+      "submit": "確認",
+      "activate": "啟用",
+      "deactivate": "停用"
+    },
+    "checkbox": {
+      "authority": "權限分配",
+      "binding": "套用",
+      "store": "至所有地點"
+    },
+    "table": {
+      "page": [
+        "跳轉至",
+        "頁"
+      ]
+    },
+    "brand": {
+      "brand_name": "公司名稱",
+      "brand_id": "公司 ID",
+      "brand_manager": "管理員",
+      "all_device": "設備總數",
+      "traffic_device": "客流設備",
+      "eis_device": "地點客流主機",
+      "face_device": "人臉識別主機",
+      "virtual_device": "虛擬設備",
+      "other_device": "其它",
+      "enable_device": "已啟用設備總數"
+    },
+    "store": {
+      "add": "新增地點",
+      "storeStatus": "地點狀態",
+      "storeName": "地點名稱",
+      "storeProvince": "區域一",
+      "storeCity": "區域二",
+      "storeTag": "標籤",
+      "storeOperate": "操作",
+      "updateTime": "更新時間",
+      "userStatus": "用戶狀態",
+      "userList": "用戶清單",
+      "editUser": "編輯用戶列表",
+      "success": "編輯用戶列表成功！",
+      "falied": "編輯用戶列表失敗！",
+      "getFailed": "讀取用戶列表失敗！",
+      "status": {
+        "1": "待啟用",
+        "20": "正常",
+        "40": "已停用"
+      },
+      "activate": {
+        "title": "啟用用戶",
+        "tip": [
+          "確認啟用用戶 ",
+          " 嗎？"
+        ],
+        "success": "啟用用戶成功！",
+        "failed": "啟用用戶失敗！"
+      },
+      "deactivate": {
+        "title": "停用用戶",
+        "tip": [
+          "確認停用用戶 ",
+          " 嗎？"
+        ],
+        "success": "停用用戶成功！",
+        "failed": "停用用戶失敗！"
+      }
+    },
+    "key": {
+      "add": "新增密鑰",
+      "AccessKey": "密鑰",
+      "Name": "名稱",
+      "Description": "描述",
+      "ExpireDate": "過期時間",
+      "Information": "操作",
+      "Delete": "刪除",
+      "deleteKey": "刪除密鑰"
+    },
+    "device": {
+      "add": "新增設備",
+      "update": "修改設備",
+      "deviceStatus": "設備狀態",
+      "serviceStatus": "訂閱狀態",
+      "deviceName": "設備名稱",
+      "deviceStore": "所屬地點",
+      "deviceType": "設備類型",
+      "classify": "設備種類",
+      "deviceID": "設備識別碼",
+      "deviceFunction": "設備應用場景",
+      "register_sn": "設備服務號ID",
+      "product_sn": "產品序號",
+      "channel": "頻道",
+      "deviceActivate": "設備啓用時間",
+      "deviceHeartbeat": "網路通訊時間",
+      "area": "區域",
+      "sensor_time": "感測器與時間",
+      "input_tip": "最近訪問",
+      "deviceMetadata": "資料回傳時間",
+      "deviceOperate": "操作",
+      "data_type": "數據類型",
+      "data_unit": "數據單元",
+      "data_type_temp": "溫度",
+      "data_type_switch": "開關",
+      "data_type_speed": "轉速",
+      "data_type_freq": "頻率",
+      "data_unit_freq0": "次/分鐘",
+      "iot": "連線資訊設定",
+      "protocol": "傳輸協定",
+      "host": "主機",
+      "address": "地址",
+      "byte": "字節數",
+      "interval": "間隔",
+      "scale": "規模",
+      "descr": "備註",
+      "placeholder": {
+        "data_type": "請選擇數據類型",
+        "data_unit": "請選擇數據單元",
+        "protocol": "請選擇傳輸協定",
+        "host": "請輸入主機",
+        "address": "請輸入地址",
+        "byte": "請輸入字節數",
+        "interval": "請輸入間隔",
+        "scale": "請輸入規模",
+        "descr": "請輸入備註"
+      },
+      "format": {
+        "host": "主機格式不正確",
+        "address": "地址格式不正確",
+        "byte": "字節數格式不正確",
+        "interval": "間隔格式不正確",
+        "scale": "規模格式不正確"
+      },
+      "blank": {
+        "address": "地址不能為空或空格",
+        "byte": "字節數不能為空或空格",
+        "interval": "間隔不能為空或空格",
+        "scale": "規模不能為空或空格"
+      },
+      "sensor": {
+        "id": "感測器ID",
+        "name": "感測器名稱",
+        "type": "感測器類型",
+        "update": "修改感測器",
+        "success": "修改感測器名稱成功！"
+      },
+      "h2": {
+        "singular": [
+          "個設備",
+          "個"
+        ],
+        "plural": [
+          "個設備",
+          "個"
+        ]
+      }
+    },
+    "allChoose": "全部選擇",
+    "storeGroup": "依地點群組",
+    "storeType": "依地點類型",
+    "storeStore": "依地點",
+    "chooseStore": "已選擇的地點",
+    "chooseType": "已選擇的地點類型",
+    "chooseGroup": "已選擇的地點群組",
+    "user": {
+      "title_info": [
+        "基本資訊",
+        "部門",
+        "備註說明",
+        "請輸入",
+        "筆"
+      ],
+      "sureButton": "確定",
+      "pleaseCheck": "請選擇接管",
+      "user": "的系統管理員或管理員，點擊套用後將刪除",
+      "remove": "並將原管理的用戶清單轉移給下列人員管理。",
+      "finsh": "刪除用戶成功！",
+      "sure": "確定要刪除用戶",
+      "deleteUser": "刪除用戶",
+      "guan": "接管",
+      "fail": "刪除失敗",
+      "to": "已從WISE-iService系統刪除，原管理的用戶清單已成功轉移給",
+      "storeNgId": "失敗地點：",
+      "activateNewPassword": "啟用新密碼",
+      "add": "新增用戶",
+      "editUser": "修改用戶",
+      "authority": "設定用戶權限",
+      "base": "基本資訊",
+      "license": "許可權設定",
+      "confirmNewPassword": [
+        "確認新密碼",
+        "請確認新密碼"
+      ],
+      "confirmPassword": [
+        "確認密碼",
+        "請確認密碼"
+      ],
+      "delete": "刪除用戶",
+      "finish": "刪除完成",
+      "deleteFail": "刪除失敗",
+      "remove1": "已從WISE-iService系統刪除，原管理的用戶清單已成功轉移給",
+      "take": "接管",
+      "edit": "修改使用者",
+      "email": "認證郵件已發出",
+      "enterNewPassword": [
+        "輸入新密碼",
+        "請輸入新密碼"
+      ],
+      "enterPassword": [
+        "輸入密碼",
+        "請輸入密碼"
+      ],
+      "failAdd": "新增用戶失敗!",
+      "add_max": "您已經超過可新增用戶上限 {1} (現有用戶數量: {1})",
+      "userExists": "用戶已存在！",
+      "managerActivate": "系統管理員啓用",
+      "userName": "用戶名稱",
+      "userId": "帳號ID",
+      "userRole": "系統權限",
+      "userPosition": "用戶角色",
+      "userCellphone": "手機",
+      "userAuthority": "權限",
+      "authority_count": "權限地點數",
+      "store_group": "權限來源（群組）",
+      "link_to": "指派此地點",
+      "userPwd": "設置的密碼不改變原來密碼",
+      "userDescr": "說明",
+      "userOperate": "操作",
+      "name": [
+        "用戶名稱",
+        "請輸入用戶名"
+      ],
+      "setting": [
+        "帳號設置",
+        "請輸入信箱"
+      ],
+      "code": [
+        "員工編號",
+        "請輸入員工編號"
+      ],
+      "roles": "系統權限",
+      "staff_position": "員工職務",
+      "isvideo": "允許訪問串流",
+      "phone": [
+        "手機/電話",
+        "請輸入手機"
+      ],
+      "Yes": "是",
+      "No": "否",
+      "position": "用戶角色",
+      "department": "所在部門",
+      "descr": "備註說明",
+      "setPassword": "設置密碼",
+      "setAuthority": "權限設定",
+      "department_store": "部門關聯地點",
+      "service": {
+        "title": "服務設定",
+        "all": "全部選擇",
+        "tip": "設定用戶服務成功！",
+        "srp": {
+          "Custom_iVA_Counting": "人流分析系統",
+          "Custom_iQM_Inspection": "數位稽核巡檢",
+          "Custom_iDS_SignageCMS": "互動看板管理",
+          "Custom_iQM_ColdChain": "智慧冷鏈管理",
+          "CCM": "冷鏈管理",
+          "Audience": "客層分析",
+          "Analytics": "地點BI",
+          "Dashboard": "數據儀表板",
+          "Inspection": "智慧巡檢",
+          "Signage": "互動看板",
+          "Setting": "系統設定",
+          "VIPRecognition": "VIP 辨識",
+          "Attendance": "智慧考勤",
+          "Adlocus": "場域廣告推播",
+          "GoodShifts": "智慧排班"
+        }
+      },
+      "authoritys": [
+        "當前用戶共有",
+        "個地點權限",
+        "個地點權限"
+      ],
+      "list": "帳號地點列表",
+      "notActivateNewPassword": "不啓用新密碼",
+      "role": [
+        "系統管理員",
+        "管理員",
+        "一般用戶"
+      ],
+      "store": "個地點",
+      "stores": "個地點",
+      "number": [
+        "共",
+        "個用戶，管理員",
+        "個，普通用戶",
+        "個",
+        "共有",
+        "尚可新增xx個",
+        "用戶數/用戶上限(xx_1/xx_2)"
+      ],
+      "systemActivate": "系統帳號啓用",
+      "tip": {
+        "add": "新增用戶成功！",
+        "authority": "設定用戶許可權成功！",
+        "batch": [
+          "請選擇需要刪除的使用者！",
+          "已選擇",
+          "名用戶，確認刪除這些用戶？"
+        ],
+        "delete": "確認刪除用戶？",
+        "delete_takeover_confirm": [
+          "請選擇接管",
+          "請選擇接管",
+          "的系統管理員，點擊確定後將刪除",
+          "的系統管理員或管理員，點擊確定後將刪除",
+          "，並將原管理的用戶清單移轉給下列人員接管。",
+          "確定要刪除用戶：",
+          "嗎?"
+        ],
+        "delete_takeover_alert": [
+          "已從WISE-iService系統刪除,原管理的用戶清單已成功轉移給",
+          "接管"
+        ],
+        "edit": "修改使用者成功！",
+        "editPassword": "修改使用者資訊及啟用新密碼成功！",
+        "editOwnPassword": "修改用戶資訊及新密碼成功，重新登入？",
+        "email": "如果收件者沒有收到WISE-iService發送的認證郵件，請管理者協助確認信箱地址是否輸入正確！",
+        "emailError": "信箱格式錯誤！",
+        "name": "請輸入用戶名稱！",
+        "newPassword": "請輸入新密碼！",
+        "password": "請輸入密碼！",
+        "passwordError": "密碼格式錯誤(6~12位元字母和數字)！",
+        "passwordNotSame": "兩次輸入密碼不一致，請確認！",
+        "phone": "信箱、手機至少擇一填寫！",
+        "phoneError": "手機格式錯誤！",
+        "system": "請輸入郵箱！",
+        "userRoleSelect": "請選擇系統權限！",
+        "userPosition": "請選擇用戶角色！",
+        "select": "請選擇",
+        "true_id": "請輸入正確的帳號",
+        "true_no": "請輸入正確的員工編號",
+        "true_phone": "請輸入正確的手機",
+        "true_descr": "請輸入正確的備註",
+        "userNoExists": "員工編號已存在"
+      },
+      "alertInfo": "設備基本資訊不可為空",
+      "statusText": [
+        "無設備",
+        "已註冊",
+        "啟用",
+        "在線",
+        "離線",
+        "異常",
+        "暫停",
+        "關閉",
+        "逾期",
+        "終止",
+        "只讀",
+        "刪除"
+      ],
+      "buildStoreList": [
+        "逾期",
+        "關閉",
+        "離線",
+        "異常",
+        "啟用",
+        "正常",
+        "已註冊",
+        "暫停"
+      ],
+      "serviceText": [
+        "已註冊",
+        "正常",
+        "即將到期",
+        "逾期",
+        "終止",
+        "刪除"
+      ],
+      "all": "全部",
+      "buildOperateSetting": [
+        "暫無排程",
+        "預設排程",
+        "暫無營業時間"
+      ],
+      "deleteMultiStore": [
+        "確定要刪除所選",
+        "個地點嗎？",
+        "個地點刪除成功,",
+        "個地點刪除失敗"
+      ],
+      "deleteMultiKey": [
+        "確定要刪除所選",
+        "個密鑰？",
+        "個密鑰刪除成功,",
+        "個密鑰刪除失敗",
+        "未選擇任何密鑰!",
+        "個密鑰？"
+      ],
+      "deleteKey": [
+        "確定要刪除所選",
+        "個密鑰嗎？",
+        "個密鑰刪除成功,",
+        "個密鑰刪除失敗",
+        "密鑰刪除成功!",
+        "密鑰刪除失敗!",
+        "確定要刪除密鑰",
+        "嗎?",
+        "刪除密鑰"
+      ],
+      "stringify": [
+        "編輯資料",
+        "編輯資料成功!",
+        "未選定地點負責人！！！",
+        "地點資訊不可為空！！！",
+        "回到今天"
+      ],
+      "saveSalesTarget": [
+        "目標設定",
+        "請輸入營業額(日)!",
+        "營業額(日)請輸入數位!",
+        "新增地點成功!",
+        "修改地點",
+        "修改地點成功!",
+        "目標設定成功!",
+        "KPI權重設定總和不等於100!",
+        "天氣地址無效!",
+        "請輸入營業額(週)!",
+        "營業額(週)請輸入數位!",
+        "營業額(日)不可為負數!",
+        "營業額(週)不可為負數!",
+        "新增地點"
+      ],
+      "events": [
+        "固定休",
+        "特休",
+        "營業設定",
+        "營業設定成功，共有",
+        "條特殊周休符合格式，成功添加",
+        "條 !",
+        "營業設定成功"
+      ],
+      "operateSales": [
+        "請輸入交易總金額",
+        "交易總金額應輸入數位",
+        "請輸入交易筆數",
+        "交易筆數應輸入數位",
+        "請輸入交易產品件數",
+        "交易產品件數應輸入數位"
+      ],
+      "promises": [
+        "匯入資料成功",
+        "共有",
+        "條資料符合資料格式，其中",
+        "條資料匯入成功!",
+        "刪除特殊休假",
+        "確認刪除該特殊休假？",
+        "特殊休假格式錯誤",
+        "請不要重複設定特殊休假!",
+        "開始時間應小於結束時間!"
+      ],
+      "modalText": [
+        "匯入地點成功",
+        "個地點符合格式要求，其中",
+        "個地點添加成功！",
+        "個地點中共有",
+        "個地點租金資訊添加成功！",
+        "個地點營業目標設定成功！"
+      ],
+      "modalTitle": [
+        "匯出地點",
+        "請選擇需要匯出的地點!",
+        "匯入地點錯誤",
+        "請上傳xlsx類型的文件!",
+        "請不要上傳空的execl檔!",
+        "Excel 檔資料格式錯誤!",
+        "Excel 檔中沒有符合格式要求的地點!",
+        "匯入資料錯誤",
+        "請匯入正確的樣板！",
+        "該用戶沒有客製樣板！",
+        "請上傳csv類型的文件!",
+        "文檔中沒有符合格式要求的資料!",
+        "請上傳2個文件!",
+        "文件名稱格式錯誤！2個文件的文件名稱格式應爲：一個是“rpt_hourly_sales + 列印時間”，而另一個是“rpt_product_sales + 列印時間”",
+        "資料錯誤！2個文件中資料的日期不相符",
+        "資料超過範圍！只能上傳今天之前60天內的數據",
+        "Excel 中 sheet 數量不為3，請勿修改樣板!",
+        "請確認輸入的附檔名是否為.xlsx"
+      ],
+      "export": [
+        "匯出用戶",
+        "請選擇需要匯出的用戶!",
+        "匯入用戶錯誤",
+        "Excel 文件中没有符合格式要求的用戶!",
+        "Excel 中 sheet 數量不為4，請勿修改樣板!",
+        "提示",
+        "請先前往「地點管理」新增地點後再進行多用戶匯入。",
+        "請確認您已經在「地點管理」建立完整的地點資訊，再進行多用戶匯入，點擊「確認」可直接下載多用戶匯入樣板。",
+        "匯入的樣板內容將覆蓋原系統設定，請確認您欲匯入的樣板已經使用最新的匯入樣板編輯。點擊「確認」可選擇樣板匯入系統。"
+      ],
+      "a": "個",
+      "no": "無",
+      "page": "頁",
+      "turn": "跳轉至",
+      "h2": [
+        "個",
+        "個",
+        "至",
+        "該排程沒有設置營業時間",
+        "休假"
+      ],
+      "key_h2": [
+        "個有效密鑰",
+        "找到",
+        "個有效密鑰"
+      ],
+      "option": [
+        "未指定負責人",
+        "地點標籤",
+        "地點狀態",
+        "地點名稱",
+        "區域一",
+        "區域二",
+        "標籤",
+        "未指定督導",
+        "未指定類型",
+        "未指定群組",
+        "請選擇職務",
+        "請選擇部門"
+      ],
+      "deleteDevice": [
+        "確定要刪除設備",
+        " 嗎？",
+        "確定要刪除地點 ",
+        "地點刪除成功！",
+        "地點刪除失敗！",
+        "刪除地點",
+        "密碼錯誤！"
+      ],
+      "title": [
+        "設備狀態",
+        "設備名稱",
+        "所屬地點",
+        "設備類型",
+        "資料回傳時間",
+        "操作",
+        "設備"
+      ],
+      "Newly_added": [
+        "新增地點",
+        "請輸入地點名稱!",
+        "請選擇地點負責人!",
+        "請輸入國家/地區!",
+        "請輸入區域一!",
+        "請輸入區域二!",
+        "請輸入地點電話!",
+        "請輸入地址!",
+        "請輸入面積!",
+        "請輸入租金!",
+        "面積請輸入數字!",
+        "租金請輸入數字!",
+        "請輸入備注説明!",
+        "請選擇地點督導",
+        "請選擇時區",
+        "地點電話格式錯誤!",
+        "面積不能為負數!",
+        "租金不能為負數!",
+        "請輸入正確的面積",
+        "請輸入正確的租金",
+        "請輸入正確的地點代碼",
+        "請輸入正確的天氣地址",
+        "修改地點",
+        "地點代碼已存在！"
+      ],
+      "key_added": [
+        "新增密鑰",
+        "新增密鑰成功!",
+        "新增密鑰失敗!",
+        "請填寫密鑰名稱!",
+        "請填寫密鑰描述!",
+        "日期不可選擇今天之前!",
+        "密鑰名稱請勿輸入特殊字元!",
+        "密鑰名稱請勿輸入特殊字元!",
+        "密鑰已達到系統最大數量限制！",
+        "密鑰名稱最多輸入20個字元!",
+        "描述最多輸入40個字元!",
+        "請選擇過期日期!"
+      ],
+      "key_update": [
+        "修改密鑰",
+        "修改密鑰成功!",
+        "修改密鑰失敗!"
+      ],
+      "Device_added": [
+        "新增設備",
+        "請選擇設備種類",
+        "請選擇設備應用場景",
+        "請輸入設備識別碼",
+        "請輸入設備名稱",
+        "請輸入設備服務號ID",
+        "修改設備"
+      ],
+      "push": [
+        "地點ID",
+        "地點名稱",
+        "國家/地區",
+        "區域一",
+        "區域二",
+        "共用標籤",
+        "地點負責人（帳號ID）",
+        "負責人聯絡方式",
+        "地點地址",
+        "地點電話",
+        "時區",
+        "天氣地址",
+        "備註説明",
+        "目標營業額",
+        "地點面積",
+        "地點租金",
+        "地點代碼",
+        "地點督導"
+      ]
+    },
+    "schedule": {
+      "add": "新增排程",
+      "delete": "刪除排程",
+      "success": "保存排程",
+      "binding": "套用地點",
+      "save": "套用地點",
+      "saveApply": "套用地點",
+      "title": "營業設定",
+      "none": "特殊休假",
+      "select": "營業日",
+      "default": "預設排程",
+      "tip": {
+        "delete": "確認刪除該排程？",
+        "enter": "請輸入排程名稱",
+        "repeat": "排程名稱已存在！",
+        "error": "套用地點",
+        "errorBinding": "套用地點",
+        "errorOrder": "開始時間應小於結束時間！",
+        "errorRepeat": "不要重複設置排程！",
+        "errorNoSelect": "請選擇需要綁定的地點！",
+        "saveContent": [
+          "保存排程成功，共選擇",
+          "個地點，其中",
+          "個地點套用成功！"
+        ],
+        "saveTitle": "保存並套用排程",
+        "success": "保存排程成功！",
+        "vacation": "未選擇日期，默認為固定休假"
+      }
+    },
+    "tag": {
+      "add": "新增標籤",
+      "none": "暫無",
+      "user": "自訂標籤",
+      "system": "共用標籤",
+      "set": "設定",
+      "addUser": "新增自訂標籤成功！",
+      "addSystem": "新增共用標籤成功！",
+      "deleteUser": "刪除自訂標籤成功！",
+      "deleteSystem": "刪除共用標籤成功！",
+      "updateUser": "設定自訂標籤成功！",
+      "updateSystem": "設定共用標籤成功！",
+      "tip": {
+        "delete": "如果標籤已被使用, 刪除後與此標籤相關功能將失效, 確認刪除?",
+        "enter": "請輸入標籤名稱",
+        "limit": "已達到系統最大數量限制",
+        "user": [
+          "請選擇需要刪除的用戶標籤！",
+          "已選擇",
+          "個用戶標籤，確認刪除這些用戶標籤？",
+          "個用戶標籤，確認刪除這些用戶標籤？"
+        ],
+        "select": "選擇樣式",
+        "system": [
+          "請選擇需要刪除的地點標籤！",
+          "已選擇",
+          "個地點標籤，確認刪除這些地點標籤？",
+          "個地點標籤，確認刪除這些地點標籤？"
+        ]
+      }
+    },
+    "bom": {
+      "bom": "成本表",
+      "add": "新增成本表",
+      "addPlaceholder": "請輸入成本表名稱",
+      "delete": "刪除成本表",
+      "import": "匯入",
+      "download": "下載",
+      "addItem": "添加品項",
+      "No": {
+        "": "編號"
+      },
+      "posProductName": "POS品項名稱",
+      "unitPrice": "單價",
+      "costPrice": "成本",
+      "action": "操作",
+      "save": "保存",
+      "bindingStore": "套用地點",
+      "binded": [
+        "已绑定",
+        "個地點",
+        "個地點"
+      ],
+      "searchPlaceholder": "請輸入關鍵詞搜索地點",
+      "bindAll": "套用 至所有地點",
+      "save&Apply": "套用"
+    },
+    "confirm": {
+      "header": {
+        "default": "提示"
+      },
+      "body": {
+        "default": "提示資訊",
+        "addStoreInfo": "確定要添加地點基礎資訊？",
+        "addStoreProperty": "確定要添加地點資訊？",
+        "updateStoreInfo": "確定要更新地點基礎資訊？",
+        "updateStoreProperty": "確定要更新地點資訊？",
+        "addDeviceInfo": "確定要添加設備？",
+        "updateDeviceInfo": "確定要更新設備？",
+        "deleteBom": "確定要刪除成本表？",
+        "errorBom": "數據異常，重新整理頁面？"
+      }
+    },
+    "alert": {
+      "header": {
+        "default": "提醒"
+      },
+      "body": {
+        "default": "提醒資訊",
+        "addStoreInfo": {
+          "success": "地點資訊儲存成功",
+          "error": "地點資訊儲存失敗",
+          "add_max": "您已經超過可新增地點上限 {1} 個 (現有地點數量: {1})",
+          "error_name": "請輸入地點名稱",
+          "error_user": "請選擇地點負責人",
+          "error_country": "請輸入國家/地區",
+          "error_province": "請輸入區域一",
+          "error_city": "請輸入區域二"
+        },
+        "addStoreProperty": {
+          "success": "地點資訊儲存成功",
+          "error": "地點資訊儲存失敗",
+          "error_sales": "請輸入營業額"
+        },
+        "updateStoreInfo": {
+          "error": "地點資訊更新失敗"
+        },
+        "updateStoreProperty": {
+          "success": "地點資訊更新成功",
+          "error": "地點資訊更新失敗",
+          "error_sales": "請輸入營業額"
+        },
+        "addDeviceInfo": {
+          "success": "設備添加成功",
+          "repeat": "設備識別碼重複",
+          "notfound": "設備識別碼錯誤",
+          "error": "設備添加失敗",
+          "add_max": "設備添加失敗，已達到虛擬設備的最大註冊數量：{1}",
+          "ID_Err": "請輸入正確的設備服務序號ID"
+        },
+        "updateDeviceInfo": {
+          "success": "設備更新成功",
+          "error": "設備更新失敗",
+          "nonSelectedText": "請設置營業時間！"
+        },
+        "addBom": {
+          "success": "新增成功",
+          "error": "新增失敗",
+          "error_null": "名稱不可為空",
+          "error_exist": "名稱已存在！"
+        },
+        "deleteBom": {
+          "success": "刪除成功",
+          "error": "刪除失敗"
+        },
+        "saveBomProduct": {
+          "success": "品項儲存成功",
+          "error": "品項儲存失敗"
+        },
+        "saveBomStore": {
+          "success": "綁定地點成功",
+          "error": "綁定地點失敗"
+        },
+        "importBom": {
+          "success": "匯入成功",
+          "error": "匯入失敗",
+          "error_bom_name": "名稱內容錯誤",
+          "error_product_name": "品項名稱內容錯誤",
+          "error_price_or_cost": "單價或成本內容錯誤",
+          "error_content": "成本表内容格式錯誤，匯入失敗",
+          "error_type": "成本表文件類型錯誤，匯入失敗"
+        },
+        "add": {
+          "successBanchType": "新增地點類型",
+          "successRegion": "新增地點群組",
+          "successDapartment": "新增部門",
+          "successPosition": "新增職務",
+          "successMes": "成功!",
+          "error": "失敗！",
+          "errorBanchType": "新增地點類型失敗!",
+          "errorRegion": "新增地點群組失敗!",
+          "errorDapartment": "新增部門失敗!",
+          "errorPosition": "新增職務失敗!"
+        },
+        "edit": {
+          "successBanchType": "修改地點類型",
+          "successRegion": "修改地點群組",
+          "successDapartment": "修改部門",
+          "successPosition": "修改職務",
+          "successMes": "成功!",
+          "error": "失敗！",
+          "errorBanchType": "修改地點類型失敗!",
+          "errorRegion": "修改地點群組失敗!",
+          "errorDapartment": "修改部門失敗!",
+          "errorPosition": "修改職務失敗!"
+        },
+        "delete": {
+          "successBanchType": "刪除地點類型",
+          "successRegion": "刪除地點群組",
+          "successDapartment": "刪除部門",
+          "successPosition": "刪除職務",
+          "successMes": "成功!",
+          "error": "失敗！",
+          "errorBanchType": "刪除地點類型失敗!",
+          "errorRegion": "刪除地點群組失敗!",
+          "errorDapartment": "刪除部門失敗!",
+          "errorPosition": "刪除職務失敗!",
+          "errorNoBanchType": "請選擇需要刪除的地點類型!",
+          "errorNoRegion": "請選擇需要刪除的地點群組!",
+          "errorNoDapartment": "請選擇需要刪除的部門!",
+          "errorNoPosition": "請選擇需要刪除的職務!"
+        }
+      }
+    },
+    "progress": {
+      "title": {
+        "importing": "正在匯入檔案",
+        "exporting": "正在匯出檔案",
+        "imported": "匯入完成",
+        "exported": "匯出完成"
+      },
+      "tip": [
+        "還剩",
+        "還剩不到",
+        "分鐘"
+      ]
+    },
+    "set": {
+      "user_department": {
+        "header": [
+          "共",
+          "個部門"
+        ],
+        "deleteBtn": "刪除部門",
+        "name": "部門名稱",
+        "setting": "帳號資訊",
+        "name_placeholder": "請輸入",
+        "id": "部門 ID",
+        "code": "部門代碼",
+        "code_placeholder": "請輸入",
+        "content_element": "帳號",
+        "content_elements": "帳號數",
+        "content_elements_placeholder": "請輸入欲加入至此部門的用戶帳號",
+        "add": "新增部門",
+        "edit": "編輯部門",
+        "store": "地點信息",
+        "set": "設定地點權限",
+        "selected": "已選地點群組",
+        "group": " 已綁定地點",
+        "delete_confirm": "確認要刪除該部門嗎?",
+        "batch_delete_confirm": "確認要刪除所選部門嗎?"
+      },
+      "user_position": {
+        "header": [
+          "共",
+          "個職務"
+        ],
+        "deleteBtn": "刪除職務",
+        "name": "職務名稱",
+        "setting": "帳號資訊",
+        "name_placeholder": "請輸入",
+        "id": "職務 ID",
+        "code": "職務代碼",
+        "code_placeholder": "請輸入",
+        "content_element": "帳號",
+        "content_elements": "帳號數",
+        "content_elements_placeholder": "請輸入欲套用至此職務的用戶帳號",
+        "add": "新增職務",
+        "edit": "編輯職務",
+        "delete_confirm": "確認要刪除該職務嗎?",
+        "batch_delete_confirm": "確認要刪除所選職務嗎?"
+      },
+      "store_branch_type": {
+        "header": [
+          "共",
+          "個地點類型"
+        ],
+        "deleteBtn": "刪除地點類型",
+        "name": "地點類型名稱",
+        "setting": "地點資訊",
+        "label_name": "地點類型",
+        "name_placeholder": "請輸入",
+        "id": "地點類型 ID",
+        "code": "地點類型代碼",
+        "code_placeholder": "請輸入",
+        "content_element": "地點名稱",
+        "content_elements": "地點數",
+        "content_elements_placeholder": "請輸入欲套用至此地點類型的地點名稱",
+        "add": "新增地點類型",
+        "edit": "編輯地點類型",
+        "delete_confirm": "確認要刪除該地點類型嗎?",
+        "batch_delete_confirm": "確認要刪除所選地點類型嗎?"
+      },
+      "store_region": {
+        "header": [
+          "共",
+          "個地點群組"
+        ],
+        "deleteBtn": "刪除地點群組",
+        "name": "地點群組名稱",
+        "setting": "地點資訊",
+        "label_name": "地點群組",
+        "name_placeholder": "請輸入",
+        "id": "地點群組 ID",
+        "code": "地點群組代碼",
+        "code_placeholder": "請輸入",
+        "content_element": "地點名稱",
+        "content_elements": "地點數",
+        "content_elements_placeholder": "請輸入欲套用至此地點群組的地點名稱",
+        "add": "新增地點群組",
+        "edit": "編輯地點群組",
+        "delete_confirm": "確認要刪除該地點群組嗎?",
+        "batch_delete_confirm": "確認要刪除所選地點群組嗎?"
+      }
+    }
+  },
+  "visitor": {
+    "title": [
+      [
+        {
+          "default": "總覽"
+        }
+      ],
+      [
+        {
+          "default": "顧客列表",
+          "Info": "顧客到店詳情",
+          "Register": "顧客註冊"
+        },
+        {
+          "default": "人員列表",
+          "Info": "人員詳情",
+          "Register": "人員註冊"
+        }
+      ],
+      [
+        {
+          "default": "顧客身份"
+        },
+        {
+          "default": "標籤設定"
+        }
+      ]
+    ],
+    "label": {
+      "cycle": "來店週期",
+      "type": "顧客類型",
+      "identity": "顧客身份",
+      "register_identity": "註冊身份",
+      "frequency": "累積到本地(次數)",
+      "search": "請輸入關鍵字搜索",
+      "tag": "顧客標籤",
+      "tag_name": "標籤名稱",
+      "suggest": "推薦標籤",
+      "select": [
+        "(已選",
+        "個標籤)"
+      ],
+      "store_tip": [
+        "累積到本店(次數)：",
+        "次"
+      ],
+      "brand_tip": [
+        "累積到公司地點(次數)：",
+        "次"
+      ],
+      "tag_tip": "最多添加20個標籤",
+      "add": "添加自定義標籤",
+      "store_record": "最近到本地記錄",
+      "brand_record": "最近到公司地點歷史記錄",
+      "status": "註冊狀態",
+      "info": "註冊資訊",
+      "base": "基本資訊",
+      "title": {
+        "Guest": {
+          "Info": "修改顧客資訊",
+          "Register": "顧客註冊"
+        },
+        "Register": {
+          "Info": "修改人員資訊",
+          "Register": "人員註冊"
+        }
+      },
+      "warming": {
+        "name": "請輸入姓名/暱稱",
+        "number": "請輸入會員卡號",
+        "phone": "請輸入會員手機號碼",
+        "serial": "請輸入工號",
+        "cell": "請輸入手機號碼",
+        "email": "請輸入E-mail",
+        "image": "請上傳圖片"
+      },
+      "success": {
+        "Guest": {
+          "Info": "修改顧客資訊且設置標籤成功！",
+          "Register": "顧客註冊且設置標籤成功！"
+        },
+        "Register": {
+          "Info": "修改人員資訊且設置標籤成功！",
+          "Register": "人員註冊且設置標籤成功！"
+        }
+      },
+      "failed": {
+        "update": {
+          "Guest": {
+            "Info": "修改顧客資訊失敗！",
+            "Register": "顧客註冊失敗！"
+          },
+          "Register": {
+            "Info": "修改人員資訊失敗！",
+            "Register": "人員註冊失敗！"
+          }
+        },
+        "tag": {
+          "Guest": {
+            "Info": "修改顧客資訊成功但設置標籤失敗！",
+            "Register": "顧客註冊成功但設置標籤失敗！"
+          },
+          "Register": {
+            "Info": "修改人員資訊成功但設置標籤失敗！",
+            "Register": "人員註冊成功但設置標籤失敗！"
+          }
+        },
+        "register": "人員註冊且設置標籤成功但獲取相關數據失敗！"
+      },
+      "name": "姓名/暱稱",
+      "fullname": "姓名",
+      "number": "會員卡號",
+      "phone": "會員手機號碼",
+      "serial": "工號",
+      "cell": "手機號碼",
+      "email": "E-mail",
+      "position": "職位",
+      "affiliated": "所屬地點",
+      "upload": "上傳圖片",
+      "upload_tip": "請上傳小於30KB的圖片",
+      "image_too_big": "圖片大於30KB",
+      "image_too_small": "圖片像素太大或太小",
+      "image_not_face": "圖片中沒有檢測出人臉",
+      "tooltip": {
+        "Guest": "到店週期——顧客列表的時間範圍",
+        "Register": "註冊時間——人員列表的時間範圍,預設則顯示所有人員"
+      },
+      "delete_tag": [
+        "刪除標籤",
+        "確認刪除標籤 「 ",
+        " 」 ?"
+      ],
+      "delete_register": [
+        "刪除人員",
+        "確認刪除人員 「 ",
+        " 」 ?",
+        "請選擇需要刪除的人員！",
+        "已選擇",
+        "名人員，確認刪除這些人員？"
+      ],
+      "day": "最近一天",
+      "week": "最近一週",
+      "month": "最近一個月",
+      "section": "最近三個月"
+    },
+    "placeholder": {
+      "tag": "請輸入標籤名稱"
+    },
+    "identity": [
+      "會員",
+      "VIP",
+      "黑名單",
+      "員工"
+    ],
+    "status": [
+      "註冊成功",
+      "註冊失敗"
+    ],
+    "type": [
+      "單日顧客",
+      "全部顧客"
+    ],
+    "multiple": {
+      "identity": {
+        "nSelectedText": "身份",
+        "nonSelectedText": "身份快選",
+        "selectAllText": "全選",
+        "allSelectedText": "全部身份"
+      },
+      "frequency": {
+        "nSelectedText": "次數",
+        "nonSelectedText": "次數快選",
+        "selectAllText": "全選",
+        "allSelectedText": "全部次數"
+      },
+      "status": {
+        "nSelectedText": "註冊狀態",
+        "nonSelectedText": "註冊狀態快選",
+        "selectAllText": "全選",
+        "allSelectedText": "全部註冊狀態"
+      }
+    },
+    "btn": {
+      "search": "搜尋",
+      "add": "新增",
+      "add_tag": "新增標籤",
+      "save": "儲存",
+      "register": "註冊",
+      "registered": "人員註冊",
+      "again": "重新註冊"
+    },
+    "table": {
+      "number": "序號",
+      "avatar": "顧客圖片",
+      "register_avatar": "註冊圖片",
+      "tag": "標籤",
+      "last": "上次到店時間",
+      "all": "累積到公司地點(次數)",
+      "registered": "註冊時間",
+      "failed": "註冊失敗!",
+      "fail": [
+        "家地點未註冊",
+        "，分別是："
+      ],
+      "fails": [
+        "家地點未註冊",
+        "，分別是："
+      ]
+    }
+  },
+  "audience": {
+    "title": [
+      [
+        "數據總覽"
+      ],
+      [
+        "數據報表"
+      ]
+    ],
+    "header": {
+      "Overview": [
+        {
+          "head": "關注指標",
+          "info": "提供八種關鍵關注指標項，每項指標可進行週期性比較。"
+        },
+        {
+          "head": "收看人數/關注性別-男/關注性別-女",
+          "info": "從收看人數、關注性別-男、關注性別-女三個維度展示各地點關注情況。"
+        }
+      ],
+      "Report": [
+        {
+          "head": "數據報表",
+          "info": "提供數據報表匯出功能，區間為日最多可匯出365天數據，區間為小時最多可匯出90天數據。"
+        }
+      ]
+    },
+    "button": {
+      "all": "全部",
+      "male": "男性",
+      "female": "女性"
+    },
+    "substance": {
+      "viewer": "收看人數",
+      "viewer_num": "關注人次",
+      "viewer_time": "平均觀注時間",
+      "viewer_male": "關注性別 - 男",
+      "viewer_female": "關注性別 - 女",
+      "viewer_age_10": "關注年齡 - 10+",
+      "viewer_age_20": "關注年齡 - 20+",
+      "viewer_age_40": "關注年齡 - 40+",
+      "viewer_age_60": "關注年齡 - 60+"
+    }
+  },
+  "pdf": {
+    "avg_amount": "客單價",
+    "avg_item_amount": "平均商品價",
+    "avg_item_count": "平均商品數",
+    "total_amount": "營業額",
+    "transaction_count": "消費人數",
+    "item_count": "商品總數",
+    "return_rate": "熟客率",
+    "turn_in_rate": "進店率",
+    "pout": "經店人流",
+    "pin": "進店客流",
+    "profit": "毛利率",
+    "sales_conversion": "購買率",
+    "date": "日期",
+    "time": "時間",
+    "name": "地點",
+    "item_name": "品項",
+    "class": "品項類別",
+    "qty": "數量",
+    "amount": "營業額",
+    "qty_rate": "數量佔比",
+    "amount_rate": "營業額佔比",
+    "week": "前四週平均值",
+    "report": "營運週報",
+    "item_amount_asc": "銷售金額最高TOP5",
+    "item_amount_desc": "銷售金額最低TOP5",
+    "item_qty_asc": "銷售數量最多TOP5",
+    "item_qty_desc": "銷售數量最少TOP5",
+    "item_profit_asc": "毛利最高TOP5",
+    "item_profit_desc": "毛利最低TOP5",
+    "unit": {
+      "avg_amount": "($)",
+      "avg_item_amount": "($)",
+      "avg_item_count": "(個)",
+      "total_amount": "($)",
+      "transaction_count": "(個)",
+      "item_count": "(個)",
+      "return_rate": "(%)",
+      "turn_in_rate": "(%)",
+      "pout": "(人)",
+      "pin": "(人)",
+      "sales_conversion": "(%)",
+      "item_name": "",
+      "class": "",
+      "qty": "(個)",
+      "amount": "($)",
+      "qty_rate": "(%)",
+      "amount_rate": "(%)",
+      "date": "",
+      "time": "",
+      "name": ""
+    }
+  },
+  "datatype": {
+    "sales": "營業額",
+    "consumers": "消費人數",
+    "enter": "進店人數",
+    "forecastEnter": "進店人數預測",
+    "forecastSales": "營業額預測",
+    "forecastConsumers": "消費人數預測",
+    "purRate": "購買率",
+    "avgCost": "客單價",
+    "avgProduct": "平均購買數",
+    "avgPrice": "平均商品價"
+  },
+  "unit": {
+    "people": "人",
+    "number": "個",
+    "piece": "件"
+  },
+  "type": {
+    "UCam": "UCAM",
+    "Face_LR": "Face_LR"
+  },
+  "applicationScenarios": {
+    "in_door": "店內",
+    "out_door": "店外"
+  },
+  "setting": {
+    "save": "保存設定",
+    "storeFail": "請選擇地點/地點類型/地點群組中至少一項！",
+    "optionFail": "請選擇員工職務！",
+    "success": "設定成功",
+    "s": "個地點！",
+    "fail": "設定失敗的地點："
+  },
+  "weeklyReport": {
+    "title": "營運週報檔案"
+  }
+}

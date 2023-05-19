@@ -1,0 +1,2852 @@
+{
+  "language": "ko-KR",
+  "languageStore": "KO",
+  "app": "WISE-iService",
+  "Import": "가져오기",
+  "Export": "내보내기",
+  "chooseAreas": "지역별 선택",
+  "nonSelectedText": "선택 안됨",
+  "Loading": "로딩중",
+  "Monday": "월요일",
+  "Tuesday": "화요일",
+  "Wednesday": "수요일",
+  "Thursday": "목요일",
+  "Friday": "금요일",
+  "Saturday": "토요일",
+  "Sunday": "일요일",
+  "deptno": "선택된 부서",
+  "new": "최신",
+  "exportWeeklyReport": "주간 보고서",
+  "changeAccount": "변경 실패, 사용자 또는 회사가 비활성화 되었습니다. ",
+  "in": "~에",
+  "mgt2": {
+    "business": "영업 시간",
+    "none_biz": "휴가 시간",
+    "custom": "사용자 지정 라벨",
+    "other": "기타 정보",
+    "register_key": "키 등록",
+    "region": "지역 및 그룸",
+    "address": "주소",
+    "target": "목표 및 가중 KPI 점수",
+    "target_workday": "매출(일)",
+    "target_weekday": "매출(주)",
+    "kpi": "가중 KPI 점수",
+    "sum_target": "5개의 필드에 총 100점을 더한 값으로, 100점 이상/이하가 아닙니다. ",
+    "page_select": "페이지당 표시",
+    "page_unit": "데이터",
+    "edit_user_list": "사용자 목록 편집",
+    "upload_data": "운영 데이터",
+    "plan": "영업 시간",
+    "upload": "데이터 가져 오기",
+    "upload_tip": "전용 사용자 지정 템플릿입니다. \"사용자 지정 템플릿\" 가져오기를 선택하세요.",
+    "no_data_day": "데이터 없음",
+    "day_hour_total": "일-시간 총합 템플릿",
+    "day_hour_detail": "일-시간 상세 템플릿",
+    "month_day_total": "월-일 총합 템플릿",
+    "month_day_detail": "월-일 상세 템플릿",
+    "custom_default": "사용자 정의 템플릿",
+    "enter": "데이터 입력",
+    "total_amount": "매출",
+    "transaction_count": "거래",
+    "item_count": "총 품목",
+    "delete_tip": "삭제 작업을 수행하려면 비밀번호를 입력하고 \"확인\"을 클릭하세요.",
+    "brand": {
+      "label": {
+        "id": "회사 ID",
+        "name": "회사 이름",
+        "contact_name": "이름",
+        "contact_email": "이메일",
+        "contact_phone": "전화번호",
+        "contact_address": "주소",
+        "admin_email": "관리자 이메일",
+        "admin_name": "관리자 이름",
+        "admin_phone": "관리자 전화번호",
+        "admin": "관리자",
+        "status": "상태",
+        "stores": "사이트 번호",
+        "initial_date": "가입 날짜",
+        "user": "User to be added",
+        "company": "회사",
+        "email": "이메일",
+        "fullname": "사용자 이름",
+        "no_data": "No Data Here",
+        "base_info": "회사 기본 정보",
+        "admin_info": "회사 관리자 정보"
+      },
+      "status": {
+        "1": "등록됨",
+        "20": "정상",
+        "40": "비활성화됨"
+      },
+      "title": {
+        "setting": "Subscription permission setting",
+        "user": "List of users who have activated subscription",
+        "add": "Add New",
+        "reset": "Reset",
+        "total": "Total Data : ",
+        "now_at_page": "Now at page",
+        "row_count": "Display row count",
+        "all": "All",
+        "update": "회사 정보 수정",
+        "info": "회사 정보",
+        "activate": "회사 활성화",
+        "deactivate": "회사 비활성화",
+        "delete": "회사 삭제"
+      },
+      "tip": {
+        "add": "Please enter the company information, and click 「Confirm」 after completing the entry.",
+        "add_max": "회사 추가 실패, 최대 회사 등록 수에 도달했습니다: ",
+        "add_confirm": "회사를 추가하시겠습니까?",
+        "update": "회사 정보를 수정하시겠습니까?",
+        "activate": "회사를 활성화하시겠습니까?",
+        "deactivate": "회사를 비활성화하시겠습니까?",
+        "deactivated": "회사가 비활성화되었습니다.",
+        "delete": "After deleting the company, all store information under the company will be removed from the system and cannot be restored after deletion. In addition, the activated services will become invalid and cannot be restored or migrated. If you would still like to delete the company, please enter the password again and click 「Confirm」 to proceed the deletion task.",
+        "deactivate_confirm": "회사에 가맹점이 할당되어 있습니다. 회사를 비활성화하시겠습니까?「확인」를 클릭하세요.",
+        "delete_confirm": "회사에 가맹점이 할당되어 있습니다. 회사를 삭제하시겠습니까?「확인」를 클릭하세요.",
+        "user": "Please select user",
+        "name": "회사 이름을 입력하세요.",
+        "name_error": "Company name can't be empty or blank",
+        "contact_name": "이름을 입력하세요.",
+        "contact_name_error": "이름은 비워 둘 수 없습니다.",
+        "contact_email": "이메일을 입력하세요.",
+        "contact_email_error": "이메일은 비워 둘 수 없습니다.",
+        "contact_phone": "전화번호를 입력하세요.",
+        "contact_phone_error": "전화번호는 비워 둘 수 없습니다.",
+        "contact_address": "주소를 입력하세요.",
+        "contact_address_error": "주소는 비워 둘 수 없습니다.",
+        "admin_email": "관리자 이메일",
+        "admin_email_error": "관리자 이메일은 비워 둘 수 없습니다.",
+        "admin_name": "Please select admin",
+        "admin_name_error": "관리자 이름은 비워 둘 수 없습니다.",
+        "admin_phone": "관리자 전화번호를 입력해주세요.",
+        "admin_phone_error": "관리자 전화번호는 비워둘 수 없습니다.",
+        "email_format": "올바른 이메일 주소를 입력하세요.",
+        "phone_format": "올바른 전화번호를 입력하세요."
+      },
+      "success": {
+        "update": "Company info has been saved.",
+        "accountuserupdate": "User list has been saved."
+      },
+      "failed": {
+        "update": "Save failed. Please try again.",
+        "accountuserupdate": "Save failed. Please try again."
+      }
+    }
+  },
+  "Weekday": [
+    "월요일",
+    "화요일",
+    "수요일",
+    "목요일",
+    "금요일",
+    "토요일",
+    "일요일"
+  ],
+  "weeks": [
+    "월요일",
+    "화요일",
+    "수요일",
+    "목요일",
+    "금요일",
+    "토요일",
+    "일요일"
+  ],
+  "datepicker": {
+    "days": [
+      "일요일",
+      "월요일",
+      "화요일",
+      "수요일",
+      "목요일",
+      "금요일",
+      "토요일"
+    ],
+    "daysShort": [
+      "일요일",
+      "월요일",
+      "화요일",
+      "수요일",
+      "목요일",
+      "금요일",
+      "토요일"
+    ],
+    "daysMin": [
+      "일요일",
+      "월요일",
+      "화요일",
+      "수요일",
+      "목요일",
+      "금요일",
+      "토요일"
+    ],
+    "months": [
+      "1 월",
+      "2 월",
+      "3 월",
+      "4 월",
+      "5 월",
+      "6 월",
+      "7 월",
+      "8 월",
+      "9 월",
+      "10 월",
+      "11 월",
+      "12 월"
+    ],
+    "monthsShort": [
+      "1 월",
+      "2 월",
+      "3 월",
+      "4 월",
+      "5 월",
+      "6 월",
+      "7 월",
+      "8 월",
+      "9 월",
+      "10 월",
+      "11 월",
+      "12 월"
+    ],
+    "today": "오늘",
+    "clear": "지우기",
+    "format": "년/월/일",
+    "titleFormat": "년/월",
+    "weekStart": "1"
+  },
+  "country": {
+    "Iceland": "아이슬란드",
+    "Afghanistan": "아프가니스탄",
+    "Aland": "올란드 제도",
+    "Arab": "아랍",
+    "Oman": "오만",
+    "Azerbaijan": "아제르바이잔",
+    "Estonia": "에스토니아",
+    "Austria": "오스트리아",
+    "Ireland": "아일랜드",
+    "Bahamas": "바하마",
+    "Botswana": "보츠와나",
+    "Albania": "알바니아",
+    "Andorra": "안도라",
+    "Antarctica": "남극",
+    "Egypt": "이집트",
+    "Bouvet": "부베 섬",
+    "Algeria": "알제리",
+    "Ethiopia": "에티오피아",
+    "Angola": "앙골라",
+    "Australia": "오스트레일리아",
+    "Antigua": "안티구아",
+    "Anguilla": "앵귈라",
+    "Aruba": "아루바",
+    "Argentina": "아르헨티나",
+    "Bhutan": "부탄",
+    "Pakistan": "파키스탄",
+    "Palestine": "팔레스타인",
+    "Bahrain": "바레인",
+    "Belarus": "벨라루스",
+    "Poland": "폴란드",
+    "Belgium": "벨기에",
+    "Bulgaria": "불가리아",
+    "Bosnia": "보스니아",
+    "Burundi": "부룬디",
+    "Burkina": "부르키나 파소",
+    "Benin": "베냉",
+    "Papua": "파푸아뉴기니",
+    "Northern": "북마리아나 제도",
+    "Belize": "벨리즈",
+    "Panama": "파나마",
+    "Barbados": "바베이도스",
+    "Puerto": "푸에르토리코",
+    "Bolivia": "볼리비아",
+    "Brazil": "브라질",
+    "Paraguay": "파라과이",
+    "North": "북한",
+    "Equatorial": "적도 기니",
+    "Timor": "티모르",
+    "Denmark": "덴마크",
+    "Germany": "독일",
+    "Togo": "토고",
+    "Dominican": "도미니카 공화국",
+    "Dominica": "도미니카 연방",
+    "Russia": "러시아",
+    "Eritrea": "에리트레아",
+    "Ecuador": "에콰도르",
+    "Philippines": "필리핀",
+    "Finland": "핀란드",
+    "Faroe": "페로 제도",
+    "France": "프랑스",
+    "Vatican": "바티칸 시국",
+    "Cape": "카보베르데",
+    "Fiji": "피지",
+    "Polynesia": "폴리네시아",
+    "Guiana": "기아니",
+    "Georgia": "조지아",
+    "Congo": "콩고",
+    "Democratic": "민주주의",
+    "Gambia": "감비아",
+    "Guam": "괌",
+    "Greenland": "그린란드",
+    "Costa": "코스타리카",
+    "Cuba": "쿠바",
+    "Grenada": "그레나다",
+    "Guadeloupe": "과들루프",
+    "Columbia": "콜롬비아",
+    "Guyana": "가이아나",
+    "Korea": "대한민국",
+    "Kazakhstan": "카자흐스탄",
+    "Netherlands": "네덜란드",
+    "Honduras": "온두라스",
+    "Haiti": "아이티",
+    "Antilles": "앤틸리스 제도",
+    "Cambodia": "캄보디아",
+    "Kyrgyzstan": "키르기스스탄",
+    "Czech": "체코",
+    "Djibouti": "지부티",
+    "Guinea": "기니",
+    "Bissau": "비사우",
+    "Ghana": "가나",
+    "Canary": "카나리아 제도",
+    "Zimbabwe": "짐바브웨",
+    "Kiribati": "키리바시",
+    "Canada": "캐나다",
+    "Qatar": "카타르",
+    "Kuwait": "쿠웨이트",
+    "Croatia": "크로아티아",
+    "Kenya": "케냐",
+    "Cameroon": "카메룬",
+    "Cote": "코트디부아르",
+    "Comoros": "코모르",
+    "Cook": "쿡 제도",
+    "Cayman": "케이맨 제도",
+    "Bermuda": "버뮤다",
+    "Laos": "라오스",
+    "Lebanon": "레바논",
+    "Lithuania": "리투아니아",
+    "Liechtenstein": "리히텐슈타인",
+    "Luxembourg": "룩셈부르크",
+    "Romania": "루마니아",
+    "Libya": "리비아",
+    "Rwanda": "르완다",
+    "Liberia": "라이베리아",
+    "Lesotho": "레소토",
+    "Reunion": "레위니옹",
+    "Mongolia": "몽골",
+    "Myanmar": "미얀마",
+    "Malaysia": "말레이시아",
+    "Bangladesh": "방글라데시",
+    "Maldives": "몰디브",
+    "Moldova": "몰도바",
+    "Monaco": "모나코",
+    "Macedonia": "마케토니아 공화국",
+    "Malta": "몰타",
+    "Morocco": "모로코",
+    "Madeira": "마데이라 제도",
+    "Mauritania": "모리타니",
+    "Mali": "말리",
+    "Malawi": "말라위",
+    "Mozambique": "모잠비크",
+    "Madagascar": "마다가스카르",
+    "Mauritius": "모리셔스",
+    "Micronesia": "미크로네시아",
+    "Marshall": "마샬 제도",
+    "USA": "미국",
+    "Mexico": "멕시코",
+    "Virgin": "미국령 버진아일랜드",
+    "Montserrat": "몬세라트",
+    "Martinique": "마르티니크",
+    "Peru": "페루",
+    "Nepal": "네팔",
+    "Norway": "노르웨이",
+    "Niger": "니제르",
+    "Namibia": "나미비아",
+    "Africa": "아프리카",
+    "Nauru": "나우루",
+    "Niue": "니우에",
+    "Nicaragua": "니카라과",
+    "Portugal": "포르투갈",
+    "Palau": "팔라우",
+    "Pitcairn": "핏케언 제도",
+    "Japan": "일본",
+    "Sweden": "스웨덴",
+    "Switzerland": "스위스",
+    "Sri": "스리랑카",
+    "Saudi": "사우디아라비아",
+    "Cyprus": "사이프러스",
+    "Slovakia": "슬로바키아",
+    "Serbia": "세르비아",
+    "Slovenia": "슬로베니아",
+    "San": "산마리노",
+    "Sudan": "수단",
+    "Somalia": "소말리아",
+    "Seychelles": "세이셀",
+    "Sao": "상투메프린시페",
+    "Senegal": "세네갈",
+    "Sierra": "시에라",
+    "Kingdom": "스와질랜드",
+    "St": "세인트헬레나",
+    "Solomon": "솔로몬 제도",
+    "Samoa": "사모아",
+    "Caledonia": "뉴칼레도니아",
+    "El": "엘살바도르",
+    "Nevis": "세인트키츠네비스",
+    "Grenadines": "그레너딘즈 제도",
+    "Suriname": "수리남",
+    "Thailand": "태국",
+    "Taiwan": "대만",
+    "Tajikistan": "타지키스탄",
+    "Turkmenistan": "투르크메니스탄",
+    "Turkey": "터키",
+    "Tunisia": "튀니지",
+    "Tanzania": "탄자니아",
+    "Tuvalu": "투발루",
+    "Tonga": "통가",
+    "Tokelau": "토켈라우",
+    "Trinidad": "트리니다.드",
+    "Turks": "터크스 케이커스 제도",
+    "Brunei": "브루나이",
+    "Uzbekistan": "우즈베키스탄",
+    "Ukraine": "우크라이나",
+    "Uganda": "우간다",
+    "Vanuatu": "바누아투",
+    "Wallis": "왈리스 푸투나 제도",
+    "Guatemala": "과테말라",
+    "Venezuela": "베네수엘라",
+    "Uruguay": "우루과이",
+    "Singapore": "싱가포르",
+    "Syria": "시리아",
+    "Hungary": "헝가리",
+    "Greece": "그리스",
+    "Spain": "스페인",
+    "Sahara": "사하라",
+    "Zealand": "뉴질랜드",
+    "Vietnam": "베트남",
+    "Indonesia": "인도네시아",
+    "India": "인도",
+    "Iraq": "이라크",
+    "Jordan": "요르단",
+    "Israel": "이스라엘",
+    "Yemen": "예멘",
+    "Armenia": "아르메니아",
+    "UK": "영국",
+    "Italy": "이탈리아",
+    "Azores": "아조레스 제도",
+    "Jamaica": "자메이카",
+    "British": "영국령 버진 아일래든",
+    "China": "중국",
+    "Chad": "차드",
+    "Central": "중앙아프리카 공화국",
+    "Zambia": "잠비아",
+    "Chile": "칠레"
+  },
+  "timeZone": {
+    "Iceland": "0",
+    "Afghanistan": "+4",
+    "Aland": "+2",
+    "Bahamas": "-5",
+    "Botswana": "+2",
+    "Antarctica": "0",
+    "Bouvet": "0",
+    "Arab": "+4",
+    "Oman": "+4",
+    "Azerbaijan": "+5",
+    "Estonia": "+3",
+    "Austria": "+2",
+    "Ireland": "+1",
+    "Albania": "+2",
+    "Andorra": "+2",
+    "Egypt": "+2",
+    "Algeria": "+1",
+    "Ethiopia": "+3",
+    "Angola": "+1",
+    "Australia": "+10",
+    "Antigua": "-4",
+    "Anguilla": "+2",
+    "Aruba": "+2",
+    "Argentina": "-3",
+    "Bhutan": "+6",
+    "Pakistan": "+6",
+    "Palestine": "+3",
+    "Bahrain": "+3",
+    "Belarus": "+3",
+    "Poland": "+2",
+    "Belgium": "+2",
+    "Bulgaria": "+3",
+    "Bosnia": "+3",
+    "Burundi": "+2",
+    "Burkina": "0",
+    "Benin": "+1",
+    "Papua": "+10",
+    "Northern": "+10",
+    "Belize": "-6",
+    "Panama": "-5",
+    "Barbados": "-4",
+    "Puerto": "-4",
+    "Bolivia": "-4",
+    "Brazil": "-3",
+    "Paraguay": "-4",
+    "North": "+9",
+    "Equatorial": "+1",
+    "Timor": "+9",
+    "Denmark": "+2",
+    "Germany": "+2",
+    "Togo": "0",
+    "Dominican": "-4",
+    "Dominica": "-4",
+    "Russia": "-1",
+    "Eritrea": "+3",
+    "Ecuador": "-6",
+    "Philippines": "+8",
+    "Finland": "+3",
+    "Faroe": "-4",
+    "France": "-4",
+    "Vatican": "+2",
+    "Cape": "-1",
+    "Fiji": "-4",
+    "Polynesia": "-4",
+    "Guiana": "-4",
+    "Georgia": "-4",
+    "Congo": "+1",
+    "Democratic": "+1",
+    "Gambia": "0",
+    "Guam": "+10",
+    "Greenland": "+2",
+    "Costa": "-6",
+    "Cuba": "-4",
+    "Grenada": "-4",
+    "Guadeloupe": "-4",
+    "Columbia": "-5",
+    "Guyana": "-4",
+    "Korea": "+9",
+    "Kazakhstan": "+6",
+    "Netherlands": "+2",
+    "Honduras": "-6",
+    "Haiti": "-5",
+    "Antilles": "-5",
+    "Cambodia": "+7",
+    "Kyrgyzstan": "+2",
+    "Czech": "+2",
+    "Djibouti": "+3",
+    "Guinea": "0",
+    "Bissau": "0",
+    "Ghana": "0",
+    "Canary": "0",
+    "Zimbabwe": "+2",
+    "Kiribati": "+2",
+    "Canada": "-4",
+    "Qatar": "+3",
+    "Kuwait": "+3",
+    "Croatia": "+2",
+    "Kenya": "+3",
+    "Cameroon": "+1",
+    "Cote": "0",
+    "Comoros": "+3",
+    "Cook": "-10",
+    "Cayman": "-8",
+    "Bermuda": "-8",
+    "Laos": "+7",
+    "Lebanon": "+2",
+    "Lithuania": "+2",
+    "Liechtenstein": "+1",
+    "Luxembourg": "+1",
+    "Romania": "+2",
+    "Libya": "+2",
+    "Rwanda": "+2",
+    "Liberia": "0",
+    "Lesotho": "+2",
+    "Reunion": "-4",
+    "Mongolia": "+8",
+    "Myanmar": "+6",
+    "Malaysia": "+8",
+    "Bangladesh": "+6",
+    "Maldives": "+5",
+    "Moldova": "+2",
+    "Monaco": "+1",
+    "Macedonia": "+1",
+    "Malta": "+1",
+    "Morocco": "0",
+    "Madeira": "-1",
+    "Mauritania": "0",
+    "Mali": "0",
+    "Malawi": "+2",
+    "Mozambique": "+2",
+    "Madagascar": "+3",
+    "Mauritius": "+4",
+    "Micronesia": "+11",
+    "Marshall": "+12",
+    "USA": "-10",
+    "Mexico": "-6",
+    "Virgin": "-10",
+    "Montserrat": "-8",
+    "Martinique": "-4",
+    "Peru": "-5",
+    "Nepal": "+6",
+    "Norway": "+1",
+    "Niger": "+1",
+    "Namibia": "+1",
+    "Africa": "+2",
+    "Nauru": "+12",
+    "Niue": "-11",
+    "Nicaragua": "-6",
+    "Portugal": "-1",
+    "Palau": "+9",
+    "Pitcairn": "-8",
+    "Japan": "+9",
+    "Sweden": "+1",
+    "Switzerland": "+1",
+    "Sri": "+5:30",
+    "Saudi": "+3",
+    "Cyprus": "+2",
+    "Slovakia": "+1",
+    "Serbia": "+1",
+    "Slovenia": "+1",
+    "San": "+1",
+    "Sudan": "+3",
+    "Somalia": "+3",
+    "Seychelles": "+4",
+    "Sao": "+4",
+    "Senegal": "0",
+    "Sierra": "0",
+    "Kingdom": "+2",
+    "St": "-8",
+    "Solomon": "+11",
+    "Samoa": "+2",
+    "Caledonia": "-4",
+    "El": "-3",
+    "Nevis": "-4",
+    "Grenadines": "-4",
+    "Suriname": "-3",
+    "Thailand": "+7",
+    "Taiwan": "+8",
+    "Tajikistan": "+5",
+    "Turkmenistan": "+5",
+    "Turkey": "+2",
+    "Tunisia": "+1",
+    "Tanzania": "+3",
+    "Tuvalu": "+12",
+    "Tonga": "+13",
+    "Tokelau": "-4",
+    "Trinidad": "-4",
+    "Turks": "-4",
+    "Brunei": "+8",
+    "Uzbekistan": "+2",
+    "Ukraine": "+2",
+    "Uganda": "+3",
+    "Vanuatu": "+11",
+    "Wallis": "-4",
+    "Guatemala": "-6",
+    "Venezuela": "-5",
+    "Uruguay": "-3",
+    "Singapore": "+8",
+    "Syria": "+2",
+    "Hungary": "+1",
+    "Greece": "+2",
+    "Spain": "+1",
+    "Sahara": "0",
+    "Zealand": "+12",
+    "Vietnam": "+7",
+    "Indonesia": "+9",
+    "India": "+6",
+    "Iraq": "+3",
+    "Jordan": "+2",
+    "Israel": "+2",
+    "Yemen": "+3",
+    "Armenia": "-10",
+    "UK": "-8",
+    "Italy": "+1",
+    "Azores": "-1",
+    "Jamaica": "-5",
+    "British": "-8",
+    "China": "+8",
+    "Chad": "+1",
+    "Central": "+2",
+    "Zambia": "+2",
+    "Chile": "-6"
+  },
+  "title": [
+    [
+      "개요"
+    ],
+    [
+      "이익 분석"
+    ],
+    [
+      "예측"
+    ],
+    [
+      "Single Store",
+      "Multiple Store",
+      "사업 분석",
+      "트래픽 분석",
+      "재방문 분석",
+      "상품 분석",
+      "히트맵 분석"
+    ],
+    [
+      "성별/연령대 분석"
+    ],
+    [
+      "KPI 보고서"
+    ],
+    [
+      "Counting Unit",
+      "설정"
+    ],
+    [
+      "스토어 매출 분석",
+      "스토어 트래픽 분석",
+      "전반적인 스토어 성과"
+    ],
+    [
+      "매출 데이터 보고서",
+      "트래픽 데이터 보고서",
+      "상품 데이터 보고서",
+      "주간 보고서"
+    ]
+  ],
+  "header": {
+    "Overview": [
+      {
+        "head": "지표",
+        "info": "주기적으로 비교 가능한 주요 운영 지표 8개 제공"
+      },
+      {
+        "head": "스토어 트래픽/방문자/매출",
+        "info": "스토어의 비즈니스 상황을 트래픽, 방문자, 매출 세 가지 매개 변수로 보여줍니다."
+      },
+      {
+        "head": "순위",
+        "info": "매출, 거래 및 거래당 매출과 같은 주요 지표에 따라 스토어를 순위 지정합니다."
+      },
+      {
+        "head": "스토어 실적 분포도",
+        "info": "각 스토어의 실적 분포도를 키 포인트 지표를 기반으로 분석 유형에 따라 보여줍니다. 점선은 각 지표의 평균을 나타냅니다."
+      },
+      {
+        "head": "지도",
+        "info": "스토어 위치를 보여줍니다. 마우스 포인터를 점에 이동하여 자세한 내용을 확인할 수 있습니다."
+      }
+    ],
+    "ProfitAnalysis": [
+      {
+        "head": "이익 순위",
+        "info": "총이익 마진에 기반하여 스토어를 순위 지정합니다."
+      },
+      {
+        "head": "매출총이익 VS 매출액 분포도",
+        "info": "각 스토어의 총이익과 매출 분포를 분석하여 개선할 항목과 각 스토어에서 충족된 기준을 나열합니다."
+      }
+    ],
+    "Forecast": [
+      {
+        "head": "매출 예측",
+        "info": "지난 3주간의 예측 데이터 및 실제 매출 데이터를 바탕으로 다음 주 동안의 스토어 매출 동향을 예측합니다."
+      },
+      {
+        "head": "거래 예측",
+        "info": "지난 3주간의 예측 데이터 및 실제 데이터를 기반으로 스토어의 거래 동향을 다음 주에 대해 예측합니다."
+      },
+      {
+        "head": "방문자 예측",
+        "info": "지난 3주간의 예측 데이터 및 실제 데이터를 기반으로 스토어의 방문자 추이를 다음 주에 대해 예측합니다."
+      }
+    ],
+    "BrandAnalysis": [
+      {
+        "head": "매출/거래 동향",
+        "info": "선택한 스토어에서 매출 합계와 거래 합계를 비교하고 대조합니다."
+      },
+      {
+        "head": "고객 유입율/방문자/거래량",
+        "info": "선택한 스토어에서 방문자 전환율 합계와 방문자 합계를 비교하고 대조합니다."
+      },
+      {
+        "head": "스토어 트렌드 분석",
+        "info": "선택한 스토어에서 8가지 지표를 비교하고 대조하여, 3개의 스토어를 최대 선택합니다."
+      }
+    ],
+    "MarketingAnalysis": [
+      {
+        "head": "마케팅 교차 분석",
+        "info": "유형과 시간 등 다양한 매개변수를 제공하여 각 스토어의 비즈니스 상황을 종합적으로 분석하고 표시합니다."
+      },
+      {
+        "head": "마케팅 시간대별 분석",
+        "info": "일일별, 주간별 및 연간별 필터를 제공하여 주기적인 시간대별 분석을 수행하고 각 스토어의 마케팅 운영을 표시합니다."
+      },
+      {
+        "head": "스토어 교차 분석",
+        "info": "유형과 시간과 같은 필터 기준을 제공합니다. 다른 스토어 간에 비즈니스 데이터의 추세 비교 및 총계 비교를 수행할 수 있습니다."
+      }
+    ],
+    "TrafficAnalysis": [
+      {
+        "head": "히트맵 교차 분석",
+        "info": "히트맵 교차 분석을 통해 일일 및 주간 트래픽을 표시합니다."
+      },
+      {
+        "head": "트래픽 교차 분석",
+        "info": "유형과 시간 등 다양한 매개변수를 제공하여 각 스토어의 고객 트래픽을 종합적으로 분석하고 표시합니다."
+      },
+      {
+        "head": "트래픽 시간대별 분석",
+        "info": "일일별, 주간별 및 연간별 필터를 제공하여 주기적인 시간대별 트래픽 분석을 수행하고 각 스토어의 고객 트래픽을 표시합니다."
+      },
+      {
+        "head": "스토어 교차 분석",
+        "info": "유형과 시간과 같은 필터를 제공합니다. 다른 스토어 간에 고객 트래픽 데이터의 추세 비교 및 총계 비교를 수행할 수 있습니다."
+      }
+    ],
+    "SingleAnalysis": [
+      {
+        "head": "Heat-map Cross Analysis",
+        "info": "To show the daily and weekly traffic by heat-map cross analysis."
+      },
+      {
+        "head": "Traffic Cross Analysis",
+        "info": "Provide multiple parameters, such as type and time, to comprehensively analyze and display each site's customer traffic."
+      },
+      {
+        "head": "Traffic Time-on-time Analysis",
+        "info": "Provide day-on-day, week-on-week and year-on-year filter to perform the traffic periodic time-on-time traffic analysis and to show each site's customer traffic."
+      },
+      {
+        "head": "Cross Group Analysis",
+        "info": "Provide filters, such as type and time. Trend comparison and total comparison of customer traffic data can be performed between different groups."
+      }
+    ],
+    "MultipleAnalysis": [
+      {
+        "head": "Heat-map Cross Analysis",
+        "info": "To show the daily and weekly traffic by heat-map cross analysis."
+      },
+      {
+        "head": "Traffic Cross Analysis",
+        "info": "Provide multiple parameters, such as type and time, to comprehensively analyze and display each site's customer traffic."
+      },
+      {
+        "head": "Traffic Time-on-time Analysis",
+        "info": "Provide day-on-day, week-on-week and year-on-year filter to perform the traffic periodic time-on-time traffic analysis and to show each site's customer traffic."
+      },
+      {
+        "head": "Cross Site Analysis",
+        "info": "Provide filters, such as type and time. Trend comparison and total comparison of customer traffic data can be performed between different sites."
+      }
+    ],
+    "ReturnAnalysis": [
+      {
+        "head": "재방문 히트맵 및 비율 분석",
+        "info": "주어진 기간 동안 재방문 고객의 비율을 보여주고, 히트맵 분석을 통해 일일 및 주간 재방문 고객을 표시합니다."
+      },
+      {
+        "head": "재방문 추세 분석",
+        "info": "유형 및 시간과 같은 다양한 매개변수 제공하여 고객 트래픽 추세를 종합적으로 분석하고 표시합니다."
+      },
+      {
+        "head": "재방문자 시간대별 분석",
+        "info": "주 단위 및 년 단위 필터를 제공하여 재방문 고객 주기적인 시간대별 분석을 수행하고 스토어의 고객 트래픽 추세를 표시합니다."
+      },
+      {
+        "head": "재방문 빈도 분석",
+        "info": "주기적인 추세와 방문 횟수(1회, 2회, 3회 이상)를 표시합니다."
+      }
+    ],
+    "BrandItems": [
+      {
+        "head": "제품 카테고리 순위",
+        "info": "상위 6개 제품을 다른 색으로 표시합니다."
+      },
+      {
+        "head": "제품 순위",
+        "info": "상위 6개 제품을 다른 색으로 표시합니다."
+      },
+      {
+        "head": "제품 판매 추세",
+        "info": "각 항목의 판매 추세를 표시합니다. 최대 2개의 항목을 시간대별 비교에 선택할 수 있습니다."
+      },
+      {
+        "head": "제품 시간대별 분석",
+        "info": "년 단위, 주 단위 및 월 단위 필터를 제공하고 각 항목에 대한 주기적인 연간 분석을 수행하고 표시합니다."
+      }
+    ],
+    "ReportKPI": [
+      {
+        "head": "KPI 보고서",
+        "info": "매출, 전환율, 거래, 방문자 및 거래당 매출액을 기반으로 스토어의 운영을 종합적으로 평가합니다."
+      }
+    ],
+    "ReportMarketing": [
+      {
+        "head": "영업 데이터 보고서",
+        "info": "마케팅 보고서 내보내기 기능을 제공합니다. 데이터 범위는 최대 365일이며 시간 범위는 최대 90일까지 가능합니다."
+      }
+    ],
+    "ReportPassenger": [
+      {
+        "head": "트래픽 데이터 보고서",
+        "info": "트래픽 흐름 보고서 내보내기 기능을 제공합니다. 일 단위로 최대 365일까지 간격을 두고, 최대 90일까지 간격을 두어 내보낼 수 있습니다."
+      }
+    ],
+    "ReportProduct": [
+      {
+        "head": "제품 데이터 보고서",
+        "info": "제품 내보내기 보고서 기능을 제공합니다. 데이터 범위는 최대 365일이며 간격은 최대 90일까지 가능합니다."
+      }
+    ]
+  },
+  "date": {
+    "label": {
+      "custom": "사용자 지정",
+      "quick": "빠른 선택",
+      "range": "시간 구간",
+      "unit": "시간 단위",
+      "compare": "교차 비교",
+      "interval": "단위",
+      "cycle": "방문 주기"
+    },
+    "custom": {
+      "day": "일",
+      "week": "주",
+      "month": "월",
+      "year": "년"
+    },
+    "quick": {
+      "day": "오늘",
+      "yesterday": "어제",
+      "last_week_day": "지난주 같은 날",
+      "last_month_day": "지난달 같은 날"
+    },
+    "range": {
+      "day": "일",
+      "week": "주",
+      "month": "월",
+      "year": "년"
+    },
+    "unit": {
+      "day": [
+        "00:00",
+        "01:00",
+        "02:00",
+        "03:00",
+        "04:00",
+        "05:00",
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00",
+        "23:00"
+      ],
+      "week": [
+        "월요일",
+        "화요일",
+        "수요일",
+        "목요일",
+        "금요일",
+        "토요일",
+        "일요일"
+      ],
+      "month": "주",
+      "year": [
+        "1 월",
+        "2 월",
+        "3 월",
+        "4 월",
+        "5 월",
+        "6 월",
+        "7 월",
+        "8 월",
+        "9 월",
+        "10 월",
+        "11 월",
+        "12 월"
+      ]
+    },
+    "compare": {
+      "previous": "이전 구간",
+      "latter": "다음 구간",
+      "none": "비교하지 않음"
+    },
+    "same": {
+      "day": "일 단위로",
+      "week": "주 단위로",
+      "year": "년 단위로"
+    },
+    "item": {
+      "day": "일 단위로",
+      "week": "주 단위로",
+      "month": "월 단위로"
+    },
+    "wmy": {
+      "week": "주",
+      "month": "월",
+      "year": "년"
+    },
+    "matrix": {
+      "week": "주",
+      "month": "월"
+    },
+    "interval": {
+      "hour": "시간",
+      "day": "일"
+    }
+  },
+  "multiselect": {
+    "label": {
+      "select": "스토어",
+      "current": "Custom Sites",
+      "location": "Compare Sites",
+      "material": "Data",
+      "unit": "Counting Unit",
+      "choice": "선택",
+      "type": "유형",
+      "compare": "분석 모드",
+      "tag": "태그별 선택"
+    },
+    "marketing": {
+      "avg_amount": "거래당 매출",
+      "avg_item_amount": "평균 매출 품목",
+      "avg_item_count": "품목별 매출",
+      "total_amount": "매출",
+      "transaction_count": "거래",
+      "item_count": "거래당 품목 수"
+    },
+    "traffic": {
+      "return_rate": "재방문 고객 비율",
+      "turn_in_rate": "처리율",
+      "pout": "방문자 수",
+      "pin": "방문자",
+      "transaction_count": "거래"
+    },
+    "multiple": {
+      "pin": "Visitors",
+      "pout": "Passing-by Traffic",
+      "turn_in_rate": "Turn in Rate",
+      "transaction_count": "Transaction",
+      "trans_rate": "Conversion Rate",
+      "total_amount": "Revenue"
+    },
+    "single": {
+      "pin": "Visitors",
+      "pout": "Passing-by Traffic"
+    },
+    "return": {
+      "return_rate": "재방문율",
+      "pin": "방문자",
+      "return_num": "재방문 수"
+    },
+    "matrix": {
+      "pin": "방문자",
+      "pout": "방문자 수",
+      "transaction_count": "거래"
+    },
+    "compare": {
+      "trend": "트렌드 분석",
+      "total": "총 분석"
+    },
+    "monitor": {
+      "ppc_store_entry": "Entry",
+      "ppc_store_outside": "Outside"
+    },
+    "monitor_type": {
+      "nSelectedText": "Unit Type",
+      "nonSelectedText": "Select Unit Type",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Unit Type"
+    },
+    "monitor_name": {
+      "nSelectedText": "Unit Name",
+      "nonSelectedText": "Unit Name",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Unit"
+    },
+    "tag": {
+      "nSelectedText": "태그",
+      "nonSelectedText": "태그 선택",
+      "selectAllText": "모두 선택 ",
+      "allSelectedText": "모든 태그"
+    },
+    "province": {
+      "nSelectedText": "지역 1",
+      "nonSelectedText": "지역 1 선택 ",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 지역 1"
+    },
+    "city": {
+      "nSelectedText": "지역 2",
+      "nonSelectedText": "지역 2 선택 ",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 지역 2"
+    },
+    "store": {
+      "nSelectedText": "스토어",
+      "nonSelectedText": "스토어 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 스토어"
+    },
+    "branch_type": {
+      "nSelectedText": "스토어 유형",
+      "nonSelectedText": "스토어 유형 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 스토어 유형"
+    },
+    "region": {
+      "nSelectedText": "스토어 그룹",
+      "nonSelectedText": "스토어 그룹 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 스토어 그룹"
+    },
+    "role": {
+      "nSelectedText": "시스템 권한",
+      "nonSelectedText": "시스템 권한 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 시스템 권한"
+    },
+    "send": {
+      "nSelectedText": "보고서 수신자",
+      "nonSelectedText": "보고서 수신자 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 보고서 수신자",
+      "sendMail": "스토어 관리자에게 주간 운영 보고서 보내기"
+    },
+    "week": {
+      "nSelectedText": "날짜",
+      "nonSelectedText": "주 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "매일"
+    },
+    "itemsClass": {
+      "nSelectedText": "제품 카테고리",
+      "nonSelectedText": "제품 카테고리 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 제품 카테고리"
+    },
+    "items": {
+      "nSelectedText": "제품",
+      "nonSelectedText": "제품 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 제품"
+    },
+    "store_type": {
+      "nSelectedText": "스토어 유형",
+      "nonSelectedText": "스토어 유형 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 스토어 유형"
+    },
+    "device_type": {
+      "nSelectedText": "장치 유형 2",
+      "nonSelectedText": "장치 유형 2 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모두 선택"
+    },
+    "store_group": {
+      "nSelectedText": "스토어 그룹",
+      "nonSelectedText": "스토어 그룹 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 스토어 그룹"
+    },
+    "option": {
+      "nSelectedText": "위치",
+      "nonSelectedText": "위치 선택",
+      "selectAllText": "모두 선택",
+      "allSelectedText": "모든 위치"
+    },
+    "setting": {
+      "option": {
+        "nSelectedText": "위치",
+        "nonSelectedText": "매장 위치",
+        "selectAllText": "모두 선택",
+        "allSelectedText": "모든 위치"
+      },
+      "store_group": {
+        "nSelectedText": "매장 그룹",
+        "nonSelectedText": "매장 그룹 선택",
+        "selectAllText": "모두 선택",
+        "allSelectedText": "모든 매장 그룹"
+      },
+      "store_type": {
+        "nSelectedText": "매장 유형",
+        "nonSelectedText": "매장 유형 선택",
+        "selectAllText": "모두 선택",
+        "allSelectedText": "모든 매장 유형"
+      },
+      "store": {
+        "nSelectedText": "메모리",
+        "nonSelectedText": "매장 선택 ",
+        "selectAllText": "모두 선택",
+        "allSelectedText": "모든 상점"
+      }
+    }
+  },
+  "analysis": {
+    "hour": {
+      "time": "시간"
+    },
+    "day": {
+      "date": [
+        "어제",
+        "오늘",
+        "내일"
+      ],
+      "time": "일"
+    },
+    "week": {
+      "date": [
+        "지난주",
+        "이번주",
+        "다음주"
+      ],
+      "time": "주"
+    },
+    "month": {
+      "date": [
+        "지난달",
+        "이번달",
+        "다음달"
+      ],
+      "time": "월"
+    },
+    "year": {
+      "date": [
+        "작년",
+        "올해",
+        "내년"
+      ],
+      "time": "년"
+    }
+  },
+  "scatter": {
+    "label": {
+      "below": "< 평균",
+      "above": "> 평균",
+      "same": "= 평균",
+      "below1": "< 목표",
+      "above1": "> 목표",
+      "same1": "= 목표"
+    }
+  },
+  "kpi": {
+    "above": "높음",
+    "below": "낮음"
+  },
+  "trend": {
+    "compare": "시간대별 비교"
+  },
+  "report": {
+    "date": "일일 보고서",
+    "download": "PDF 다운로드",
+    "report": "주간 보고서",
+    "export": "내보내기 ",
+    "empty": "빈 테이블"
+  },
+  "heatmap": {
+    "freq": "명",
+    "dwell": "방문 시간",
+    "second": "초"
+  },
+  "forecast": {
+    "today": "오늘",
+    "history": "과거 예측",
+    "forecast": "다음 7일 예측",
+    "actual": [
+      "실제 매출",
+      "실제 거래",
+      "실제 방문개"
+    ],
+    "average": "지난 3주간 평균"
+  },
+  "return": {
+    "return_distribution": "재방문 분포",
+    "only_supported": "월간 통계만 지원됩니다.",
+    "visit_1": "한 번 방문",
+    "visit_2": "두 번 방문",
+    "visit_3": "세 번 이상 방문"
+  },
+  "substance": {
+    "xAxis": "X 축",
+    "yAxis": "Y 축",
+    "line": "선 그래프",
+    "bar": "막대 그래프",
+    "range": "시간 범위",
+    "Operate": "운영",
+    "Range": "행",
+    "Row": "열",
+    "None": "입력되지 않았습니다.",
+    "Error": "형식이 올바르지 않습니다.",
+    "space": "공백은 유효한 문자가 아닙니다.",
+    "exists": "계정이 이미 존재합니다.",
+    "repeat": "파일에서 중복됩니다.",
+    "role": "권한이 없습니다.",
+    "negative": "음수일 수 없습니다.",
+    "Not": "목록에 없습니다.",
+    "black": "공백이 될 수 없습니다.",
+    "edit": "수정할 수 없습니다.",
+    "Query": "조회",
+    "SalesVolume": "매출액",
+    "SalesConversion": "전환율",
+    "Transactions": "거래 수",
+    "SalesPerShopper": "거래당 매출액",
+    "ProductsCount": "총 판매 상품 수",
+    "AvgProductPrice": "상품당 매출액",
+    "Traffic": "방문자 수",
+    "OutdoorTraffic": "외부 트래픽",
+    "TurnInRate": "구매 전환율",
+    "ReturnRate": "재방문율",
+    "ReturnNum": "재방문 수",
+    "AvgSalesProducts": "거래당 상품 수",
+    "Profit": "이익",
+    "Avg": "평균",
+    "Quadrant": [
+      "제 1사분면",
+      "제 2사분면",
+      "제 3사분면",
+      "제 4사분면"
+    ],
+    "MatrixWeek": [
+      "1주차",
+      "2주차",
+      "3주차",
+      "4주차",
+      "5주차",
+      "6주차"
+    ],
+    "Min": "최소",
+    "Max": "최대",
+    "NoData": "데이터 없음",
+    "HowToImprove": "개선 방법",
+    "Loading": "로딩 중",
+    "Rank": "순위",
+    "ItemClass": "카테고리",
+    "Item": "제품",
+    "Proportion": "비율",
+    "Numbers": [
+      "금액",
+      "상품"
+    ],
+    "itemData": [
+      "양",
+      "상품"
+    ],
+    "Unit": [
+      "$",
+      "상품"
+    ],
+    "StoreName": "이름",
+    "RankType": "순위 유형",
+    "Type": "유형",
+    "ItemClassType": "제품 카테고리",
+    "ItemsType": "제품",
+    "ReportType": "보고서 유형",
+    "ItemsReportType": "제품 카테고리 보고서",
+    "AnalysisType": "분석 유형",
+    "SelectTip": "최소 1개, 최대 2개",
+    "CompareData": "지표",
+    "Human": "숫자",
+    "UnitHuman": "명",
+    "Rate": "비율",
+    "Date": "날짜",
+    "Time": "시간",
+    "Store": "사이트",
+    "Others": "기타",
+    "ItemType": "제품 카테고리",
+    "Number": "금액",
+    "Percent": "백분율",
+    "Import": "가져오기",
+    "Download": "다운로드",
+    "Export": "내보내기",
+    "Date_d": "일",
+    "Day": "일",
+    "Week": "주",
+    "Month": "월",
+    "Year": "년",
+    "Hour": "시간",
+    "Same": "동일",
+    "Today": "오늘",
+    "Yesterday": "어제",
+    "SameDayLastWeek": "지난주",
+    "SameDayLastMonth": "지난달"
+  },
+  "viu": {
+    "choose": "선택",
+    "chooseDate": "선택",
+    "startDate": "시작",
+    "endDate": "끝",
+    "dateRangeSeparator": "까지",
+    "el_select": {
+      "_7": {
+        "value": "7",
+        "label": "7일"
+      },
+      "_30": {
+        "value": "30",
+        "label": "30일"
+      },
+      "_90": {
+        "value": "90",
+        "label": "90일"
+      }
+    },
+    "chooseCountry": "선택"
+  },
+  "counting": {
+    "kpi": {
+      "custom": "Custom time",
+      "ppc_max": "Highest traffic period",
+      "sale_max": "Maximum sales period",
+      "keyword": "Keyword",
+      "placeholder": "Please enter",
+      "select": "Please select"
+    },
+    "list": {
+      "title": "List of counting units",
+      "name": "Unit name",
+      "type": "Unit type",
+      "store_name": "Site name",
+      "devices": "Number of devices",
+      "operate": "Action",
+      "add": "Add Counting Unit",
+      "delete_device": "Delete device",
+      "delete": "Delete counting unit",
+      "set": "Unit setting",
+      "sensor": "Device list",
+      "added": "List added",
+      "data_map": "Counting by",
+      "weight": "Weight value",
+      "edit": "Edit Counting Unit",
+      "group": "Counting Unit Group"
+    },
+    "tip": {
+      "name": "Please enter unit name",
+      "type": "Please select unit type",
+      "store_name": "Please select site",
+      "delete_device": "Are you sure to delete the device: {0}?",
+      "delete": "Are you sure to delete the counting unit?"
+    },
+    "success": {
+      "add": "Add counting unit successful",
+      "edit": "Edit counting unit successful"
+    },
+    "error": {
+      "add": "Failed to add counting unit, site data abnormal",
+      "addFail": "Failed to add counting unit",
+      "edit": "Failed to edit counting unit"
+    }
+  },
+  "error": {
+    "login_again": "사용자가 로그아웃했습니다. 다시 로그인해주시기 바랍니다."
+  },
+  "mgt": {
+    "title": [
+      [
+        {
+          "default": "회사"
+        }
+      ],
+      [
+        {
+          "default": "사이트",
+          "add": "사이트 추가",
+          "details": "사이트 정보"
+        }
+      ],
+      [
+        {
+          "default": "장치",
+          "details": "장치 정보",
+          "add": "장치 추가"
+        },
+        {
+          "default": "트래픽 장치",
+          "details": "장치 정보",
+          "add": "장치 추가"
+        },
+        {
+          "default": "EIS 장치",
+          "details": "장치 정보",
+          "add": "장치 추가"
+        },
+        {
+          "default": "얼굴 인식 장치",
+          "details": "장치 정보",
+          "add": "장치 추가"
+        },
+        {
+          "default": "가상 장치",
+          "details": "장치 정보",
+          "add": "장치 추가"
+        },
+        {
+          "default": "사이니지 장치",
+          "details": "장치 정보",
+          "add": "장치 추가"
+        },
+        {
+          "default": "CCM 장치",
+          "details": "장치 정보",
+          "add": "장치 추가"
+        },
+        {
+          "default": "Iot-Sensor",
+          "details": "Device Info.",
+          "add": "Add device"
+        }
+      ],
+      [
+        {
+          "default": "사용자",
+          "details": "사용자 정보 확인",
+          "add": "사용자 추가"
+        },
+        {
+          "default": "사용자",
+          "details": "사용자 정보 확인",
+          "add": "사용자 편집"
+        }
+      ],
+      [
+        {
+          "default": "영업 시간"
+        }
+      ],
+      [
+        {
+          "default": "BOM"
+        }
+      ],
+      [
+        {
+          "default": "부서"
+        },
+        {
+          "default": "직책"
+        },
+        {
+          "default": "사이트 종류"
+        },
+        {
+          "default": "사이트 그룹"
+        },
+        {
+          "default": "태그"
+        },
+        {
+          "default": "액세스 키 관리",
+          "add": "액세스 키 추가",
+          "details": "키 세부 정보"
+        }
+      ]
+    ],
+    "type": "상품 카테고리 이름",
+    "userStatus": "사용자 활성화 메시지 전송",
+    "userUse": "사용자에게 계정 메일박스에서 검증을 활성화하도록 알려주세요.",
+    "userSuccess": "사용자 활성화 메시지가 전송되었습니다.!",
+    "userFail": "메시지 발송 실패!",
+    "other1": "잠시후 다시 시도해주세요.",
+    "minutes": "분 ",
+    "name": "상품 이름",
+    "initView": {
+      "search": {
+        "Store": "키워드 검색",
+        "Device": "키워드 검색",
+        "User": "키워드 검색",
+        "forAccess_keyManagement": "키워드 검색"
+      }
+    },
+    "button": {
+      "add": "추가",
+      "batch": "일괄 처리",
+      "cancel": "취소",
+      "delete": "삭제",
+      "edit": "편집",
+      "save": "저장",
+      "sure": "확인",
+      "submit": "확인",
+      "activate": "활성화",
+      "deactivate": "비활성화"
+    },
+    "checkbox": {
+      "authority": "권한 할당",
+      "binding": "적용",
+      "store": "모두"
+    },
+    "table": {
+      "page": [
+        "넘어가기",
+        "페이지"
+      ]
+    },
+    "brand": {
+      "brand_name": "회사 이름",
+      "brand_id": "회사 ID",
+      "brand_manager": "관리자",
+      "all_device": "총 장치 수",
+      "traffic_device": "트래픽 장치",
+      "eis_device": "EIS 장치",
+      "face_device": "얼굴 인식 장치",
+      "virtual_device": "가상 장치",
+      "other_device": "기타",
+      "enable_device": "사용가능한 총 장치 수"
+    },
+    "store": {
+      "add": "사이트 추가",
+      "storeStatus": "사이트 현황",
+      "storeName": "사이트 이름",
+      "storeProvince": "지역 1",
+      "storeCity": "지역 2",
+      "storeTag": "태그",
+      "storeOperate": "운영",
+      "updateTime": "업데이트 시간",
+      "userStatus": "사용자 상태",
+      "userList": "사용자 목록",
+      "editUser": "사용자 목록 편집",
+      "success": "사용자 목록 편집 완료!",
+      "falied": "사용자 목록 편집 실패!",
+      "getFailed": "사용자 목록 가져오기 실패!",
+      "status": {
+        "1": "등록됨",
+        "20": "정상",
+        "40": "비활성화됨"
+      },
+      "activate": {
+        "title": "사용자 활성화",
+        "tip": [
+          "사용자 활성화 확인",
+          "?"
+        ],
+        "success": "사용자 활성화 성공!",
+        "failed": "사용자 활성화 실패!"
+      },
+      "deactivate": {
+        "title": "사용자 비활성화",
+        "tip": [
+          "사용자 비활성화 실패",
+          "?"
+        ],
+        "success": "사용자 비활성화 성공!",
+        "failed": "사용자 비활성화 실패!"
+      }
+    },
+    "key": {
+      "add": "키 추가",
+      "AccessKey": "액세스 키",
+      "Name": "이름",
+      "Description": "설명",
+      "ExpireDate": "만료 날짜",
+      "Information": "조작",
+      "Delete": "삭제",
+      "deleteKey": "삭제액세스 키"
+    },
+    "device": {
+      "add": "장치 추가",
+      "update": "장치 편집",
+      "deviceStatus": "장치 상태",
+      "serviceStatus": "장치 유형",
+      "deviceName": "장치 이름",
+      "deviceStore": "사이트 이름",
+      "deviceType": "장치 유형",
+      "classify": "Device classify",
+      "deviceID": "장치 ID",
+      "deviceFunction": "응용 프로그램",
+      "register_sn": "SN 등록",
+      "product_sn": "Serial number",
+      "channel": "채널",
+      "deviceActivate": "활성화 시간",
+      "deviceHeartbeat": "핫빗 시간",
+      "area": "지역",
+      "sensor_time": "센서 및 시간",
+      "input_tip": "최근 방문",
+      "deviceMetadata": "메타데이터 시간",
+      "deviceOperate": "조작",
+      "data_type": "Data Type",
+      "data_unit": "Data Unit",
+      "data_type_temp": "Temperature",
+      "data_type_switch": "Switch",
+      "data_type_speed": "Rotating speed",
+      "data_type_freq": "Frequency",
+      "data_unit_freq0": "Times/min",
+      "iot": "Connection settings",
+      "protocol": "Protocol",
+      "host": "Host",
+      "address": "Address",
+      "byte": "Byte",
+      "interval": "Interval",
+      "scale": "Scale",
+      "descr": "Note",
+      "placeholder": {
+        "data_type": "Please select data type",
+        "data_unit": "Please select data unit",
+        "protocol": "Please select protocol",
+        "host": "Please enter host",
+        "address": "Please enter address",
+        "byte": "Please enter byte",
+        "interval": "Please enter interval",
+        "scale": "Please enter scale",
+        "descr": "Please enter Note"
+      },
+      "format": {
+        "host": "Host's format is incorrect",
+        "address": "Address's format is incorrect",
+        "byte": "Byte's format is incorrect",
+        "interval": "Interval's format is incorrect",
+        "scale": "Scale's format is incorrect"
+      },
+      "blank": {
+        "address": "Address can't be empty or blank",
+        "byte": "Byte can't be empty or blank",
+        "interval": "Interval can't be empty or blank",
+        "scale": "Scale can't be empty or blank"
+      },
+      "sensor": {
+        "id": "센서 ID",
+        "name": "센서 이름",
+        "type": "센서 유형",
+        "update": "센서 편집",
+        "success": "업데이트 완료!"
+      },
+      "h2": {
+        "singular": [
+          "개 장치",
+          "개"
+        ],
+        "plural": [
+          "대 장치",
+          "개"
+        ]
+      }
+    },
+    "allChoose": "모두 선택",
+    "storeGroup": "사이트 그룹별",
+    "storeType": "사이트 종류별",
+    "storeStore": "사이트별",
+    "chooseStore": "선택한 사이트",
+    "chooseType": "선택한 사이트 종류",
+    "chooseGroup": "선택한 사이트 그룹",
+    "user": {
+      "title_info": [
+        "기본 정보",
+        "부서",
+        "비고",
+        "입력하세요.",
+        "데이터"
+      ],
+      "sureButton": "확인",
+      "pleaseCheck": "",
+      "user": "시스템 관리자 또는 관리자를 인수하려면 선택해주세요. 선택 후 응용 프로그램이 삭제됩니다. ",
+      "remove": "그리고 원래의 사용자 목록 관리는 다음 담당자에게 인계됩니다.",
+      "finsh": "삭제 완료",
+      "sure": "사용자를 삭제할지 확인합니다.",
+      "deleteUser": "사용자 삭제",
+      "guan": "인수",
+      "fail": "삭제 실패",
+      "to": "WISE-iService 시스템에서 제거되었으며 관리 대상 사용자 목록이 성공적으로 전송되었습니다.",
+      "storeNgId": "저장 실패:",
+      "activateNewPassword": "새 비빌번호 활성화",
+      "add": "사용자 추가",
+      "editUser": "사용자 편집",
+      "authority": "권한 설정",
+      "base": "기본 정보",
+      "license": "권한 설정",
+      "confirmNewPassword": [
+        "비밀번호 확인",
+        "비밀번호 입력"
+      ],
+      "confirmPassword": [
+        "비밀번호 확인",
+        "비밀번호 입력"
+      ],
+      "delete": "사용자 삭제",
+      "finish": "삭제 완료",
+      "deleteFail": "삭제 실패",
+      "remove1": "는 WISE-iService 시스템에서 제거되었으며 관리 대상 사용자 목록이 ",
+      "take": " 의 담당으로 성공적으로 전송되었습니다.",
+      "edit": "사용자 편집",
+      "email": "사용자 추가",
+      "enterNewPassword": [
+        "새 비밀번호 입력",
+        "새 비밀번호를 입력해주세요."
+      ],
+      "enterPassword": [
+        "비밀번호 입력",
+        "비밀번호를 입력해주세요."
+      ],
+      "failAdd": "사용자 추가 실패, 이메일 주소가 이미 존재합니다.!",
+      "add_max": "최대 '사용자' 등록 수{1} 에 도달했습니다(현재: {1})",
+      "userExists": "사용자가 이미 존재합니다.",
+      "managerActivate": "관리자가 활성화되었습니다.",
+      "userName": "사용자 이름",
+      "userId": "사용자 ID",
+      "userRole": "시스템 권한",
+      "userPosition": "사용자 역할",
+      "userCellphone": "전화번호",
+      "userAuthority": "권한 설정",
+      "authority_count": "승인된 상점 수",
+      "store_group": "권한 소스(그룹)",
+      "link_to": "이 상점 지정",
+      "userPwd": "설정한 비밀번호가 기존 비밀번호와 같습니다.",
+      "userDescr": "참고",
+      "userOperate": "조작",
+      "name": [
+        "사용자 이름",
+        "이름을 입력해주세요."
+      ],
+      "setting": [
+        "계정 설정",
+        "이메일을 입력해주세요."
+      ],
+      "code": [
+        "사용자 코드",
+        "코드를 입력해주세요."
+      ],
+      "roles": "시스템 권한",
+      "staff_position": "사용자 직위",
+      "isvideo": "비디오 액세스 허용",
+      "phone": [
+        "전화번호",
+        "전화번호를 입력해주세요."
+      ],
+      "Yes": "예",
+      "No": "아니오",
+      "position": "사용자 역할",
+      "department": "부서",
+      "descr": "참고",
+      "setPassword": "비밀번호",
+      "setAuthority": "접근성 설정",
+      "department_store": "부서 관련 사이트",
+      "service": {
+        "title": "서비스 설정",
+        "all": "전체 선택",
+        "tip": "서비스가 성공적으로 업데이트되었습니다.",
+        "srp": {
+          "Custom_iVA_Counting": "iVA.Counting",
+          "Custom_iQM_Inspection": "iQM.Inspection",
+          "Custom_iDS_SignageCMS": "iDS.SignageCMS",
+          "Custom_iQM_ColdChain": "iQM.Cold Chain",
+          "CCM": "CCM",
+          "Audience": "대상 그룹",
+          "Analytics": "스토어 BI",
+          "Dashboard": "대시보드",
+          "Inspection": "점검",
+          "Signage": "사이니지",
+          "Setting": "설정한 비밀번호가 기존 비밀번호와 같습니다.",
+          "VIPRecognition": "VIP 인식",
+          "Attendance": "출석",
+          "Adlocus": "LBS 광고",
+          "GoodShifts": "교대 시스템"
+        }
+      },
+      "authoritys": [
+        "접근 가능합니다.",
+        "사이트",
+        "사이트"
+      ],
+      "list": "사이트 목록",
+      "notActivateNewPassword": "현재 비밀번호 사용",
+      "role": [
+        "관리자",
+        "매니저",
+        "사용자"
+      ],
+      "store": "사이트",
+      "stores": "사이트",
+      "number": [
+        "총",
+        ",관리자",
+        ",사용자",
+        "번호",
+        "총",
+        "you can add xx more.",
+        "Current users/Maximum of users(xx_1/xx_2)"
+      ],
+      "systemActivate": "시스템 메일 활성화",
+      "tip": {
+        "add": "성공적으로 추가되었습니다.!",
+        "authority": "권한이 성공적으로 업데이트되었습니다.",
+        "batch": [
+          "사용자를 선택하세요.",
+          "선택됨",
+          "사용자, 이 사용자를 삭제하시겠습니까?"
+        ],
+        "delete": "사용자를 삭제하시겠습니까?",
+        "delete_takeover_confirm": [
+          "인수인계할 사용자를 선택하세요.",
+          "인수인계할 사용자를 선택하세요.",
+          "시스템 관리자, 클릭하면 삭제됩니다.",
+          "관리자, 클릭하면 삭제됩니다.",
+          "원래 관리되는 사용자 목록을 다음 사람에게 인수 인계하세요.",
+          "사용자를 삭제하시겠습니까 :",
+          "?"
+        ],
+        "delete_takeover_alert": [
+          "StoreVue 시스템에서 제거되었으며, 원래 관리되는 사용자 목록이 다음 사용자에게 성공적으로 전송되었습니다.",
+          "인수"
+        ],
+        "edit": "성공적으로 업데이트되었습니다.!",
+        "editPassword": "업데이트되었습니다.!",
+        "editOwnPassword": "사용자 정보와 새 암호가 업데이트되었습니다. 다시 로그인하시겠습니까?",
+        "email": "성공적으로 추가되었습니다.! 사용자가 확인 편지를 받지 못한 경우 이메일 주소를 다시 확인하세요.",
+        "emailError": "잘못된 형식!",
+        "name": "사용자 이름을 입력하세요.",
+        "newPassword": "새 비밀번호를 입력하세요.",
+        "password": "비밀번호를 입력하세요.",
+        "passwordError": "잘못된 형식입니다. (6-12 개의 혼합 알파벳과 숫자를 사용하세요.).",
+        "passwordNotSame": "비밀번호 불일치, 확인하세요.",
+        "phone": "메일 또는 휴대 전화 번호 중 하나를 제공하세요. 감사합니다.",
+        "phoneError": "잘못된 형식!",
+        "system": "시스템 계정 기능을 활성화하려면 이메일을 입력하세요.",
+        "userRoleSelect": "시스템 권한을 선택하세요.",
+        "userPosition": "사용자 역할을 선택하세요.",
+        "select": "선택하세요.",
+        "true_id": "정확한 계정 번호를 입력하세요.",
+        "true_no": "정확한 직원 번호를 입력하세요.",
+        "true_phone": "정확한 전화번호를 입력하세요.",
+        "true_descr": "올바르게 입력하세요.",
+        "userNoExists": "직원 번호가 이미 존재합니다."
+      },
+      "alertInfo": "장치 정보는 비어 있을 수 없습니다.",
+      "statusText": [
+        "장치 없음",
+        "만료됨",
+        "오프라인",
+        "온라인",
+        "비정상적인",
+        "활성화됨",
+        "정상",
+        "닫힘",
+        "등록됨",
+        "종료됨",
+        "비활성화됨",
+        "읽기 전용"
+      ],
+      "buildStoreList": [
+        "만료됨",
+        "닫힘",
+        "오프라인",
+        "비정상적인",
+        "활성화됨",
+        "온라인",
+        "등록됨",
+        "일시정지"
+      ],
+      "serviceText": [
+        "등기",
+        "정상",
+        "만료",
+        "기한이 지난",
+        "종료",
+        "삭제"
+      ],
+      "all": "모두",
+      "buildOperateSetting": [
+        "일정 없음",
+        "기본 일정",
+        "영업 시간 없음"
+      ],
+      "deleteMultiStore": [
+        "선택한 항목을 삭제하시겠습니까?",
+        "사이트?",
+        "사이트 삭제 성공",
+        "사이트 삭제 실패"
+      ],
+      "deleteMultiKey": [
+        "선택한 키를 삭제하시겠습니까?",
+        "키?",
+        "키 삭제 성공",
+        "키 삭제 실패",
+        "선택한 키가 없습니다.!",
+        "키?"
+      ],
+      "deleteKey": [
+        "키를 삭제하시겠습니까?",
+        "키?",
+        "키 삭제 성공",
+        "키 삭제 실패",
+        "키 삭제 성공",
+        "키 삭제 실패",
+        "키를 삭제하시겠습니까?",
+        "?",
+        "키 삭제"
+      ],
+      "stringify": [
+        "데이터 편집",
+        "성공적으로 업데이트되었습니다.!",
+        "사이트 관리자는 비워 둘 수 없습니다.",
+        "사이트 정보는 비워 둘 수 없습니다.",
+        "오늘로 돌아가기"
+      ],
+      "saveSalesTarget": [
+        "목표 설정",
+        "매출을 입력하세요.(하루 단위)",
+        "숫자만 입력 가능합니다.!",
+        "성공적으로 추가했습니다!",
+        "사이트 편집",
+        "성공적으로 업데이트했습니다!",
+        "목표가 성공적으로 설정되었습니다.!",
+        "KPI 가중치 설정의 합이 100이 아닙니다.!",
+        "잘못된 날씨 주소!",
+        "매출 (주)을 입력하세요!",
+        "숫자만 입력 가능합니다.!",
+        "매출 (일)은 음수일 수 없습니다.!",
+        "매출 (주)는 음수일 수 없습니다.!",
+        "사이트 추가"
+      ],
+      "events": [
+        "정기 휴일",
+        "특별한 휴일",
+        "영업 시간 설정",
+        "영업 시간이 성공적으로 설정되었습니다.!",
+        "행이 형식과 일치하여 성공적으로 추가되었습니다.",
+        "행",
+        "성공적으로 설정되었습니다.!"
+      ],
+      "operateSales": [
+        "전체 매출을 입력하세요.",
+        "숫자만 입력 가능합니다.!",
+        "총 거래 횟수를 입력하세요.",
+        "숫자만 입력 가능합니다.!",
+        "총 상품 수를 입력하세요",
+        "숫자만 입력 가능합니다.!"
+      ],
+      "promises": [
+        "성공적으로 가져왔습니다.!",
+        "총",
+        "행이 형식과 일치함",
+        "행을 성공적으로 가져왔습니다.!",
+        "공휴일 삭제",
+        "삭제하시겠습니까?",
+        "오류",
+        "설정을 반복하지 마세요.!",
+        "마감 시간은 시작 시간보다 늦어야 합니다.!"
+      ],
+      "modalText": [
+        "사이트를 성공적으로 가져왔습니다!",
+        "사이트는 형식을 준수합니다.",
+        "사이트가 성공적으로 추가되었습니다.",
+        "모든 매장 중에서 사이트가 제외되었습니다.",
+        "사이트 임대 추가!",
+        "사이트 타겟 설정!"
+      ],
+      "modalTitle": [
+        "사이트 목록 내보내기",
+        "내보낼 사이트를 선택하세요!",
+        "가져오기 오류",
+        ".xlsx 파일을 업로드하세요.!",
+        "빈 파일을 업로드하지 마세요.!",
+        "데이터 형식 오류",
+        "사이트 형식 오류",
+        "데이터 가져오기 오류",
+        "올바른 템플릿을 가져오세요.!",
+        "이 계정에는 사용자 정의 템플릿이 없습니다.!",
+        ".csv 파일을 업로드해주세요!",
+        "데이터 형식 오류!",
+        "두 파일을 업로드해주세요!",
+        "파일 이름 형식 오류! 두 파일의 파일 이름 형식은 다음과 같아야 합니다.: 하나는 \"rpt_hourly_sales + 인쇄 시간\"이고, 다른 하나는 \"rpt_product_sales + 인쇄 시간\"입니다.",
+        "데이터 오류! 두 파일의 데이터 날짜가 일치하지 않습니다.",
+        "데이터 범위 초과! 오늘 기준 60일 전의 데이터만 업로드해주세요.",
+        "엑셀 시트 수가 3개가 아닙니다. 템플릿을 수정하지 마세요!",
+        "전달한 파일이 .xlsx 확장자를 가진 유효한 파일인지 확인해주세요!"
+      ],
+      "export": [
+        "사용자 목록 내보내기",
+        "내보낼 사용자를 선택해주세요!",
+        "가져오기 오류",
+        "사용자 형식 오류!",
+        "엑셀 시트 수가 4개가 아닙니다. 템플릿을 수정하지 마세요!",
+        "알림",
+        "사용자를 가져오기 전에 새 사이트를 추가하려면 \"사이트\"로 이동하십시오.",
+        "「사이트」에 완전한 사이트 정보를 작성하신 후에 사용자를 가져오시기 바랍니다. '확인'을 클릭하여 사용자 가져오기 템플릿을 직접 다운로드하십시오.",
+        "가져온 템플릿 내용은 기존 시스템 설정을 덮어씁니다. 가져올 템플릿이 최신 버전으로 편집되었는지 확인하세요. 「확인」을 클릭하여 시스템에 가져올 템플릿을 선택하세요."
+      ],
+      "a": "사이트",
+      "no": "아니오",
+      "page": "페이지",
+      "turn": "넘어가기",
+      "h2": [
+        " 사이트",
+        " 사이트",
+        "(에)",
+        "영업시간 없음!",
+        "휴일"
+      ],
+      "key_h2": [
+        "유효한 키",
+        "찾기",
+        "유효한 키들"
+      ],
+      "option": [
+        "선택",
+        "일반 태그",
+        "사이트 현황",
+        "사이트 이름",
+        "지역 1",
+        "지역 2",
+        "태그",
+        "감독자가 지정되지 않았습니다",
+        "형식이 지정되지 않았습니다",
+        "그룹이 지정되지 않았습니다",
+        "위치를 선택하십시오",
+        "부서를 선택하십시오"
+      ],
+      "deleteDevice": [
+        "정말 삭제하시겠습니까?",
+        "?",
+        "사이트 삭제 확인",
+        "성공적으로 사이트가 삭제되었습니다.",
+        "사이트를 삭제하지 못했습니다. 암호가 올바른지 확인하십시오!",
+        "사이트 삭제",
+        "비밀번호 오류!"
+      ],
+      "title": [
+        "장치 위치",
+        "장치 이름",
+        "사이트 이름",
+        "장치 유형",
+        "메타데이터 시간",
+        "조작",
+        "장치"
+      ],
+      "Newly_added": [
+        "사이트 추가",
+        "사이트 이름을 입력해주세요.",
+        "사이트 관리자를 선택해주세요.",
+        "국가/지역을 선택해주세요.",
+        "지역 1 을 입력하세요.",
+        "지역 2 를 입력하세요.",
+        "연락처를 입력하세요.",
+        "스토어 주소를 입력하세요.",
+        "스토어 크기를 입력하세요.",
+        "임대료를 입력하세요.",
+        "숫자만 입력해주세요.",
+        "숫자만 입력해주세요.",
+        "비고를 입력하세요.",
+        "관리자를 선택해주세요.",
+        "시간대를 선택해주세요.",
+        "스토어 전화번호 형식이 잘못되었습니다.!",
+        "면적은 음수일 수 없습니다.!",
+        "임대료는 음수일 수 없습니다.!",
+        "올바른 면적을 입력하세요",
+        "올바른 임대료를 입력하세요",
+        "올바른 사이트 코드를 입력해주세요.",
+        "올바른 날씨 주소를 입력해주세요.",
+        "사이트 추가",
+        "사이트 코드가 이미 제거되었습니다!"
+      ],
+      "key_added": [
+        "키 추가",
+        "성공적으로 추가되었습니다.",
+        "업데이트 실패!",
+        "액세스 키 이름을 입력해주세요.",
+        "액세스 키 설명을 입력해주세요.",
+        "만료일은 오늘 이후로 선택해주세요.",
+        "키 이름에 특수 문자를 입력하지 마세요.",
+        "설명에 잘못된 문자가 입력되었습니다.",
+        "추가할 수 없습니다.! 액세스 키의 개수 제한에 도달했습니다.!",
+        "키 이름은 최대 20자까지 입력 가능합니다.",
+        "설명은 최대 40자까지 입력 가능합니다.",
+        "만료 날짜를 선택하세요!"
+      ],
+      "key_update": [
+        "키 편집",
+        "성공적으로 업데이트되었습니다.",
+        "업데이트 실패!"
+      ],
+      "Device_added": [
+        "장치 추가",
+        "장치 유형을 선택해주세요.",
+        "장치 응용 시나리오를 선택해주세요.",
+        "장치 코드를 입력해주세요.",
+        "장치 이름을 입력해주세요.",
+        "장치 서비스 ID를 입력해주세요.",
+        "장비 업데이트"
+      ],
+      "push": [
+        "사이트 ID",
+        "사이트 이름",
+        "나라/지역",
+        "지역 1",
+        "지역 2",
+        "일반 태그",
+        "사이트 관리자 (ID)",
+        "연락처 정보",
+        "스토어 주소",
+        "연락처",
+        "시간대 ",
+        "날씨 주소",
+        "비고",
+        "목표 매출",
+        "지역",
+        "대여",
+        "사이트 코드",
+        "관리자"
+      ]
+    },
+    "schedule": {
+      "add": "추가",
+      "delete": "삭제",
+      "success": "저장",
+      "binding": "사이트 적용",
+      "save": "사이트 적용",
+      "saveApply": "사이트 적용",
+      "title": "영업 설정",
+      "none": "임시 휴업",
+      "select": "영업 날짜 선택",
+      "default": "기본 일정",
+      "tip": {
+        "delete": "정말 삭제하시겠습니까?",
+        "enter": "일정 이름을 입력하시오.",
+        "repeat": "일정 이름이 이미 있습니다.",
+        "error": "사이트 적용",
+        "errorBinding": "사이트 적용",
+        "errorOrder": "마감 시간은 시작 시간보다 늦어야 합니다.!",
+        "errorRepeat": "설정을 반복하지 마세요.!",
+        "errorNoSelect": "바인딩해야 할 사이트를 선택해주세요!",
+        "saveContent": [
+          "성공적으로 적용! 선택",
+          "총 사이트 수,",
+          "성공적으로 사이트가 적용되었습니다!"
+        ],
+        "saveTitle": "저장 및 적용",
+        "success": "저장되었습니다.!",
+        "vacation": "선태하지않은 날짜는 반복 휴일로 간주됩니다."
+      }
+    },
+    "tag": {
+      "add": "태그 추가",
+      "none": "태그 없음",
+      "user": "사용자 정의 태그",
+      "system": "일반 태그",
+      "set": "설정",
+      "addUser": "사용자 정의 태그가 성공적으로 추가되었습니다.!",
+      "addSystem": "공유 태그가 성공적으로 추가되었습니다.!",
+      "deleteUser": "사용자 정의 태그 삭제 성공!",
+      "deleteSystem": "공유 태그가 성공적으로 삭제되었습니다.!",
+      "updateUser": "사용자 정의 라벨이 성공적으로 설정되었습니다.!",
+      "updateSystem": "공통 라벨이 성공적으로 설정되었습니다.!",
+      "tip": {
+        "delete": "태그가 이미 사용 중인 경우, 해당 정보를 삭제할 때 태그도 함께 삭제됩니다. 삭제하시겠습니까?",
+        "enter": "태그의 이름을 입력하세요.",
+        "limit": "태그가 최대치에 도달했습니다.",
+        "user": [
+          "삭제할 태그를 선택하세요.",
+          "선택됨",
+          "사용자 정의 태그를 삭제하시겠습니까?",
+          "사용자 정의 태그들을 삭제하시겠습니까?"
+        ],
+        "select": "스타일을 선택하세요.",
+        "system": [
+          "삭제할 태그를 선택하세요.",
+          "선택됨",
+          "일반 태그를 삭제하시겠습니까?",
+          "일반 태그들을 삭제하시겠습니까?"
+        ]
+      }
+    },
+    "bom": {
+      "bom": "BOM",
+      "add": "BOM 추가",
+      "addPlaceholder": "BOM 이름을 입력하세요.",
+      "delete": "삭제",
+      "import": "가져오기",
+      "download": "다운로드",
+      "addItem": "제품 추가",
+      "No": {
+        "": "번호"
+      },
+      "posProductName": "POS  제품 이름",
+      "unitPrice": "정가",
+      "costPrice": "가격",
+      "action": "조작",
+      "save": "저장",
+      "bindingStore": "적용",
+      "binded": [
+        "적용 대상",
+        "사이트",
+        "사이트"
+      ],
+      "searchPlaceholder": "키워드 검색",
+      "bindAll": "모두 적용",
+      "save&Apply": "적용"
+    },
+    "confirm": {
+      "header": {
+        "default": "공지"
+      },
+      "body": {
+        "default": "공지서",
+        "addStoreInfo": "추가하시겠습니까?",
+        "addStoreProperty": "추가하시겠습니까?",
+        "updateStoreInfo": "추가하시겠습니까?",
+        "updateStoreProperty": "추가하시겠습니까?",
+        "addDeviceInfo": "장치를 추가하시겠습니까?",
+        "updateDeviceInfo": "수정 확인?",
+        "deleteBom": "BOM 삭제 확인?",
+        "errorBom": "오류, 새로 고침?"
+      }
+    },
+    "alert": {
+      "header": {
+        "default": "사이트 적용"
+      },
+      "body": {
+        "default": "경고",
+        "addStoreInfo": {
+          "success": "저장",
+          "error": "저장 실패.",
+          "add_max": "최대 '스토어' 등록 수{1} 에 도달했습니다(현재: {1})",
+          "error_name": "사이트 이름을 입력해주세요.",
+          "error_user": "사이트 관리자를 입력해주세요.",
+          "error_country": "국가/지역을 입력하세요.",
+          "error_province": "지역 1 을 입력하세요.",
+          "error_city": "지역 2 를 입력하세요."
+        },
+        "addStoreProperty": {
+          "success": "저장",
+          "error": "저장 실패",
+          "error_sales": "매출을 입력하세요."
+        },
+        "updateStoreInfo": {
+          "error": "편집 실패"
+        },
+        "updateStoreProperty": {
+          "success": "성공적으로 업데이트되었습니다.!",
+          "error": "편집 실패",
+          "error_sales": "매출을 입력하세요."
+        },
+        "addDeviceInfo": {
+          "success": "성공적으로 추가되었습니다.!",
+          "repeat": "장치 코드 중복",
+          "notfound": "장치 코드 오류",
+          "error": "장치 추가",
+          "add_max": "장치 추가 실패, '가상 POS 장치'의 최대 등록 수에 도달했습니다.: {1}",
+          "ID_Err": "올바른 장치 일련 번호를 입력하세요"
+        },
+        "updateDeviceInfo": {
+          "success": "성공적으로 업데이트되었습니다.!",
+          "error": "수정 실패.",
+          "nonSelectedText": "영업일을 선택하지 않았습니다."
+        },
+        "addBom": {
+          "success": "성공적으로 추가되었습니다.!",
+          "error": "추가 실패.",
+          "error_null": "이름을 비워 둘 수 없습니다.",
+          "error_exist": "이름이 이미 존재하여 추가하지 못했습니다."
+        },
+        "deleteBom": {
+          "success": "삭제되었습니다.",
+          "error": "삭제 실패."
+        },
+        "saveBomProduct": {
+          "success": "저장되었습니다.",
+          "error": "저장 실패."
+        },
+        "saveBomStore": {
+          "success": "성공적으로 적용되었습니다.!",
+          "error": "적용 실패."
+        },
+        "importBom": {
+          "success": "가져오기가 완료되었습니다.",
+          "error": "가져오기 실패.",
+          "error_bom_name": "BOM 이름 오류로 가져오기 실패.",
+          "error_product_name": "제품 이름 오류로 가져오기 실패.",
+          "error_price_or_cost": "제품 비용 또는 가격 오류로 가져오기 실패.",
+          "error_content": "형식 오류로 가져오기 실패.",
+          "error_type": "파일 유형 오류로 가져오기 실패."
+        },
+        "add": {
+          "successBanchType": "사이트 종류 추가",
+          "successRegion": "사이트 그룹 추가",
+          "successDapartment": "부서 추가",
+          "successPosition": "직책 추가",
+          "successMes": "성공적으로 추가되었습니다.!",
+          "error": "추가 실패",
+          "errorBanchType": "사이트 종류 추가에 실패했습니다!",
+          "errorRegion": "사이트 그룹 추가에 실패했습니다!",
+          "errorDapartment": "부서 추가 실패!",
+          "errorPosition": "직책 추가 실패!"
+        },
+        "edit": {
+          "successBanchType": "사이트 유형 편집",
+          "successRegion": "사이트 그룹 편집",
+          "successDapartment": "부서 편집",
+          "successPosition": "직책 편집",
+          "successMes": "성공적으로 업데이트되었습니다.!",
+          "error": "편집 실패",
+          "errorBanchType": "사이트 종류 편집에 실패했습니다!",
+          "errorRegion": "사이트 그룹 편집에 실패했습니다!",
+          "errorDapartment": "부서 편집 실패!",
+          "errorPosition": "직책 편집 실패!"
+        },
+        "delete": {
+          "successBanchType": "사이트 종류 삭제",
+          "successRegion": "사이트 그룹 삭제",
+          "successDapartment": "부서 삭제",
+          "successPosition": "직책 삭제",
+          "successMes": "성공적으로 삭제되었습니다.!",
+          "error": "삭제 실패",
+          "errorBanchType": "사이트 종류 삭제에 실패했습니다!",
+          "errorRegion": "사이트 그룹 삭제에 실패했습니다!",
+          "errorDapartment": "부서 삭제 실패!",
+          "errorPosition": "직책 삭제 실패!",
+          "errorNoBanchType": "삭제할 사이트 종류를 선택하십시오!",
+          "errorNoRegion": "삭제할 사이트 그룹을 선택하십시오!",
+          "errorNoDapartment": "부서를 삭제하려면 선택하세요.!",
+          "errorNoPosition": "삭제할 직책을 선택하세요.!"
+        }
+      }
+    },
+    "progress": {
+      "title": {
+        "importing": "파일 가져 오기",
+        "exporting": "파일 내보내기",
+        "imported": "가져 오기 완료",
+        "exported": "내보내기 완료"
+      },
+      "tip": [
+        "남은",
+        "미만",
+        "남은 시간"
+      ]
+    },
+    "set": {
+      "user_department": {
+        "header": [
+          "전체",
+          "부서"
+        ],
+        "deleteBtn": "삭제",
+        "name": "부서",
+        "setting": "계정 정보",
+        "name_placeholder": "부서 이름을 입력하세요.",
+        "id": "부서 ID",
+        "code": "부서 코드",
+        "code_placeholder": "부서 코드를 입력하세요",
+        "content_element": "계정",
+        "content_elements": "총 계정 수",
+        "content_elements_placeholder": "부서에 추가할 계정을 입력하세요.",
+        "add": "생성",
+        "edit": "편집 실패",
+        "store": "사이트 정보",
+        "set": "사이트 옵션 설정",
+        "selected": "선택한 사이트 그룹",
+        "group": "바인딩된 위치",
+        "delete_confirm": "선택한 부서를 삭제하시겠습니까?",
+        "batch_delete_confirm": "선택한 부서를 삭제하시겠습니까?"
+      },
+      "user_position": {
+        "header": [
+          "총",
+          "직책"
+        ],
+        "deleteBtn": "삭제",
+        "name": "직책",
+        "setting": "계정 정보",
+        "name_placeholder": "직책을 입력하세요",
+        "id": "직책 ID",
+        "code": "직책 코드",
+        "code_placeholder": "직책 코드를 입력하세요",
+        "content_element": "계정",
+        "content_elements": "총 계정 수",
+        "content_elements_placeholder": "직책에 추가할 계정을 입력하세요.",
+        "add": "생성",
+        "edit": "편집",
+        "delete_confirm": "선택한 직책을 삭제하시겠습니까?",
+        "batch_delete_confirm": "선택한 직책을 삭제하시겠습니까?"
+      },
+      "store_branch_type": {
+        "header": [
+          "총",
+          "사이트 유형"
+        ],
+        "deleteBtn": "삭제",
+        "name": "사이트 유형",
+        "setting": "사이트 정보",
+        "label_name": "사이트 유형",
+        "name_placeholder": "사이트 유형을 입력하세요",
+        "id": "사이트 유형 ID",
+        "code": "사이트 유형 코드",
+        "code_placeholder": "사이트 유형 코드를 입력하세요",
+        "content_element": "사이트 이름",
+        "content_elements": "총 사이트 수",
+        "content_elements_placeholder": "사이트 유형에 추가할 사이트 이름을 입력하세요.",
+        "add": "생성",
+        "edit": "편집",
+        "delete_confirm": "선택한 사이트 유형을 삭제하시겠습니까?",
+        "batch_delete_confirm": "선택한 사이트 유형을 삭제하시겠습니까?"
+      },
+      "store_region": {
+        "header": [
+          "총",
+          "사이트 그룹"
+        ],
+        "deleteBtn": "삭제",
+        "name": "사이트 그룹",
+        "setting": "사이트 정보",
+        "label_name": "사이트 그룹",
+        "name_placeholder": "사이트 그룹을 입력해주세요.",
+        "id": "사이트 그룹 ID",
+        "code": "사이트 그룹 코드",
+        "code_placeholder": "사이트 그룹 코드를 입력해주세요",
+        "content_element": "사이트 이름",
+        "content_elements": "총 사이트",
+        "content_elements_placeholder": "사이트 그룹 추가를 원한다면 사이트 이름을 입력해주세요.",
+        "add": "생성",
+        "edit": "편집",
+        "delete_confirm": "정말 선택한 사이트 그룹을 삭제하시겠습니까?",
+        "batch_delete_confirm": "정말 선택한 사이트 그룹을 삭제하시겠습니까?"
+      }
+    }
+  },
+  "visitor": {
+    "title": [
+      [
+        {
+          "default": "개요"
+        }
+      ],
+      [
+        {
+          "default": "방문자 목록",
+          "Info": "방문자 상세정보",
+          "Register": "방문자 등록"
+        },
+        {
+          "default": "직원 목록",
+          "Info": "직원 상세정보",
+          "Register": "직원 등록"
+        }
+      ],
+      [
+        {
+          "default": "신원"
+        },
+        {
+          "default": "라벨"
+        }
+      ]
+    ],
+    "label": {
+      "cycle": "방문 주기",
+      "type": "방문 유형",
+      "identity": "방문자 신원",
+      "register_identity": "등록 상태",
+      "frequency": "사이트 방문(시간)",
+      "search": "키워드 검색",
+      "tag": "방문자 라벨",
+      "tag_name": "라벨 이름",
+      "suggest": "추천 라벨",
+      "select": [
+        "(",
+        "선택된 라벨)"
+      ],
+      "store_tip": [
+        "사이트 방문 :",
+        "시간"
+      ],
+      "brand_tip": [
+        "회사 스토어 방문 : ",
+        "시간"
+      ],
+      "tag_tip": "20개 라벨까지 추가",
+      "add": "커스텀 라벨 추가",
+      "store_record": "최근 방문 기록",
+      "brand_record": "회사 사이트 방문 현황",
+      "status": "상태",
+      "info": "등록된 정보",
+      "base": "기본 정보",
+      "title": {
+        "Guest": {
+          "Info": "방문자 정보 업데이트",
+          "Register": "등록 방문자"
+        },
+        "Register": {
+          "Info": "직원 정보 업데이트",
+          "Register": "직원 등록"
+        }
+      },
+      "warming": {
+        "name": "이름 / 닉네임을 입력하세요.",
+        "number": "카드 번호를 입력하세요.",
+        "phone": "전화 번호를 입력하세요.",
+        "serial": "사원 ID를 입력하세요.",
+        "cell": "전화 번호를 입력하세요.",
+        "email": "이메일을 입력하세요.",
+        "image": "사진을 업로드하세요."
+      },
+      "success": {
+        "Guest": {
+          "Info": "방문자 정보 업데이트 및 라벨 설정 성공!",
+          "Register": "방문자 등록 및 라벨 설정 성공!"
+        },
+        "Register": {
+          "Info": "인사 정보 업데이트 및 라벨 설정 성공!",
+          "Register": "인사 등록 및 라벨 설정 성공!"
+        }
+      },
+      "failed": {
+        "update": {
+          "Guest": {
+            "Info": "방문자 정보 업데이트 실패!",
+            "Register": "방문자 등록 실패!"
+          },
+          "Register": {
+            "Info": "직원 정보 업데이트 실패!",
+            "Register": "직원 등록 실패!"
+          }
+        },
+        "tag": {
+          "Guest": {
+            "Info": "방문자 정보 업데이트 성공하지만 라벨 설정 실패!",
+            "Register": "방문자 등록 성공하지만 라벨 설정 실패!"
+          },
+          "Register": {
+            "Info": "직원 정보 업데이트 성공하지만 라벨 설정 실패!",
+            "Register": "직원 등록 성공, 라벨 설정 실패!"
+          }
+        },
+        "register": "직원 등록 및 라벨 설정은 성공했으나 관련 데이터를 가져오지 못했습니다."
+      },
+      "name": "이름 / 닉네임",
+      "fullname": "이름",
+      "number": "카드 번호",
+      "phone": "전화 번호",
+      "serial": "사원 ID",
+      "cell": "전화 번호",
+      "email": "이메일",
+      "position": "직무",
+      "affiliated": "제휴 사이트",
+      "upload": "사진 업로드",
+      "upload_tip": "30KB 이하의 사진을 업로드하세요.",
+      "image_too_big": "30KB 이상의 사진입니다.",
+      "image_too_small": "픽셀이 너무 크거나 작습니다.",
+      "image_not_face": "얼굴을 감지할 수 없습니다.",
+      "tooltip": {
+        "Guest": "방문주기 - 방문자 목록의 시간 범위",
+        "Register": "등록 시간 - 직원들이 등록된 시간 리스트"
+      },
+      "delete_tag": [
+        "라벨 삭제",
+        "라벨을 삭제하시겠습니까?",
+        "?"
+      ],
+      "delete_register": [
+        "직원 삭제",
+        "직원을 삭제하시겠습니까?",
+        "?",
+        "삭제할 직원을 선택해주세요!",
+        "선태되다",
+        "선택한 직원이 있습니다. 이 직원들을 삭제하시겠습니까?"
+      ],
+      "day": "어제",
+      "week": "지난 주",
+      "month": "지난 달",
+      "section": "지나 3개월"
+    },
+    "placeholder": {
+      "tag": "라벨 이름을 입려해주세요."
+    },
+    "identity": [
+      "회원",
+      "VIP",
+      "블랙리스트",
+      "직원"
+    ],
+    "status": [
+      "등록 성공",
+      "등록 실패"
+    ],
+    "type": [
+      "특정 방문자",
+      "모든 방문자"
+    ],
+    "multiple": {
+      "identity": {
+        "nSelectedText": "신분",
+        "nonSelectedText": "신분 선택",
+        "selectAllText": "전체",
+        "allSelectedText": "모든 신분"
+      },
+      "frequency": {
+        "nSelectedText": "시간대",
+        "nonSelectedText": "시간대 선택",
+        "selectAllText": "전체",
+        "allSelectedText": "모든 시간대"
+      },
+      "status": {
+        "nSelectedText": "상태",
+        "nonSelectedText": "상태 선택",
+        "selectAllText": "전체",
+        "allSelectedText": "모든 상태"
+      }
+    },
+    "btn": {
+      "search": "검색",
+      "add": "추가",
+      "add_tag": "라벨 추가",
+      "save": "저장",
+      "register": "등록",
+      "registered": "등록",
+      "again": "재등록"
+    },
+    "table": {
+      "number": "번호",
+      "avatar": "사진",
+      "register_avatar": "사진",
+      "tag": "라벨",
+      "last": "최근 방문 시간",
+      "all": "회사 스토어 방문 횟수",
+      "registered": "등록 시간",
+      "failed": "등록 실패!",
+      "fail": [
+        "스토어 등록 실패",
+        "다음과 같습니다.:"
+      ],
+      "fails": [
+        "스토어 등록 실패",
+        "다음과 같습니다.:"
+      ]
+    }
+  },
+  "audience": {
+    "title": [
+      [
+        "개요"
+      ],
+      [
+        "보고서"
+      ]
+    ],
+    "header": {
+      "Overview": [
+        {
+          "head": "지표",
+          "info": "기간적으로 비교할 수 있는 8가지 주요 운영 지표를 제공합니다."
+        },
+        {
+          "head": "시청자/남성 시청자/여성 시청자",
+          "info": "각 스토어의 시청자를 다음 세 가지 매개변수로 표시합니다.: 시청자, 남성 시청자 및 여성 시청자."
+        }
+      ],
+      "Report": [
+        {
+          "head": "데이터 보고서",
+          "info": "데이터 보고서 내보내기 기능을 제공합니다. 데이터는 최대 365일까지 가능하며 시간 범위는 최대 90일까지입니다."
+        }
+      ]
+    },
+    "button": {
+      "all": "전부",
+      "male": "남성",
+      "female": "여성"
+    },
+    "substance": {
+      "viewer": "시청자",
+      "viewer_num": "시청자",
+      "viewer_time": "평균 시청 시간",
+      "viewer_male": "관람객 성별 - 남성",
+      "viewer_female": "관람객 성별 - 여성",
+      "viewer_age_10": "관람객 연령대 - 10대 이상",
+      "viewer_age_20": "관람객 연령대 - 20대 이상",
+      "viewer_age_40": "관람객 연령대 - 40대 이상",
+      "viewer_age_60": "관람객 연령대 - 60대 이상"
+    }
+  },
+  "pdf": {
+    "avg_amount": "거래당 매출액",
+    "avg_item_amount": "평균 판매 상품 수",
+    "avg_item_count": "상품 당 매출",
+    "total_amount": "매출",
+    "transaction_count": "거래",
+    "item_count": "거래당 상품 수",
+    "return_rate": "재방문 고객 비율",
+    "turn_in_rate": "회전율",
+    "pout": "트래픽 흐름",
+    "pin": "방문자",
+    "profit": "이익 마진",
+    "sales_conversion": "전환율",
+    "date": "날짜",
+    "time": "시간",
+    "name": "스토어",
+    "item_name": "제품",
+    "class": "제품 카테고리",
+    "qty": "상품 당 매출",
+    "amount": "매출",
+    "qty_rate": "상품 비율",
+    "amount_rate": "매출 비율",
+    "week": "지난 4주 평균",
+    "report": "주간 운영 보고서",
+    "item_amount_asc": "최고 매출 TOP5",
+    "item_amount_desc": "최저 매출 TOP5",
+    "item_qty_asc": "최고 상품 TOP5",
+    "item_qty_desc": "최저 상품 TOP5",
+    "item_profit_asc": "최고 이익 TOP5",
+    "item_profit_desc": "최저 이익 TOP5",
+    "unit": {
+      "avg_amount": "($)",
+      "avg_item_amount": "($)",
+      "avg_item_count": "(상품)",
+      "total_amount": "($)",
+      "transaction_count": "(명)",
+      "item_count": "(상품)",
+      "return_rate": "(%)",
+      "turn_in_rate": "(%)",
+      "pout": "(명)",
+      "pin": "(명)",
+      "sales_conversion": "(%)",
+      "item_name": "",
+      "class": "",
+      "qty": "(상품)",
+      "amount": "($)",
+      "qty_rate": "(%)",
+      "amount_rate": "(%)",
+      "date": "",
+      "time": "",
+      "name": ""
+    }
+  },
+  "datatype": {
+    "sales": "매출",
+    "consumers": "거래",
+    "enter": "방문자",
+    "forecastEnter": "방문자 예측",
+    "forecastSales": "매출 예측",
+    "forecastConsumers": "거래 예측",
+    "purRate": "전환율",
+    "avgCost": "거래당 매출",
+    "avgProduct": "거래당 상품 수",
+    "avgPrice": "상품당 매출"
+  },
+  "unit": {
+    "people": "명",
+    "number": "상품",
+    "piece": "상품"
+  },
+  "type": {
+    "UCam": "UCAM",
+    "Face_LR": "Face-LR"
+  },
+  "applicationScenarios": {
+    "in_door": "실내",
+    "out_door": "실외"
+  },
+  "setting": {
+    "save": "설정 저장",
+    "storeFail": "사이트/사이트 유형/사이트 그룹을 하나 이상 선택하십시오!",
+    "optionFail": "직책을 선택하세요!",
+    "success": "성공적으로 업데이트됨",
+    "s": "사이트!",
+    "fail": "사이트 설정 실패 :"
+  },
+  "weeklyReport": {
+    "title": "주간 운영 보고서 파일"
+  }
+}

@@ -7,11 +7,11 @@ import FS from 'fs'
 // import cn from './zh-CN.json' assert { type: 'json' }
 // import tw from './zh-TW.json' assert { type: 'json' }
 
-const en = JSON.parse(await FS.promises.readFile('./en-US.json'))
-const ko = JSON.parse(await FS.promises.readFile('./ko-KR.json'))
-const ja = JSON.parse(await FS.promises.readFile('./ja-JP.json'))
-const cn = JSON.parse(await FS.promises.readFile('./zh-CN.json'))
-const tw = JSON.parse(await FS.promises.readFile('./zh-TW.json'))
+const en = JSON.parse(await FS.promises.readFile('./input/en-US.json'))
+const ko = JSON.parse(await FS.promises.readFile('./input/ko-KR.json'))
+const ja = JSON.parse(await FS.promises.readFile('./input/ja-JP.json'))
+const cn = JSON.parse(await FS.promises.readFile('./input/zh-CN.json'))
+const tw = JSON.parse(await FS.promises.readFile('./input/zh-TW.json'))
 
 const key = {
   en: {},
@@ -67,14 +67,19 @@ const title = ["string_id", "zh-CN", "zh-TW", "en-US", "ja-JP", "ko-KR"]
 const data = [title]
 Object.keys(key.cn).forEach(k => {
   const row = [
-    k, value.cn[key.cn[k]], value.tw[key.tw[k]], value.en[key.en[k]], value.ja[key.ja[k]], value.ko[key.ko[k]]
+    k,
+    value.cn[key.cn[k]],
+    value.tw[key.tw[k]],
+    value.en[key.en[k]],
+    value.ja[key.ja[k]],
+    value.ko[key.ko[k]],
   ]
   data.push(row)
 })
 const workbook = XLSX.utils.book_new()
-const sheet = XLSX.utils.json_to_sheet(data)
+const sheet = XLSX.utils.aoa_to_sheet(data)
 XLSX.utils.book_append_sheet(workbook, sheet, 'i18n')
-XLSX.writeFile(workbook, './lang.xlsx')
+XLSX.writeFile(workbook, './output/lang.xlsx')
 
 
 

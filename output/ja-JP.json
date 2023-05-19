@@ -1,0 +1,2856 @@
+{
+  "language": "ja-JP",
+  "languageStore": "JA",
+  "app": "WISE-iService",
+  "Import": "Import",
+  "Export": "Export",
+  "chooseAreas": "Select by Region",
+  "nonSelectedText": "None selected",
+  "Loading": "Loading",
+  "Monday": "Mon.",
+  "Tuesday": "Tue.",
+  "Wednesday": "Wed.",
+  "Thursday": "Thu.",
+  "Friday": "Fri.",
+  "Saturday": "Sat.",
+  "Sunday": "Sun.",
+  "deptno": "Selected department",
+  "new": "newest",
+  "exportWeeklyReport": "Remitting weekly report",
+  "changeAccount": "Change failed, user or company has been deactivated.",
+  "in": "in",
+  "mgt2": {
+    "business": "Business Hour",
+    "none_biz": "Vacation time",
+    "custom": "Custom Labels",
+    "other": "Other info.",
+    "register_key": "Register Key",
+    "region": "Regions and Groups",
+    "address": "Address",
+    "target": "Target & Weighted KPI Scores",
+    "target_workday": "Revenue(day)",
+    "target_weekday": "Revenue(week)",
+    "kpi": "Weighted KPI Scores",
+    "sum_target": "Five fields plus a total of 100, not above/below 100 points.",
+    "page_select": "Show per page",
+    "page_unit": "data",
+    "edit_user_list": "Edit User List",
+    "upload_data": "Operating Data",
+    "plan": "Business Hours",
+    "upload": "Import data",
+    "upload_tip": "Exclusive custom template, please select the \"custom template\" import",
+    "no_data_day": " days no data",
+    "day_hour_total": "Day-Hour Total Template",
+    "day_hour_detail": "Day-Hour Detail Template",
+    "month_day_total": "Month-Day Total Template",
+    "month_day_detail": "Month-Day Detail Template",
+    "custom_default": "Custom Template",
+    "enter": "Enter data",
+    "total_amount": "Revenue",
+    "transaction_count": "Transactions",
+    "item_count": "Total Items",
+    "delete_tip": "After deleting the site, all site information will be removed from the system and cannot be restored after deletion. In addition, the activated services will become invalid and cannot be restored or migrated. If you would still like to delete the site, please enter the password again and click \"Confirm\" to proceed the deletion task.",
+    "brand": {
+      "label": {
+        "id": "Company ID",
+        "name": "Company Name",
+        "contact_name": "Contact Name",
+        "contact_email": "Contact Email",
+        "contact_phone": "Contact Phone",
+        "contact_address": "Contact Address",
+        "admin_email": "Admin Email",
+        "admin_name": "Admin Name",
+        "admin_phone": "Admin Phone",
+        "admin": "Admin",
+        "status": "Status",
+        "stores": "Number of Stores",
+        "initial_date": "Initial Date",
+        "user": "User to be added",
+        "company": "Company",
+        "email": "Email",
+        "fullname": "User Name",
+        "no_data": "No Data Here",
+        "base_info": "Company Base Info",
+        "admin_info": "Company Admin Info"
+      },
+      "status": {
+        "1": "Registered",
+        "20": "Normal",
+        "40": "Deactivated"
+      },
+      "title": {
+        "setting": "Subscription permission setting",
+        "user": "List of users who have activated subscription",
+        "add": "Add New",
+        "reset": "Reset",
+        "total": "Total Data : ",
+        "now_at_page": "Now at page",
+        "row_count": "Display row count",
+        "all": "All",
+        "update": "Modify Company Info",
+        "info": "Company Info",
+        "activate": "Activate Company",
+        "deactivate": "Deactivate Company",
+        "delete": "Delete Company"
+      },
+      "tip": {
+        "add": "Please enter the company information, and click 「Confirm」 after completing the entry.",
+        "add_max": "Add company failed, reached the maximum number of company registrations: ",
+        "add_confirm": "Confirm to add company?",
+        "update": "Confirm to modify company info?",
+        "activate": "Confirm to activate company?",
+        "deactivate": "Confirm to deactivate company?",
+        "deactivated": "The company has been deactivated",
+        "delete": "After deleting the company, all store information under the company will be removed from the system and cannot be restored after deletion. In addition, the activated services will become invalid and cannot be restored or migrated. If you would still like to delete the company, please enter the password again and click 「Confirm」 to proceed the deletion task.",
+        "deactivate_confirm": "The company has been assigned stores. Confirm to deactivate company, please click 「Confirm」.",
+        "delete_confirm": "The company has been assigned stores. Confirm to Delete company, please click 「Confirm」.",
+        "user": "Please select user",
+        "name": "Please enter company name",
+        "name_error": "Company name can't be empty or blank",
+        "contact_name": "Please enter contact name",
+        "contact_name_error": "Contact name can't be blank",
+        "contact_email": "Please enter contact email",
+        "contact_email_error": "Contact email can't be blank",
+        "contact_phone": "Please enter contact phone",
+        "contact_phone_error": "Contact phone can't be blank",
+        "contact_address": "Please enter contact address",
+        "contact_address_error": "Contact address can't be blank",
+        "admin_email": "Admin Email",
+        "admin_email_error": "Admin email can't be empty or blank",
+        "admin_name": "Please select admin",
+        "admin_name_error": "Admin name can't be blank",
+        "admin_phone": "Please enter admin phone",
+        "admin_phone_error": "Admin phone can't be blank",
+        "email_format": "Please enter correct email address",
+        "phone_format": "Please enter correct phone number"
+      },
+      "success": {
+        "update": "Company info has been saved.",
+        "accountuserupdate": "User list has been saved."
+      },
+      "failed": {
+        "update": "Save failed. Please try again.",
+        "accountuserupdate": "Save failed. Please try again."
+      }
+    }
+  },
+  "Weekday": [
+    "Mon.",
+    "Tue.",
+    "Wed.",
+    "Thu.",
+    "Fri.",
+    "Sat.",
+    "Sun."
+  ],
+  "weeks": [
+    "Mon.",
+    "Tue.",
+    "Wed.",
+    "Thu.",
+    "Fri.",
+    "Sat.",
+    "Sun."
+  ],
+  "datepicker": {
+    "days": [
+      "Sun.",
+      "Mon.",
+      "Tue.",
+      "Wed.",
+      "Thu.",
+      "Fri.",
+      "Sat."
+    ],
+    "daysShort": [
+      "Sun.",
+      "Mon.",
+      "Tue.",
+      "Wed.",
+      "Thu.",
+      "Fri.",
+      "Sat."
+    ],
+    "daysMin": [
+      "Sun.",
+      "Mon.",
+      "Tue.",
+      "Wed.",
+      "Thu.",
+      "Fri.",
+      "Sat."
+    ],
+    "months": [
+      "Jan.",
+      "Feb.",
+      "Mar.",
+      "Apr.",
+      "May",
+      "Jun.",
+      "Jul.",
+      "Aug.",
+      "Sep.",
+      "Oct.",
+      "Nov.",
+      "Dec."
+    ],
+    "monthsShort": [
+      "Jan.",
+      "Feb.",
+      "Mar.",
+      "Apr.",
+      "May",
+      "Jun.",
+      "Jul.",
+      "Aug.",
+      "Sep.",
+      "Oct.",
+      "Nov.",
+      "Dec."
+    ],
+    "today": "Today",
+    "clear": "Clear",
+    "format": "yyyy/mm/dd",
+    "titleFormat": "yyyy/mm",
+    "weekStart": "1"
+  },
+  "country": {
+    "Iceland": "Iceland",
+    "Afghanistan": "Afghanistan",
+    "Aland": "Aland Islands",
+    "Arab": "UAE",
+    "Oman": "Oman",
+    "Azerbaijan": "Azerbaijan",
+    "Estonia": "Estonia",
+    "Austria": "Austria",
+    "Ireland": "Ireland",
+    "Bahamas": "Bahamas",
+    "Botswana": "Botswana",
+    "Albania": "Albania",
+    "Andorra": "Andorra",
+    "Antarctica": "Antarctica",
+    "Egypt": "Egypt",
+    "Bouvet": "Bouvet Island",
+    "Algeria": "Algeria",
+    "Ethiopia": "Ethiopia",
+    "Angola": "Angola",
+    "Australia": "Australia",
+    "Antigua": "Antigua and Barbuda",
+    "Anguilla": "Anguilla",
+    "Aruba": "Aruba",
+    "Argentina": "Argentina",
+    "Bhutan": "Bhutan",
+    "Pakistan": "Pakistan",
+    "Palestine": "State of Palestine",
+    "Bahrain": "Bahrain",
+    "Belarus": "Belarus",
+    "Poland": "Poland",
+    "Belgium": "Belgium",
+    "Bulgaria": "Bulgaria",
+    "Bosnia": "Bosnia and Herzegovina",
+    "Burundi": "Burundi",
+    "Burkina": "Burkina Faso",
+    "Benin": "Benin",
+    "Papua": "Papua New Guinea",
+    "Northern": "CNMI",
+    "Belize": "Belize",
+    "Panama": "Panama",
+    "Barbados": "Barbados",
+    "Puerto": "Puerto Rico",
+    "Bolivia": "Bolivia",
+    "Brazil": "Brazil",
+    "Paraguay": "Paraguay",
+    "North": "North Korea",
+    "Equatorial": "Republic of Equatorial Guinea",
+    "Timor": "East timor",
+    "Denmark": "Denmark",
+    "Germany": "Germany",
+    "Togo": "Togo",
+    "Dominican": "Dominican Republic",
+    "Dominica": "Dominic",
+    "Russia": "Russia",
+    "Eritrea": "Eritrea",
+    "Ecuador": "Ecuador",
+    "Philippines": "Philippines",
+    "Finland": "Finland",
+    "Faroe": "Faroe Islands",
+    "France": "France",
+    "Vatican": "Vatican",
+    "Cape": "Cabo Verde",
+    "Fiji": "Fiji islands",
+    "Polynesia": "Polynesia",
+    "Guiana": "Guiana",
+    "Georgia": "Georgia",
+    "Congo": "Congo",
+    "Democratic": "Democratic",
+    "Gambia": "Gambia",
+    "Guam": "Guam",
+    "Greenland": "Greenland",
+    "Costa": "Costa Rica",
+    "Cuba": "Cuba",
+    "Grenada": "Grenada",
+    "Guadeloupe": "Guadeloupe",
+    "Columbia": "Columbia",
+    "Guyana": "Guyana",
+    "Korea": "South Korea",
+    "Kazakhstan": "Kazakhstan",
+    "Netherlands": "Netherlands",
+    "Honduras": "Honduras",
+    "Haiti": "Haiti",
+    "Antilles": "Netherlands Antilles",
+    "Cambodia": "Cambodia",
+    "Kyrgyzstan": "Kyrgyzstan",
+    "Czech": "Czechia",
+    "Djibouti": "Djibouti",
+    "Guinea": "Guinea",
+    "Bissau": "Guinea-Bissau",
+    "Ghana": "Ghana",
+    "Canary": "Canary Islands",
+    "Zimbabwe": "Zimbabwe",
+    "Kiribati": "Kiribati",
+    "Canada": "Canada",
+    "Qatar": "Qatar",
+    "Kuwait": "Kuwait",
+    "Croatia": "Croatia",
+    "Kenya": "Kenya",
+    "Cameroon": "Cameroon",
+    "Cote": "Cote",
+    "Comoros": "Comoros",
+    "Cook": "Cook islands",
+    "Cayman": "Cayman Islands",
+    "Bermuda": "Bermuda",
+    "Laos": "Laos",
+    "Lebanon": "Lebanon",
+    "Lithuania": "Lithuania",
+    "Liechtenstein": "Liechtenstein",
+    "Luxembourg": "Luxembourg",
+    "Romania": "Romania",
+    "Libya": "Libya",
+    "Rwanda": "Rwanda",
+    "Liberia": "Liberia",
+    "Lesotho": "Lesotho",
+    "Reunion": "Reunion",
+    "Mongolia": "Mongolia",
+    "Myanmar": "Myanmar",
+    "Malaysia": "Malaysia",
+    "Bangladesh": "Bangladesh",
+    "Maldives": "Maldives",
+    "Moldova": "Moldova",
+    "Monaco": "Monaco",
+    "Macedonia": "Macedonia",
+    "Malta": "Malta",
+    "Morocco": "Morocco",
+    "Madeira": "Madeira",
+    "Mauritania": "Mauritania",
+    "Mali": "Mali",
+    "Malawi": "Malawi",
+    "Mozambique": "Mozambique",
+    "Madagascar": "Madagascar",
+    "Mauritius": "Mauritius",
+    "Micronesia": "Micronesia",
+    "Marshall": "Marshall Islands",
+    "USA": "United States of America",
+    "Mexico": "Mexico",
+    "Virgin": "Virgin Islands",
+    "Montserrat": "Montserrat",
+    "Martinique": "Martinique",
+    "Peru": "Peru",
+    "Nepal": "Nepal",
+    "Norway": "Norway",
+    "Niger": "Niger",
+    "Namibia": "Namibia",
+    "Africa": "South Africa",
+    "Nauru": "Nauru",
+    "Niue": "Niue",
+    "Nicaragua": "Nicaragua",
+    "Portugal": "Portugal",
+    "Palau": "Palau",
+    "Pitcairn": "Pitcairn Island",
+    "Japan": "Japan",
+    "Sweden": "Sweden",
+    "Switzerland": "Switzerland",
+    "Sri": "Sri Lanka",
+    "Saudi": "Saudi Arabia",
+    "Cyprus": "Cyprus",
+    "Slovakia": "Slovakia",
+    "Serbia": "Serbia",
+    "Slovenia": "Slovenia",
+    "San": "SAN marino",
+    "Sudan": "Sudan",
+    "Somalia": "Somalia",
+    "Seychelles": "Seychelles",
+    "Sao": "SAO Tome and Principe",
+    "Senegal": "Senegal",
+    "Sierra": "Sierra leone",
+    "Kingdom": "Kingdom",
+    "St": "St Helena",
+    "Solomon": "Solomon Islands",
+    "Samoa": "American Samoa",
+    "Caledonia": "New Caledonia",
+    "El": "El Salvador",
+    "Nevis": "Saint Kitts and Nevis",
+    "Grenadines": "Saint Vincent and the Grenadines",
+    "Suriname": "Suriname",
+    "Thailand": "Thailand",
+    "Taiwan": "Taiwan",
+    "Tajikistan": "Tajikistan",
+    "Turkmenistan": "Turkmenistan",
+    "Turkey": "Turkey",
+    "Tunisia": "Tunisia",
+    "Tanzania": "Tanzania",
+    "Tuvalu": "Tuvalu",
+    "Tonga": "Tonga",
+    "Tokelau": "Tokelau",
+    "Trinidad": "Trinidad and Tobago",
+    "Turks": "Turks and Caicos Islands",
+    "Brunei": "Brunei Darussalam",
+    "Uzbekistan": "Uzbekistan",
+    "Ukraine": "Ukraine",
+    "Uganda": "Uganda",
+    "Vanuatu": "Vanuatu",
+    "Wallis": "Wallis and Fortuna Islands",
+    "Guatemala": "Guatemala",
+    "Venezuela": "Venezuela",
+    "Uruguay": "Uruguay",
+    "Singapore": "Singapore",
+    "Syria": "Syria",
+    "Hungary": "Hungary",
+    "Greece": "Greece",
+    "Spain": "Spain",
+    "Sahara": "Western Sahara",
+    "Zealand": "New Zealand",
+    "Vietnam": "Viet Nam",
+    "Indonesia": "Indonesia",
+    "India": "India",
+    "Iraq": "Iraq",
+    "Jordan": "Jordan",
+    "Israel": "Israel",
+    "Yemen": "Yemen",
+    "Armenia": "Armenia",
+    "UK": "United Kingdom",
+    "Italy": "Italy",
+    "Azores": "Azores",
+    "Jamaica": "Jamaica",
+    "British": "British Virgin Islands",
+    "China": "China",
+    "Chad": "Chad",
+    "Central": "Central African Republic",
+    "Zambia": "Zambia",
+    "Chile": "Chile"
+  },
+  "timeZone": {
+    "Iceland": "+0",
+    "Afghanistan": "+4",
+    "Aland": "+2",
+    "Bahamas": "-5",
+    "Botswana": "+2",
+    "Antarctica": "+0",
+    "Bouvet": "+0",
+    "Arab": "+4",
+    "Oman": "+4",
+    "Azerbaijan": "+5",
+    "Estonia": "+3",
+    "Austria": "+2",
+    "Ireland": "+1",
+    "Albania": "+2",
+    "Andorra": "+2",
+    "Egypt": "+2",
+    "Algeria": "+1",
+    "Ethiopia": "+3",
+    "Angola": "+1",
+    "Australia": "+10",
+    "Antigua": "-4",
+    "Anguilla": "+2",
+    "Aruba": "+2",
+    "Argentina": "-3",
+    "Bhutan": "+6",
+    "Pakistan": "+6",
+    "Palestine": "+3",
+    "Bahrain": "+3",
+    "Belarus": "+3",
+    "Poland": "+2",
+    "Belgium": "+2",
+    "Bulgaria": "+3",
+    "Bosnia": "+3",
+    "Burundi": "+2",
+    "Burkina": "+0",
+    "Benin": "+1",
+    "Papua": "+10",
+    "Northern": "+10",
+    "Belize": "-6",
+    "Panama": "-5",
+    "Barbados": "-4",
+    "Puerto": "-4",
+    "Bolivia": "-4",
+    "Brazil": "-3",
+    "Paraguay": "-4",
+    "North": "+9",
+    "Equatorial": "+1",
+    "Timor": "+9",
+    "Denmark": "+2",
+    "Germany": "+2",
+    "Togo": "+0",
+    "Dominican": "-4",
+    "Dominica": "-4",
+    "Russia": "-1",
+    "Eritrea": "+3",
+    "Ecuador": "-6",
+    "Philippines": "+8",
+    "Finland": "+3",
+    "Faroe": "-4",
+    "France": "-4",
+    "Vatican": "+2",
+    "Cape": "-1",
+    "Fiji": "-4",
+    "Polynesia": "-4",
+    "Guiana": "-4",
+    "Georgia": "-4",
+    "Congo": "+1",
+    "Democratic": "+1",
+    "Gambia": "+0",
+    "Guam": "+10",
+    "Greenland": "+2",
+    "Costa": "-6",
+    "Cuba": "-4",
+    "Grenada": "-4",
+    "Guadeloupe": "-4",
+    "Columbia": "-5",
+    "Guyana": "-4",
+    "Korea": "+9",
+    "Kazakhstan": "+6",
+    "Netherlands": "+2",
+    "Honduras": "-6",
+    "Haiti": "-5",
+    "Antilles": "-5",
+    "Cambodia": "+7",
+    "Kyrgyzstan": "+2",
+    "Czech": "+2",
+    "Djibouti": "+3",
+    "Guinea": "+0",
+    "Bissau": "+0",
+    "Ghana": "+0",
+    "Canary": "+0",
+    "Zimbabwe": "+2",
+    "Kiribati": "+2",
+    "Canada": "-4",
+    "Qatar": "+3",
+    "Kuwait": "+3",
+    "Croatia": "+2",
+    "Kenya": "+3",
+    "Cameroon": "+1",
+    "Cote": "+0",
+    "Comoros": "+3",
+    "Cook": "-10",
+    "Cayman": "-8",
+    "Bermuda": "-8",
+    "Laos": "+7",
+    "Lebanon": "+2",
+    "Lithuania": "+2",
+    "Liechtenstein": "+1",
+    "Luxembourg": "+1",
+    "Romania": "+2",
+    "Libya": "+2",
+    "Rwanda": "+2",
+    "Liberia": "+0",
+    "Lesotho": "+2",
+    "Reunion": "-4",
+    "Mongolia": "+8",
+    "Myanmar": "+6",
+    "Malaysia": "+8",
+    "Bangladesh": "+6",
+    "Maldives": "+5",
+    "Moldova": "+2",
+    "Monaco": "+1",
+    "Macedonia": "+1",
+    "Malta": "+1",
+    "Morocco": "+0",
+    "Madeira": "-1",
+    "Mauritania": "+0",
+    "Mali": "+0",
+    "Malawi": "+2",
+    "Mozambique": "+2",
+    "Madagascar": "+3",
+    "Mauritius": "+4",
+    "Micronesia": "+11",
+    "Marshall": "+12",
+    "USA": "-10",
+    "Mexico": "-6",
+    "Virgin": "-10",
+    "Montserrat": "-8",
+    "Martinique": "-4",
+    "Peru": "-5",
+    "Nepal": "+6",
+    "Norway": "+1",
+    "Niger": "+1",
+    "Namibia": "+1",
+    "Africa": "+2",
+    "Nauru": "+12",
+    "Niue": "-11",
+    "Nicaragua": "-6",
+    "Portugal": "-1",
+    "Palau": "+9",
+    "Pitcairn": "-8",
+    "Japan": "+9",
+    "Sweden": "+1",
+    "Switzerland": "+1",
+    "Sri": "+5:30",
+    "Saudi": "+3",
+    "Cyprus": "+2",
+    "Slovakia": "+1",
+    "Serbia": "+1",
+    "Slovenia": "+1",
+    "San": "+1",
+    "Sudan": "+3",
+    "Somalia": "+3",
+    "Seychelles": "+4",
+    "Sao": "+4",
+    "Senegal": "+0",
+    "Sierra": "+0",
+    "Kingdom": "+2",
+    "St": "-8",
+    "Solomon": "+11",
+    "Samoa": "+2",
+    "Caledonia": "-4",
+    "El": "-3",
+    "Nevis": "-4",
+    "Grenadines": "-4",
+    "Suriname": "-3",
+    "Thailand": "+7",
+    "Taiwan": "+8",
+    "Tajikistan": "+5",
+    "Turkmenistan": "+5",
+    "Turkey": "+2",
+    "Tunisia": "+1",
+    "Tanzania": "+3",
+    "Tuvalu": "+12",
+    "Tonga": "+13",
+    "Tokelau": "-4",
+    "Trinidad": "-4",
+    "Turks": "-4",
+    "Brunei": "+8",
+    "Uzbekistan": "+2",
+    "Ukraine": "+2",
+    "Uganda": "+3",
+    "Vanuatu": "+11",
+    "Wallis": "-4",
+    "Guatemala": "-6",
+    "Venezuela": "-5",
+    "Uruguay": "-3",
+    "Singapore": "+8",
+    "Syria": "+2",
+    "Hungary": "+1",
+    "Greece": "+2",
+    "Spain": "+1",
+    "Sahara": "+0",
+    "Zealand": "+12",
+    "Vietnam": "+7",
+    "Indonesia": "+9",
+    "India": "+6",
+    "Iraq": "+3",
+    "Jordan": "+2",
+    "Israel": "+2",
+    "Yemen": "+3",
+    "Armenia": "-10",
+    "UK": "-8",
+    "Italy": "+1",
+    "Azores": "-1",
+    "Jamaica": "-5",
+    "British": "-8",
+    "China": "+8",
+    "Chad": "+1",
+    "Central": "+2",
+    "Zambia": "+2",
+    "Chile": "-6"
+  },
+  "title": [
+    [
+      "Overview"
+    ],
+    [
+      "Profit Analysis"
+    ],
+    [
+      "Future Forecast"
+    ],
+    [
+      "Single Store",
+      "Multiple Store",
+      "Business Analysis",
+      "Traffic Analysis",
+      "Returning Analysis",
+      "Item Analysis",
+      "Heat-map Analysis"
+    ],
+    [
+      "Gender Analysis"
+    ],
+    [
+      "KPI Report"
+    ],
+    [
+      "Counting Unit",
+      "Weekly Report"
+    ],
+    [
+      "Sales Analysis",
+      "Traffic Analysis",
+      "Overall Performance"
+    ],
+    [
+      "Sales Report",
+      "Traffic Report",
+      "Item Report",
+      "Weekly Report"
+    ]
+  ],
+  "header": {
+    "Overview": [
+      {
+        "head": "Indicators",
+        "info": "Provide 4 key operational indicators, each of which can be compared periodically."
+      },
+      {
+        "head": "Passing-by Traffic/Visitors/Revenue",
+        "info": "Show each site's business situation in terms of the following three parameters: passing-by traffic, visitors and revenue."
+      },
+      {
+        "head": "Ranking",
+        "info": "Rank the sites according to key indicators such as revenue, transactions, and revenue per transaction."
+      },
+      {
+        "head": "Performance Scatter Chart",
+        "info": "Shows the performance scatter chart for each site according to the type of analysis, which is based on key point indicators. The dotted line represents the average for each indicator."
+      },
+      {
+        "head": "Map",
+        "info": "sites location overview. Move the mouse pointer to the dots to spread out details."
+      }
+    ],
+    "ProfitAnalysis": [
+      {
+        "head": "Profit Ranking",
+        "info": "Site ranking based on gross margin."
+      },
+      {
+        "head": "Profit VS Revenue Scatter Chart",
+        "info": "By analyzing the distribution of gross profit and revenue for each site, list the items to be improved and the standards that have been met by each site."
+      }
+    ],
+    "Forecast": [
+      {
+        "head": "Revenue Forecast",
+        "info": "Based on the forecast data and the actual revenue data for the last 3 weeks, predict the site's revenue trend for the next week."
+      },
+      {
+        "head": "Transaction Forecast",
+        "info": "Based on the forecast data and the actual data for the last 3 weeks on the transactions, predict the trend of the transactions in the site for the next week."
+      },
+      {
+        "head": "Visitors Forecast",
+        "info": "Based on the forecast data and the actual data for the last 3 weeks on the number of visitors, predict the trend of visitors in the site for the next week."
+      }
+    ],
+    "BrandAnalysis": [
+      {
+        "head": "Revenue/Transaction Trends",
+        "info": "Compare and contrast between the sum of revenue and the sum of transactions from selected sites."
+      },
+      {
+        "head": "Turn in Rate/Visitors/Transaction Trends",
+        "info": "Compare and contrast between the sum of Turn in Rate and the sum of Visitors from selected sites."
+      },
+      {
+        "head": "Trends Cross Analysis",
+        "info": "Compare and contrast of 8 indicators among selected sites, maximum slection to 3 sites."
+      }
+    ],
+    "MarketingAnalysis": [
+      {
+        "head": "Marketing Cross Analysis",
+        "info": "Provide multiple parameters, such as type and time, to comprehensively analyze and display each site's business situation."
+      },
+      {
+        "head": "Marketing Time-on-time Analysis",
+        "info": "Provide day-on-day, week-on-week and year-on-year filters to perform the periodic time-on-time analysis and to show each site's marketing operate."
+      },
+      {
+        "head": "Cross Site Analysis",
+        "info": "Provide filter criteria, such as type and time. Trend comparison and total comparison of business data can be performed between different sites."
+      }
+    ],
+    "TrafficAnalysis": [
+      {
+        "head": "Heat-map Cross Analysis",
+        "info": "To show the daily and weekly traffic by heat-map cross analysis."
+      },
+      {
+        "head": "Traffic Cross Analysis",
+        "info": "Provide multiple parameters, such as type and time, to comprehensively analyze and display each site's customer traffic."
+      },
+      {
+        "head": "Traffic Time-on-time Analysis",
+        "info": "Provide day-on-day, week-on-week and year-on-year filter to perform the traffic periodic time-on-time traffic analysis and to show each site's customer traffic."
+      },
+      {
+        "head": "Cross Site Analysis",
+        "info": "Provide filters, such as type and time. Trend comparison and total comparison of customer traffic data can be performed between different sites."
+      }
+    ],
+    "SingleAnalysis": [
+      {
+        "head": "Heat-map Cross Analysis",
+        "info": "To show the daily and weekly traffic by heat-map cross analysis."
+      },
+      {
+        "head": "Traffic Cross Analysis",
+        "info": "Provide multiple parameters, such as type and time, to comprehensively analyze and display each site's customer traffic."
+      },
+      {
+        "head": "Traffic Time-on-time Analysis",
+        "info": "Provide day-on-day, week-on-week and year-on-year filter to perform the traffic periodic time-on-time traffic analysis and to show each site's customer traffic."
+      },
+      {
+        "head": "Cross Group Analysis",
+        "info": "Provide filters, such as type and time. Trend comparison and total comparison of customer traffic data can be performed between different groups."
+      }
+    ],
+    "MultipleAnalysis": [
+      {
+        "head": "Heat-map Cross Analysis",
+        "info": "To show the daily and weekly traffic by heat-map cross analysis."
+      },
+      {
+        "head": "Traffic Cross Analysis",
+        "info": "Provide multiple parameters, such as type and time, to comprehensively analyze and display each site's customer traffic."
+      },
+      {
+        "head": "Traffic Time-on-time Analysis",
+        "info": "Provide day-on-day, week-on-week and year-on-year filter to perform the traffic periodic time-on-time traffic analysis and to show each site's customer traffic."
+      },
+      {
+        "head": "Cross Site Analysis",
+        "info": "Provide filters, such as type and time. Trend comparison and total comparison of customer traffic data can be performed between different sites."
+      }
+    ],
+    "ReturnAnalysis": [
+      {
+        "head": "Returning Heat-map & Proportion Analysis",
+        "info": "Shows the proportion of repeat customers during a given period and shows the daily and weekly repeat customers by heat-map analysis."
+      },
+      {
+        "head": "Returning Trend Analysis",
+        "info": "Provide multiple parameters, such as type and time, to comprehensively analyze and display the customer traffic trend."
+      },
+      {
+        "head": "Returning Time-On-Time Analysis",
+        "info": "Provide week-on-week and year-on-year filters to perform the returning costumer periodic time-on-time analysis and to show the site's customer traffic trend."
+      },
+      {
+        "head": "Returning Visiting Frequency Analysis",
+        "info": "Displays the periodic trend and the number of visits (1, 2, or 3 or more times) ."
+      }
+    ],
+    "BrandItems": [
+      {
+        "head": "Product Category Ranking",
+        "info": "Mark the top 6 products with a different color."
+      },
+      {
+        "head": "Product Ranking",
+        "info": "Mark the top 6 products with a different color."
+      },
+      {
+        "head": "Product Sales Trends",
+        "info": "Displays sales trends for each item. Select up to two items for cross-time comparison."
+      },
+      {
+        "head": "Product Time-on-time Analysis",
+        "info": "Provide year-on-year, week-on-week and month-on-month filters and perform cycle year-on-year analysis and display for each item."
+      }
+    ],
+    "ReportKPI": [
+      {
+        "head": "Report KPI",
+        "info": "Based on the revenue, turn in rate, transactions, visitors and revenue per transaction to evaluate the site's operate comprehensively."
+      }
+    ],
+    "ReportMarketing": [
+      {
+        "head": "Business Data Report",
+        "info": "Provide the marketing report export function. The range is up to 365 days of data. The range is in hours, up to 90 days."
+      }
+    ],
+    "ReportPassenger": [
+      {
+        "head": "Traffic Data Report",
+        "info": "Provide the export traffic flow report function. The interval can be up to 365 days by day, and the interval can be up to 90 days."
+      }
+    ],
+    "ReportProduct": [
+      {
+        "head": "Product Data Report",
+        "info": "Provides the item export report function. The interval is up to 365 days of data. The interval is up to 90 days of data."
+      }
+    ]
+  },
+  "date": {
+    "label": {
+      "custom": "Customize",
+      "quick": "Quick Select",
+      "range": "Time Section",
+      "unit": "Time Unit",
+      "compare": "Cross Comparison",
+      "interval": "Unit",
+      "cycle": "Visit cycle"
+    },
+    "custom": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "quick": {
+      "day": "Today",
+      "yesterday": "Yesterday",
+      "last_week_day": "Same Day Last Week",
+      "last_month_day": "Same Date Last Month"
+    },
+    "range": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "unit": {
+      "day": [
+        "00:00",
+        "01:00",
+        "02:00",
+        "03:00",
+        "04:00",
+        "05:00",
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00",
+        "23:00"
+      ],
+      "week": [
+        "Mon.",
+        "Tue.",
+        "Wed.",
+        "Thu.",
+        "Fri.",
+        "Sat.",
+        "Sun."
+      ],
+      "month": "Week",
+      "year": [
+        "Jan.",
+        "Feb.",
+        "Mar.",
+        "Apr.",
+        "May",
+        "Jun.",
+        "Jul.",
+        "Aug.",
+        "Sep.",
+        "Oct.",
+        "Nov.",
+        "Dec."
+      ]
+    },
+    "compare": {
+      "previous": "Previous Section",
+      "latter": "Subsequent Section",
+      "none": "Don't Compare"
+    },
+    "same": {
+      "day": "Day-on-Day",
+      "week": "Week-on-Week",
+      "year": "Year-on-Year"
+    },
+    "item": {
+      "day": "Day-on-Day",
+      "week": "Week-on-Week",
+      "month": "Month-on-Month"
+    },
+    "wmy": {
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "matrix": {
+      "week": "Week",
+      "month": "Month"
+    },
+    "interval": {
+      "hour": "Hour",
+      "day": "Day"
+    }
+  },
+  "multiselect": {
+    "label": {
+      "select": "Sites",
+      "current": "Custom Sites",
+      "location": "Compare Sites",
+      "material": "Data",
+      "unit": "Counting Unit",
+      "choice": "Selected",
+      "type": "Type",
+      "compare": "Analysis Mode",
+      "tag": "Select by Tags"
+    },
+    "marketing": {
+      "avg_amount": "Revenue Per Transaction",
+      "avg_item_amount": "Average Sale Items",
+      "avg_item_count": "Revenue Per Item",
+      "total_amount": "Revenue",
+      "transaction_count": "Transaction",
+      "item_count": "Items Per Transaction"
+    },
+    "traffic": {
+      "return_rate": "Returning Customer Rate",
+      "turn_in_rate": "Turn in Rate",
+      "pout": "Passing-by Traffic",
+      "pin": "Visitors",
+      "transaction_count": "Transaction"
+    },
+    "multiple": {
+      "pin": "Visitors",
+      "pout": "Passing-by Traffic",
+      "turn_in_rate": "Turn in Rate",
+      "transaction_count": "Transaction",
+      "trans_rate": "Conversion Rate",
+      "total_amount": "Revenue"
+    },
+    "single": {
+      "pin": "Visitors",
+      "pout": "Passing-by Traffic"
+    },
+    "return": {
+      "return_rate": "Returning Rate",
+      "pin": "Visitors",
+      "return_num": "Returing Num"
+    },
+    "matrix": {
+      "pin": "Visitors",
+      "pout": "Passing-by Traffic",
+      "transaction_count": "Transaction"
+    },
+    "compare": {
+      "trend": "Trend Analysis",
+      "total": "Total Analysis"
+    },
+    "monitor": {
+      "ppc_store_entry": "Entry",
+      "ppc_store_outside": "Outside"
+    },
+    "monitor_type": {
+      "nSelectedText": "Unit Type",
+      "nonSelectedText": "Select Unit Type",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Unit Type"
+    },
+    "monitor_name": {
+      "nSelectedText": "Unit Name",
+      "nonSelectedText": "Unit Name",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Unit"
+    },
+    "tag": {
+      "nSelectedText": "Tags",
+      "nonSelectedText": "Select Tags",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Tags"
+    },
+    "province": {
+      "nSelectedText": "Region I",
+      "nonSelectedText": "Select Regions I",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Region I"
+    },
+    "city": {
+      "nSelectedText": "Region II",
+      "nonSelectedText": "Select Regions II",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Region II"
+    },
+    "store": {
+      "nSelectedText": "Sites",
+      "nonSelectedText": "Select Sites",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Sites"
+    },
+    "branch_type": {
+      "nSelectedText": "Site Type",
+      "nonSelectedText": "Select site type",
+      "selectAllText": "Select All",
+      "allSelectedText": "All site types"
+    },
+    "region": {
+      "nSelectedText": "Site Group",
+      "nonSelectedText": "Select Site Group",
+      "selectAllText": "Select All",
+      "allSelectedText": "All site groups"
+    },
+    "role": {
+      "nSelectedText": "System permissions",
+      "nonSelectedText": "Choosing System permissions",
+      "selectAllText": "Select All",
+      "allSelectedText": "All System permissions"
+    },
+    "send": {
+      "nSelectedText": "Report Recipient",
+      "nonSelectedText": "Select Report Recipient",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Report Recipient",
+      "sendMail": "Send weekly operation report to site manager"
+    },
+    "week": {
+      "nSelectedText": "Day",
+      "nonSelectedText": "Select Week",
+      "selectAllText": "Select All",
+      "allSelectedText": "Every Day"
+    },
+    "itemsClass": {
+      "nSelectedText": "Product Category",
+      "nonSelectedText": "Select Product Category",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Product Categories"
+    },
+    "items": {
+      "nSelectedText": "Product",
+      "nonSelectedText": "Select Product",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Products"
+    },
+    "store_type": {
+      "nSelectedText": "Site Type",
+      "nonSelectedText": "Select Site Type",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Site Type"
+    },
+    "device_type": {
+      "nSelectedText": "Device Type 2",
+      "nonSelectedText": "Select Device Type 2",
+      "selectAllText": "Select All",
+      "allSelectedText": "Select All"
+    },
+    "store_group": {
+      "nSelectedText": "Site Group",
+      "nonSelectedText": "Select Site Group",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Site Group"
+    },
+    "option": {
+      "nSelectedText": "Position",
+      "nonSelectedText": "Select Position",
+      "selectAllText": "Select All",
+      "allSelectedText": "All Position"
+    },
+    "setting": {
+      "option": {
+        "nSelectedText": "Position",
+        "nonSelectedText": "Please Select Position",
+        "selectAllText": "Select All",
+        "allSelectedText": "All Position"
+      },
+      "store_group": {
+        "nSelectedText": "Site Group",
+        "nonSelectedText": "Please Select Site Group",
+        "selectAllText": "Select All",
+        "allSelectedText": "All Site Group"
+      },
+      "store_type": {
+        "nSelectedText": "Site Type",
+        "nonSelectedText": "Please Select Site Type",
+        "selectAllText": "Select All",
+        "allSelectedText": "All Site Type"
+      },
+      "store": {
+        "nSelectedText": "Sites",
+        "nonSelectedText": "Please Select Sites",
+        "selectAllText": "Select All",
+        "allSelectedText": "All Sites"
+      }
+    }
+  },
+  "analysis": {
+    "hour": {
+      "time": "Time"
+    },
+    "day": {
+      "date": [
+        "Yesterday",
+        "Today",
+        "Tomorrow"
+      ],
+      "time": "Day"
+    },
+    "week": {
+      "date": [
+        "Last Week",
+        "This Week",
+        "Next Week"
+      ],
+      "time": "Week"
+    },
+    "month": {
+      "date": [
+        "Last Month",
+        "This Month",
+        "Next Month"
+      ],
+      "time": "Month"
+    },
+    "year": {
+      "date": [
+        "Last Year",
+        "This Year",
+        "Next Year"
+      ],
+      "time": "Year"
+    }
+  },
+  "scatter": {
+    "label": {
+      "below": "< average",
+      "above": "> average",
+      "same": "= average",
+      "below1": "< target",
+      "above1": "> target",
+      "same1": "= target"
+    }
+  },
+  "kpi": {
+    "above": "Higher",
+    "below": "Lower"
+  },
+  "map": [
+    "Ranks xxx in the country.",
+    "Ranking"
+  ],
+  "trend": {
+    "compare": "Compare Time"
+  },
+  "report": {
+    "date": "Date Report: ",
+    "download": "Download PDF",
+    "report": "weekly report",
+    "export": "Export",
+    "empty": "Empty table"
+  },
+  "heatmap": {
+    "freq": "ppl.",
+    "dwell": "Visit Duration",
+    "second": "Sec."
+  },
+  "forecast": {
+    "today": "Today",
+    "history": "Historical Forecast",
+    "forecast": "Forecast for the next 7 days",
+    "actual": [
+      "Actual Revenue",
+      "Actual Transaction",
+      "Actual Visitors"
+    ],
+    "average": "Average for the last three weeks"
+  },
+  "return": {
+    "return_distribution": "Returning distribution",
+    "only_supported": "*Only monthly statistics are supported",
+    "visit_1": "One time visit",
+    "visit_2": "Two times visits",
+    "visit_3": "Three or more times visits"
+  },
+  "substance": {
+    "xAxis": "X axis",
+    "yAxis": "Y axis",
+    "line": "Line chart",
+    "bar": "Bar chart",
+    "range": "Time range",
+    "Operate": "Operate",
+    "Range": "Row ",
+    "Row": "",
+    "None": " not filled in.",
+    "Error": " format is incorrect.",
+    "space": "Spaces are invalid characters.",
+    "exists": " is existed in the account.",
+    "repeat": " is repeat in the file.",
+    "role": " has no permission.",
+    "negative": "Can't be negative.",
+    "Not": " not in the list.",
+    "black": " cannot be space",
+    "edit": " can not be modified",
+    "Query": "Query",
+    "SalesVolume": "Revenue",
+    "SalesConversion": "Conversion Rate",
+    "Transactions": "Transactions",
+    "SalesPerShopper": "Revenue Per Transaction",
+    "ProductsCount": "Total Items",
+    "AvgProductPrice": "Revenue Per Item",
+    "Traffic": "Visitors",
+    "OutdoorTraffic": "Outside Traffic",
+    "TurnInRate": "Turn in Rate",
+    "ReturnRate": "Returning Rate",
+    "ReturnNum": "Returing Num",
+    "AvgSalesProducts": "Item Per Transaction",
+    "Profit": "Profit",
+    "Avg": "Average ",
+    "Quadrant": [
+      "Quadrant One",
+      "Quadrant Two",
+      "Quadrant Three",
+      "Quadrant Four"
+    ],
+    "MatrixWeek": [
+      "week 1st",
+      "week 2nd",
+      "week 3rd",
+      "week 4th",
+      "week 5th",
+      "week 6th"
+    ],
+    "Min": "Min",
+    "Max": "Max",
+    "NoData": "No Data",
+    "HowToImprove": "How to Improve",
+    "Loading": "loading",
+    "Rank": "Ranking",
+    "ItemClass": "Category",
+    "Item": "Product",
+    "Proportion": "Percentage",
+    "Numbers": [
+      "Amount",
+      "Item"
+    ],
+    "itemData": [
+      "Amount",
+      "Item"
+    ],
+    "Unit": [
+      "$",
+      "Item"
+    ],
+    "StoreName": "Name",
+    "RankType": "Type of Ranking",
+    "Type": "Type",
+    "ItemClassType": "Product Category",
+    "ItemsType": "Product",
+    "ReportType": "Type of Report",
+    "ItemsReportType": "Product Category Report",
+    "AnalysisType": "Type of Analysis",
+    "SelectTip": "Least One，Most Two",
+    "CompareData": "Indicators",
+    "Human": "Number",
+    "UnitHuman": "ppl.",
+    "Rate": "Rate",
+    "Date": "Date",
+    "Time": "Time",
+    "Store": "Site",
+    "Others": "Others",
+    "ItemType": "Product Category",
+    "Number": "Amount",
+    "Percent": "Percentage",
+    "Import": "Import",
+    "Download": "Download",
+    "Export": "Export",
+    "Date_d": "Day",
+    "Day": "Day",
+    "Week": "Week",
+    "Month": "Month",
+    "Year": "Year",
+    "Hour": "Hour",
+    "Same": "Same",
+    "Today": "Today",
+    "Yesterday": "Yesterday",
+    "SameDayLastWeek": "Last Week",
+    "SameDayLastMonth": "Last Month"
+  },
+  "viu": {
+    "choose": "Select",
+    "chooseDate": "Select",
+    "startDate": "Start",
+    "endDate": "End",
+    "dateRangeSeparator": "to",
+    "el_select": {
+      "_7": {
+        "value": "7",
+        "label": "7 days"
+      },
+      "_30": {
+        "value": "30",
+        "label": "30 days"
+      },
+      "_90": {
+        "value": "90",
+        "label": "90 days"
+      }
+    },
+    "chooseCountry": "Select"
+  },
+  "counting": {
+    "kpi": {
+      "custom": "Custom time",
+      "ppc_max": "Highest traffic period",
+      "sale_max": "Maximum sales period",
+      "keyword": "Keyword",
+      "placeholder": "Please enter",
+      "select": "Please select"
+    },
+    "list": {
+      "title": "List of counting units",
+      "name": "Unit name",
+      "type": "Unit type",
+      "store_name": "Site name",
+      "devices": "Number of devices",
+      "operate": "Action",
+      "add": "Add Counting Unit",
+      "delete_device": "Delete device",
+      "delete": "Delete counting unit",
+      "set": "Unit setting",
+      "sensor": "Device list",
+      "added": "List added",
+      "data_map": "Counting by",
+      "weight": "Weight value",
+      "edit": "Edit Counting Unit",
+      "group": "Counting Unit Group"
+    },
+    "tip": {
+      "name": "Please enter unit name",
+      "type": "Please select unit type",
+      "store_name": "Please select site",
+      "delete_device": "Are you sure to delete the device: {0}?",
+      "delete": "Are you sure to delete the counting unit?"
+    },
+    "success": {
+      "add": "Add counting unit successful",
+      "edit": "Edit counting unit successful"
+    },
+    "error": {
+      "add": "Failed to add counting unit, site data abnormal",
+      "addFail": "Failed to add counting unit",
+      "edit": "Failed to edit counting unit"
+    }
+  },
+  "error": {
+    "login_again": "User has been logged out, please log back in!"
+  },
+  "mgt": {
+    "title": [
+      [
+        {
+          "default": "Company"
+        }
+      ],
+      [
+        {
+          "default": "Site",
+          "add": "Add Site",
+          "details": "Site Info."
+        }
+      ],
+      [
+        {
+          "default": "Device",
+          "details": "Device Info.",
+          "add": "Add device"
+        },
+        {
+          "default": "Traffic Device",
+          "details": "Device Info.",
+          "add": "Add device"
+        },
+        {
+          "default": "EIS Device",
+          "details": "Device Info.",
+          "add": "Add device"
+        },
+        {
+          "default": "Face Device",
+          "details": "Device Info.",
+          "add": "Add device"
+        },
+        {
+          "default": "Virtual Device",
+          "details": "Device Info.",
+          "add": "Add device"
+        },
+        {
+          "default": "Signage Device",
+          "details": "Device Info.",
+          "add": "Add device"
+        },
+        {
+          "default": "CCM Device",
+          "details": "Device Info.",
+          "add": "Add device"
+        },
+        {
+          "default": "Iot-Sensor",
+          "details": "Device Info.",
+          "add": "Add device"
+        }
+      ],
+      [
+        {
+          "default": "User",
+          "details": "User Info. Check",
+          "add": "Add User"
+        },
+        {
+          "default": "User",
+          "details": "User Info. Check",
+          "add": "Edit User"
+        }
+      ],
+      [
+        {
+          "default": "Business Hours"
+        }
+      ],
+      [
+        {
+          "default": "BOM"
+        }
+      ],
+      [
+        {
+          "default": "Department"
+        },
+        {
+          "default": "Position"
+        },
+        {
+          "default": "Site Type"
+        },
+        {
+          "default": "Site Group"
+        },
+        {
+          "default": "Tag"
+        },
+        {
+          "default": "AccessKey Management",
+          "add": "Add accessKey",
+          "details": "Key details"
+        }
+      ]
+    ],
+    "type": "Item category name",
+    "userStatus": "Send user enablement letters",
+    "userUse": "Please remind the user to go to the account mailbox to enable verification.",
+    "userSuccess": "User Enablement Letter has been sent！",
+    "userFail": "Failed to enable letter sending！",
+    "other1": "Please try sending again after ",
+    "minutes": " minutes.",
+    "name": "Item name",
+    "initView": {
+      "search": {
+        "Store": "Keyword Search",
+        "Device": "Keyword Search",
+        "User": "Keyword Search",
+        "forAccess_keyManagement": "Keyword Search"
+      }
+    },
+    "button": {
+      "add": "Add",
+      "batch": "Batch ",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "save": "Save",
+      "sure": "Sure",
+      "submit": "Confirm",
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "checkbox": {
+      "authority": "Accessibility",
+      "binding": "Apply",
+      "store": "all"
+    },
+    "table": {
+      "page": [
+        "Jump to",
+        "page"
+      ]
+    },
+    "brand": {
+      "brand_name": "Company Name",
+      "brand_id": "Company ID",
+      "brand_manager": "Administrator",
+      "all_device": "Total number of devices",
+      "traffic_device": "Traffic Device",
+      "eis_device": "EIS Device",
+      "face_device": "Face Device",
+      "virtual_device": "Virtual Device",
+      "other_device": "Others",
+      "enable_device": "Total number of devices enabled"
+    },
+    "store": {
+      "add": "Add site",
+      "storeStatus": "Site Status",
+      "storeName": "Site name",
+      "storeProvince": "Region I",
+      "storeCity": "Region II",
+      "storeTag": "Tag",
+      "storeOperate": "Operate",
+      "updateTime": "Update Time",
+      "userStatus": "User status",
+      "userList": "User List",
+      "editUser": "Edit User List",
+      "success": "Edit user list successfully!",
+      "falied": "Edit user list failed!",
+      "getFailed": "Get user list failed!",
+      "status": {
+        "1": "Registered",
+        "20": "Normal",
+        "40": "Deactivated"
+      },
+      "activate": {
+        "title": "Activate User",
+        "tip": [
+          "Confirm to activate the user ",
+          "?"
+        ],
+        "success": "Activate User Successfully!",
+        "failed": "Activate User Failed!"
+      },
+      "deactivate": {
+        "title": "Deactivate User",
+        "tip": [
+          "Confirm to deactivate the user ",
+          "?"
+        ],
+        "success": "Deactivate User Successfully!",
+        "failed": "Deactivate User Failed!"
+      }
+    },
+    "key": {
+      "add": "Add key",
+      "AccessKey": "AccessKey",
+      "Name": "Name",
+      "Description": "Description",
+      "ExpireDate": "Expire date",
+      "Information": "Operate",
+      "Delete": "Delete",
+      "deleteKey": "Delete"
+    },
+    "device": {
+      "add": "Add device",
+      "update": "Edit device",
+      "deviceStatus": "Device status",
+      "serviceStatus": "Subscribe status",
+      "deviceName": "Device name",
+      "deviceStore": "Site name",
+      "deviceType": "Device type",
+      "classify": "Device classify",
+      "deviceID": "Device ID",
+      "deviceFunction": "Application",
+      "register_sn": "Register SN",
+      "product_sn": "Serial number",
+      "channel": "Channel",
+      "deviceActivate": "Activate time",
+      "deviceHeartbeat": "Heartbeat time",
+      "area": "Area",
+      "sensor_time": "Sensors and Time",
+      "input_tip": "The latest visit",
+      "deviceMetadata": "Metadata time",
+      "deviceOperate": "Operate",
+      "data_type": "Data Type",
+      "data_unit": "Data Unit",
+      "data_type_temp": "Temperature",
+      "data_type_switch": "Switch",
+      "data_type_speed": "Rotating speed",
+      "data_type_freq": "Frequency",
+      "data_unit_freq0": "Times/min",
+      "iot": "Connection settings",
+      "protocol": "Protocol",
+      "host": "Host",
+      "address": "Address",
+      "byte": "Byte",
+      "interval": "Interval",
+      "scale": "Scale",
+      "descr": "Note",
+      "placeholder": {
+        "data_type": "Please select data type",
+        "data_unit": "Please select data unit",
+        "protocol": "Please select protocol",
+        "host": "Please enter host",
+        "address": "Please enter address",
+        "byte": "Please enter byte",
+        "interval": "Please enter interval",
+        "scale": "Please enter scale",
+        "descr": "Please enter Note"
+      },
+      "format": {
+        "host": "Host's format is incorrect",
+        "address": "Address's format is incorrect",
+        "byte": "Byte's format is incorrect",
+        "interval": "Interval's format is incorrect",
+        "scale": "Scale's format is incorrect"
+      },
+      "blank": {
+        "address": "Address can't be empty or blank",
+        "byte": "Byte can't be empty or blank",
+        "interval": "Interval can't be empty or blank",
+        "scale": "Scale can't be empty or blank"
+      },
+      "sensor": {
+        "id": "Sensor id",
+        "name": "Sensor name",
+        "type": "Sensor type",
+        "update": "Edit Sensor",
+        "success": "Successfully Updated!"
+      },
+      "h2": {
+        "singular": [
+          " device",
+          " unit"
+        ],
+        "plural": [
+          " devices",
+          " units"
+        ]
+      }
+    },
+    "allChoose": "Select all",
+    "storeGroup": "By site Group",
+    "storeType": "By site type",
+    "storeStore": "By site",
+    "chooseStore": "Selected sites",
+    "chooseType": "Selected sites type",
+    "chooseGroup": "Selected sites group",
+    "user": {
+      "title_info": [
+        "Basic information",
+        "Department",
+        "Remarks",
+        "Please enter",
+        "data"
+      ],
+      "sureButton": "sure",
+      "pleaseCheck": "Please select the system admin or admin who will take over ",
+      "user": ", click Apply to delete ",
+      "remove": "  and transfer the originally managed user list to the following people to manage.",
+      "finsh": "Delete User Succeeded!",
+      "sure": "Make sure you want to delete the user",
+      "deleteUser": "Delete",
+      "guan": "To take over",
+      "fail": "Delete failed",
+      "to": "Already removed from the WISE-iService system and the original managed user list has been successfully transferred to ",
+      "storeNgId": "Fail Site :",
+      "activateNewPassword": "Activate new password",
+      "add": "Add user",
+      "editUser": "Edit User",
+      "authority": "Authority settings",
+      "base": "Basic Info.",
+      "license": "Permission setting",
+      "confirmNewPassword": [
+        "Confirm password",
+        "Enter password"
+      ],
+      "confirmPassword": [
+        "Confirm password",
+        "Enter password"
+      ],
+      "delete": "Delete user",
+      "finish": "Delete completed",
+      "deleteFail": "Delete failed",
+      "remove1": " is removed from the WISE-iService system and the original managed user list has been successfully transferred to ",
+      "take": " take over.",
+      "edit": "Edit User",
+      "email": "Add User",
+      "enterNewPassword": [
+        "Enter new password.",
+        "Please enter new password."
+      ],
+      "enterPassword": [
+        "Enter password.",
+        "Please enter password."
+      ],
+      "failAdd": "Add User Failed!",
+      "add_max": "You have reached the maximum registration number of 'users': {1} (current: {1})",
+      "userExists": "User already exists.",
+      "managerActivate": "Admin activate.",
+      "userName": "User name",
+      "userId": "User ID",
+      "userRole": "System permissions",
+      "userPosition": "User roles",
+      "userCellphone": "Phone",
+      "userAuthority": "Authority",
+      "authority_count": "Authority site count",
+      "store_group": "Permission source (group)",
+      "link_to": "assign this site",
+      "userPwd": "The set password does not change the original password",
+      "userDescr": "Note",
+      "userOperate": "Operate",
+      "name": [
+        "User name",
+        "Please enter name."
+      ],
+      "setting": [
+        "Account settings",
+        "Please enter email."
+      ],
+      "code": [
+        "user code",
+        "Please enter code."
+      ],
+      "roles": "System permissions",
+      "staff_position": "User position",
+      "isvideo": "Allow video access",
+      "phone": [
+        "Phone",
+        "Please enter number."
+      ],
+      "Yes": "Yes",
+      "No": "No",
+      "position": "User roles",
+      "department": "Department",
+      "descr": "Note",
+      "setPassword": "Password",
+      "setAuthority": "Accessibility settings",
+      "department_store": "Departments related sites",
+      "service": {
+        "title": "Service settings",
+        "all": "All Select",
+        "tip": "Service has successfully updated.",
+        "srp": {
+          "Custom_iVA_Counting": "iVA.Counting",
+          "Custom_iQM_Inspection": "iQM.Inspection",
+          "Custom_iDS_SignageCMS": "iDS.SignageCMS",
+          "Custom_iQM_ColdChain": "iQM.Cold Chain",
+          "CCM": "Cold Chain",
+          "Audience": "Audience",
+          "Analytics": "Site BI",
+          "Dashboard": "Dashboard",
+          "Inspection": "Inspection",
+          "Signage": "Signage",
+          "Setting": "Setting",
+          "VIPRecognition": "VIP Recognition",
+          "Attendance": "Attendance",
+          "Adlocus": "LBS Advertising",
+          "GoodShifts": "Smart Shift"
+        }
+      },
+      "authoritys": [
+        "You may access to ",
+        " sites.",
+        " site."
+      ],
+      "list": "Site List",
+      "notActivateNewPassword": "Use Current Password.",
+      "role": [
+        "Admin",
+        "Manager",
+        "User"
+      ],
+      "store": " site.",
+      "stores": " sites.",
+      "number": [
+        "Total ",
+        ",Managers ",
+        ",Users ",
+        " number",
+        "total",
+        "you can add xx more.",
+        "Current users/Maximum of users(xx_1/xx_2)"
+      ],
+      "systemActivate": "System mail activate.",
+      "tip": {
+        "add": "Successfully Added!",
+        "authority": "Authority has successfully updated.",
+        "batch": [
+          "Please select users.",
+          "Selected",
+          "user, confirm deleting?"
+        ],
+        "delete": "Confirm deleting?",
+        "delete_takeover_confirm": [
+          "Please choose system administrator to take over ",
+          "Please choose system administrator or administrator to take over ",
+          ", click \"Confirm\" to delete ",
+          ", click \"Confirm\" to delete ",
+          ". Transfer the list of users that were originally managed to the following people to take over.",
+          "Make sure you want to delete the user：",
+          "?"
+        ],
+        "delete_takeover_alert": [
+          "Removed from WISE-iService system, the original managed user list has been successfully transferred to",
+          "Takeover"
+        ],
+        "edit": "Successfully Updated!",
+        "editPassword": "Updated!",
+        "editOwnPassword": "User info. and new password has updated,login again?",
+        "email": "Successfully Added!If the user haven't received confirmation letter, please check the email address again.",
+        "emailError": "Wrong format!",
+        "name": "Please enter user name.",
+        "newPassword": "Please enter new password.",
+        "password": "Please enter password.",
+        "passwordError": "Wrong format (please use 6-12 mixed alphabet and number).",
+        "passwordNotSame": "Password inconformity, please check.",
+        "phone": "Please enter email!",
+        "phoneError": "Wrong format!",
+        "system": "Please enter email to enable system account function.",
+        "userRoleSelect": "Please select system permission.",
+        "userPosition": "Please select user role.",
+        "select": "Please Select",
+        "true_id": "Please enter the correct account number",
+        "true_no": "Please enter the correct employee number",
+        "true_phone": "Please enter the correct cell phone",
+        "true_descr": "Please enter the correct remarks",
+        "userNoExists": "The employee number already exists"
+      },
+      "alertInfo": "Device info. may not be empty.",
+      "statusText": [
+        "No Device",
+        "Registered",
+        "Initial",
+        "Online",
+        "Offline",
+        "Abnormal",
+        "Pause",
+        "Closed",
+        "Expired",
+        "Terminated",
+        "Read Only",
+        "Deleted"
+      ],
+      "buildStoreList": [
+        "Expired",
+        "Closed",
+        "Offline",
+        "Abnormal",
+        "Activated",
+        "Online",
+        "Registered",
+        "Pause"
+      ],
+      "serviceText": [
+        "Registered",
+        "Normal",
+        "Expiring",
+        "Expired",
+        "Terminated",
+        "Deleted"
+      ],
+      "all": "All",
+      "buildOperateSetting": [
+        "No Schedules",
+        "Default Schedules",
+        "No Business Hour"
+      ],
+      "deleteMultiStore": [
+        "Confirm delete selected",
+        "sites?",
+        "sites.",
+        "sites failed."
+      ],
+      "deleteMultiKey": [
+        "Are you sure you want to delete the selected ",
+        " key？",
+        "Key deleted successfully,",
+        "Key deletion failed",
+        "No key selected!",
+        " keys？"
+      ],
+      "deleteKey": [
+        "Are you sure you want to delete the ",
+        "keys？",
+        "Key deleted successfully,",
+        "Key deletion failed",
+        "Key deleted successfully!",
+        "Key deletion failed!",
+        "Are you sure you want to delete the key ",
+        "?",
+        "Delete"
+      ],
+      "stringify": [
+        "Edit data",
+        "Successfully Updated!",
+        "Site manager may not be empty.",
+        "Site info. may not be empty.",
+        "Back to present"
+      ],
+      "saveSalesTarget": [
+        "Target Setting.",
+        "Please enter revenue(day)!",
+        "Number only!",
+        "Successfully Added!",
+        "Edit Site",
+        "Successfully Updated!",
+        "Target successfully set!",
+        "The sum of KPI weight settings is not equal to 100!",
+        "Weather address invalid!",
+        "Please enter revenue(week)!",
+        "Number only!",
+        "revenue(day) can't be negative!",
+        "revenue(week) can't be negative!",
+        "Add site"
+      ],
+      "events": [
+        "Routine holiday",
+        "Special holiday",
+        "Business hour set",
+        "Business hour successfully set!",
+        "rows conform with formats, successfully added",
+        "rows!",
+        "Successfully set!"
+      ],
+      "operateSales": [
+        "Please enter total revenue",
+        "Number only",
+        "Please enter total transactions",
+        "Number only",
+        "Please enter total items",
+        "Number only"
+      ],
+      "promises": [
+        "Successfully imported!",
+        "Total",
+        "rows conform with formats",
+        "rows successfully imprted!",
+        "delete special holidays",
+        "confirm delete?",
+        "Error",
+        "Do not repeat settings!",
+        "Closing time should be later than start time!"
+      ],
+      "modalText": [
+        "Sites sueccessfully imported!",
+        "sites conform with formats.",
+        "sites added successfully.",
+        "sites out of all sites.",
+        "sites rent added!",
+        "sites target set!"
+      ],
+      "modalTitle": [
+        "Export site list",
+        "Please select sites to export!",
+        "Import error",
+        "Please upload .xlsx files!",
+        "Please don't upload empty files!",
+        "Data format error!",
+        "Site format error!",
+        "Data import error.",
+        "Please import the correct template!",
+        "There are no custom templates for this account!",
+        "Please upload .csv files!",
+        "Data format error!",
+        "Please upload two files!",
+        "File Name Format error! The file name format of the two files should be: one is \"rpt_hourly_sales + Printed Time\", and the others is \"rpt_product_sales + Printed Time\"",
+        "Data error! The dates of the data in the two files is not same",
+        "Data out of range! Only upload data for 60 days prior to today",
+        "The number of sheets in Excel is not 3. Do not modify the template!",
+        "Verify that the file you passed in is a valid file with the.xlsx suffix!"
+      ],
+      "export": [
+        "Export user list",
+        "Please select user to export!",
+        "Import error",
+        "User format error!",
+        "The number of sheets in Excel is not 4. Do not modify the template!",
+        "Prompt",
+        "Please go to 「Site」 to add a new site before importing users. ",
+        "Please confirm that you have created complete site information in 「Site」 and then import users. Click 「Comfirm」 to download the user import template directly. ",
+        "The imported template content will overwrite the original system settings. Please make sure that the template you want to import has been edited with the latest imported template. Click 「Comfirm」 to select the template to be imported into the system. "
+      ],
+      "a": "site",
+      "no": "No",
+      "page": "Page",
+      "turn": "Jump to",
+      "h2": [
+        "sites",
+        "sites",
+        "to",
+        "no business hour!",
+        "Holiday"
+      ],
+      "key_h2": [
+        "Valid key",
+        "find",
+        "Valid keys"
+      ],
+      "option": [
+        "Select",
+        "General Tag",
+        "Site status",
+        "Site name",
+        "Region I",
+        "Region II",
+        "Tag",
+        "No supervisor was appointed",
+        "No type is not specified",
+        "No group is specified",
+        "Please select a position",
+        "Please select a department"
+      ],
+      "deleteDevice": [
+        "Are you sure you want to delete",
+        "?",
+        "Confirm to delete the site ",
+        "Delete Site Successfully!",
+        "Delete Site Failed,Please check whether the password is correct!",
+        "Delete Site",
+        "Password error！"
+      ],
+      "title": [
+        "Device status",
+        "Device name",
+        "Site name",
+        "Device type",
+        "Metadata time",
+        "Operate",
+        "Device"
+      ],
+      "Newly_added": [
+        "Add site",
+        "Please enter site name.",
+        "Please select site manager.",
+        "Please select country/region.",
+        "Please enter region I.",
+        "Please enter region II.",
+        "Please enter contact phone.",
+        "Please enter site address.",
+        "Please enter site size.",
+        "Please enter rent.",
+        "Please enter number only.",
+        "Please enter number only.",
+        "Please enter note.",
+        "Please select site supervisor.",
+        "Please select a time zone.",
+        "Site phone numbers' format are incorrect!",
+        "The area cannot be negative!",
+        "The rent cannot be negative!",
+        "Please input the correct Area",
+        "Please input the correct Rent",
+        "Please input the correct site code",
+        "Please input the correct Weather address",
+        "Edit Site",
+        "The site code already exists！"
+      ],
+      "key_added": [
+        "Add key",
+        "Successfully Added!",
+        "Updated Fail!",
+        "Please enter the AccessKey name!",
+        "Please enter the AccessKey description!",
+        "Expire date cannot be selected before today!",
+        "An illegal character was entered in the AccessKey name!",
+        "An illegal character was entered in the description!",
+        "Unable to add! The count of AccessKey have reached the limit!",
+        "Enter up to 20 characters for the key name!",
+        "Describes a maximum of 40 characters!",
+        "Please select an expiration date!"
+      ],
+      "key_update": [
+        "Edit key",
+        "Successfully Updated!",
+        "Updated Fail!"
+      ],
+      "Device_added": [
+        "Add device",
+        "Please select device classify.",
+        "Please select a device application scenario.",
+        "Please enter the device code.",
+        "Please enter device name.",
+        "Please enter the device service ID",
+        "Update Equipment"
+      ],
+      "push": [
+        "Site ID",
+        "Site name",
+        "Country/Region",
+        "Region I",
+        "Region II",
+        "General Tag",
+        "Site Manager (ID)",
+        "Contact Info.",
+        "Site Address",
+        "Contact Number",
+        "Time Zone",
+        "Weather Address",
+        "Note",
+        "Target Revenue",
+        "Area",
+        "Rent",
+        "Site code",
+        "Site Supervisor"
+      ]
+    },
+    "schedule": {
+      "add": "Add",
+      "delete": "Delete",
+      "success": "Save",
+      "binding": "Apply Sites",
+      "save": "Apply Sites",
+      "saveApply": "Apply Sites",
+      "title": "Business Setting",
+      "none": "Special Holiday",
+      "select": "Business Day",
+      "default": "Default Schedule",
+      "tip": {
+        "delete": "Are you sure you want to delete?",
+        "enter": "Please enter schedule name.",
+        "repeat": "The schedule name already exists!",
+        "error": "Apply Sites",
+        "errorBinding": "Apply Sites",
+        "errorOrder": "Closing time should be later than start time!",
+        "errorRepeat": "Do not repeat settings!",
+        "errorNoSelect": "Please select the site that needs to be bound!",
+        "saveContent": [
+          "Successfully Apply! Select",
+          "sites in total,",
+          "sites applied successfully!"
+        ],
+        "saveTitle": "Save and Apply",
+        "success": "saved!",
+        "vacation": "Unselected day will be seemed as repeated holidays."
+      }
+    },
+    "tag": {
+      "add": "Add Tag",
+      "none": "No Tags",
+      "user": " Custom Tag",
+      "system": " General Tag",
+      "set": "設定",
+      "addUser": "Added custom tag successfully!",
+      "addSystem": "Successfully added shared tag!",
+      "deleteUser": "Delete custom tag succeeded!",
+      "deleteSystem": "Successfully deleted the shared tag!",
+      "updateUser": "Set custom label successfully!",
+      "updateSystem": "Set common label successfully!",
+      "tip": {
+        "delete": "If the tag is already in use, delete the tag will also delete relevant info., confirm delete?",
+        "enter": "Please enter name of the tag.",
+        "limit": "Tags reached maximum",
+        "user": [
+          "Please select tags you want to delete.",
+          "selected ",
+          " Custom Tag, are you sure you want to delete?",
+          " Custom Tags, are you sure you want to delete?"
+        ],
+        "select": "select style",
+        "system": [
+          "Please select tags you want to delete.",
+          "Selected ",
+          " General Tag, are you sure you want to delete?",
+          " General Tags, are you sure you want to delete?"
+        ]
+      }
+    },
+    "bom": {
+      "bom": "BOM",
+      "add": "Add BOM",
+      "addPlaceholder": "Please enter BOM name",
+      "delete": "Delete",
+      "import": "Import",
+      "download": "Download",
+      "addItem": "Add Product",
+      "No": {
+        "": "NO."
+      },
+      "posProductName": "POS Product Name",
+      "unitPrice": "List Price",
+      "costPrice": "Cost",
+      "action": "Operate",
+      "save": "Save",
+      "bindingStore": "Apply",
+      "binded": [
+        "Applied to ",
+        "sites",
+        "site"
+      ],
+      "searchPlaceholder": "Keywords search",
+      "bindAll": "Apply all",
+      "save&Apply": "Apply"
+    },
+    "confirm": {
+      "header": {
+        "default": "Notify"
+      },
+      "body": {
+        "default": "Notification",
+        "addStoreInfo": "Confirm adding?",
+        "addStoreProperty": "Confirm adding?",
+        "updateStoreInfo": "Confirm editing?",
+        "updateStoreProperty": "Confirm editing?",
+        "addDeviceInfo": "Confirm adding?",
+        "updateDeviceInfo": "Confirm editing?",
+        "deleteBom": "Confirm delete BOM？",
+        "errorBom": "error, refresh？"
+      }
+    },
+    "alert": {
+      "header": {
+        "default": "Warning"
+      },
+      "body": {
+        "default": "Warning",
+        "addStoreInfo": {
+          "success": "saved.",
+          "error": "saving failed.",
+          "add_max": "You have reached the maximum registration number of 'sites': {1} (current: {1})",
+          "error_name": "Please enter site name.",
+          "error_user": "Please enter site manager.",
+          "error_country": "Please enter country/region.",
+          "error_province": "Please enter region I.",
+          "error_city": "Please enter region II."
+        },
+        "addStoreProperty": {
+          "success": "saved.",
+          "error": "saving failed.",
+          "error_sales": "Please enter revenue."
+        },
+        "updateStoreInfo": {
+          "error": "editing failed."
+        },
+        "updateStoreProperty": {
+          "success": "Successfully Updated!",
+          "error": "editing failed.",
+          "error_sales": "Please enter revenue."
+        },
+        "addDeviceInfo": {
+          "success": "Successfully Added!",
+          "repeat": "device code repeat",
+          "notfound": "device code error",
+          "error": "Add device failed",
+          "add_max": "Add device failed, you have reached the maximum registration number of 'virtual pos devices': {1}",
+          "ID_Err": "Please input the correct device serial number"
+        },
+        "updateDeviceInfo": {
+          "success": "Successfully Updated!",
+          "error": "editing failed.",
+          "nonSelectedText": "No Select Business Day!"
+        },
+        "addBom": {
+          "success": "Successfully Added!",
+          "error": "adding failed.",
+          "error_null": "Name cannot be empty.",
+          "error_exist": "Name already exist, adding failed."
+        },
+        "deleteBom": {
+          "success": "deleted.",
+          "error": "deleting failed."
+        },
+        "saveBomProduct": {
+          "success": "saved.",
+          "error": "saving failed."
+        },
+        "saveBomStore": {
+          "success": "Successfully Apply!",
+          "error": "applying failed."
+        },
+        "importBom": {
+          "success": "imported.",
+          "error": "importing failed.",
+          "error_bom_name": "error bom name, importing failed.",
+          "error_product_name": "error product name, importing failed.",
+          "error_price_or_cost": "error product cost or price, importing failed.",
+          "error_content": "format error, importing failed.",
+          "error_type": "file type error, importing failed."
+        },
+        "add": {
+          "successBanchType": "Add Site Type",
+          "successRegion": "Add Site Group",
+          "successDapartment": "Add Dapartment",
+          "successPosition": "Add Position",
+          "successMes": " Successfully!",
+          "error": " Failed!",
+          "errorBanchType": "Add Site Type Failed!",
+          "errorRegion": "Add Site Group Failed!",
+          "errorDapartment": "Add Dapartment Failed!",
+          "errorPosition": "Add Position Failed!"
+        },
+        "edit": {
+          "successBanchType": "Edit Site Type",
+          "successRegion": "Edit Site Group",
+          "successDapartment": "Edit Dapartment",
+          "successPosition": "Edit Position",
+          "successMes": " Successfully!",
+          "error": " Failed!",
+          "errorBanchType": "Edit Site Type Failed!",
+          "errorRegion": "Edit Site Group Failed!",
+          "errorDapartment": "Edit Dapartment Failed!",
+          "errorPosition": "Edit Position Failed!"
+        },
+        "delete": {
+          "successBanchType": "Delete",
+          "successRegion": "Delete",
+          "successDapartment": "Delete",
+          "successPosition": "Delete",
+          "successMes": " Successfully!",
+          "error": " Failed!",
+          "errorBanchType": "Delete Site Type Failed!",
+          "errorRegion": "Delete Site Group Failed!",
+          "errorDapartment": "Delete Dapartment Failed!",
+          "errorPosition": "Delete Position Failed!",
+          "errorNoBanchType": "Please select the site type you want to delete!",
+          "errorNoRegion": "Please select the site group you want to delete!",
+          "errorNoDapartment": "Please select the dapartment you want to delete!",
+          "errorNoPosition": "Please select the position you want to delete!"
+        }
+      }
+    },
+    "progress": {
+      "title": {
+        "importing": "Importing File",
+        "exporting": "Exporting File",
+        "imported": "Import complete",
+        "exported": "Export complete"
+      },
+      "tip": [
+        "There is ",
+        "There is less than ",
+        "minutes left"
+      ]
+    },
+    "set": {
+      "user_department": {
+        "header": [
+          "Total ",
+          " department(s)"
+        ],
+        "deleteBtn": "Delete",
+        "name": "Department",
+        "setting": "Account Info",
+        "name_placeholder": "Please enter",
+        "id": "Department ID",
+        "code": "Department Code",
+        "code_placeholder": "Please enter",
+        "content_element": "Account",
+        "content_elements": "Total Accounts",
+        "content_elements_placeholder": "Please enter the account that you'd like to add in the department.",
+        "add": "Create",
+        "edit": "Edit",
+        "store": "Site Info",
+        "set": "accessibility site settings",
+        "selected": "Selected site group",
+        "group": "'s bounded sites",
+        "delete_confirm": "Are you sure you'd like to delete the selected department(s)?",
+        "batch_delete_confirm": "Are you sure you'd like to delete the selected department(s)?"
+      },
+      "user_position": {
+        "header": [
+          "Total ",
+          " position(s)"
+        ],
+        "deleteBtn": "Delete",
+        "name": "Position",
+        "setting": "Account Info",
+        "name_placeholder": "Please enter",
+        "id": "Position ID",
+        "code": "Position Code",
+        "code_placeholder": "Please enter",
+        "content_element": "Account",
+        "content_elements": "Total Accounts",
+        "content_elements_placeholder": "Please enter the account that you'd like to add in the position.",
+        "add": "Create",
+        "edit": "Edit",
+        "delete_confirm": "Are you sure you'd like to delete the selected position(s)?",
+        "batch_delete_confirm": "Are you sure you'd like to delete the selected position(s)?"
+      },
+      "store_branch_type": {
+        "header": [
+          "Total ",
+          " site type(s)"
+        ],
+        "deleteBtn": "Delete",
+        "name": "Site Type",
+        "setting": "Site Info",
+        "label_name": "Site Type",
+        "name_placeholder": "Please enter",
+        "id": "Site Type ID",
+        "code": "Site Type Code",
+        "code_placeholder": "Please enter",
+        "content_element": "Site Name",
+        "content_elements": "Total Sites",
+        "content_elements_placeholder": "Please enter the site name that you'd like to add in the site type.",
+        "add": "Create",
+        "edit": "Edit",
+        "delete_confirm": "Are you sure you'd like to delete the selected site type(s)?",
+        "batch_delete_confirm": "Are you sure you'd like to delete the selected site type(s)?"
+      },
+      "store_region": {
+        "header": [
+          "Total ",
+          " site group(s)"
+        ],
+        "deleteBtn": "Delete",
+        "name": "Site Group",
+        "setting": "Site Info",
+        "label_name": "Site Group",
+        "name_placeholder": "Please enter",
+        "id": "Site Group ID",
+        "code": "Site Group Code",
+        "code_placeholder": "Please enter",
+        "content_element": "Site Name",
+        "content_elements": "Total Sites",
+        "content_elements_placeholder": "Please enter the site name that you'd like to add in the site group.",
+        "add": "Create",
+        "edit": "Edit",
+        "delete_confirm": "Are you sure you'd like to delete the selected site group(s)?",
+        "batch_delete_confirm": "Are you sure you'd like to delete the selected site group(s)?"
+      }
+    }
+  },
+  "visitor": {
+    "title": [
+      [
+        {
+          "default": "Overview"
+        }
+      ],
+      [
+        {
+          "default": "Visitor List",
+          "Info": "Visitor Details",
+          "Register": "Visitor Register"
+        },
+        {
+          "default": "Personnel List",
+          "Info": "Personnel Details",
+          "Register": "Personnel Register"
+        }
+      ],
+      [
+        {
+          "default": "Identity"
+        },
+        {
+          "default": "Label"
+        }
+      ]
+    ],
+    "label": {
+      "cycle": "Visit Cycle",
+      "type": "Visitor Type",
+      "identity": "Visitor Identity",
+      "register_identity": "Registered Identity",
+      "frequency": "Site visits (times)",
+      "search": "Keyword Search",
+      "tag": "Visitor Label",
+      "tag_name": "Label name",
+      "suggest": "Recommended Label",
+      "select": [
+        "(",
+        " labels selected)"
+      ],
+      "store_tip": [
+        "Site visits：",
+        "times"
+      ],
+      "brand_tip": [
+        "Company site visits：",
+        "times"
+      ],
+      "tag_tip": "Add up to 20 labels",
+      "add": "Add Custom Labels",
+      "store_record": "Recent Visits Records",
+      "brand_record": "Historical Visits of Company Sites",
+      "status": "Status",
+      "info": "Registered Info",
+      "base": "Base Info",
+      "title": {
+        "Guest": {
+          "Info": "Update Visitor Info",
+          "Register": "Register Visitor"
+        },
+        "Register": {
+          "Info": "Update Personnel Info",
+          "Register": "Register Personnel"
+        }
+      },
+      "warming": {
+        "name": "Please enter the Name/Nickname",
+        "number": "Please enter the Card No.",
+        "phone": "Please enter the Phone",
+        "serial": "Please enter the Employee ID",
+        "cell": "Please enter the Phone",
+        "email": "Please enter the E-mail",
+        "image": "Please upload the Picture"
+      },
+      "success": {
+        "Guest": {
+          "Info": "Update visitor info and set labels success！",
+          "Register": "Register visitor and set labels success！"
+        },
+        "Register": {
+          "Info": "Update personnel info and set labels success！",
+          "Register": "Register personnel and set labels success！"
+        }
+      },
+      "failed": {
+        "update": {
+          "Guest": {
+            "Info": "Update visitor info failed！",
+            "Register": "Register visitor failed！"
+          },
+          "Register": {
+            "Info": "Update personnel info failed！",
+            "Register": "Register personnel failed！"
+          }
+        },
+        "tag": {
+          "Guest": {
+            "Info": "Update visitor info success but set labels failed！",
+            "Register": "Register visitor success but set labels failed！"
+          },
+          "Register": {
+            "Info": "Update personnel info success but set labels failed！",
+            "Register": "Register personnel success but set labels failed！"
+          }
+        },
+        "register": "Register personnel and set labels success but get the relevant data failed！"
+      },
+      "name": "Name/Nickname",
+      "fullname": "Name",
+      "number": "Card No.",
+      "phone": "Phone",
+      "serial": "Employee ID",
+      "cell": "Phone",
+      "email": "E-mail",
+      "position": "Job",
+      "affiliated": "Affiliated Site",
+      "upload": "Upload Picture",
+      "upload_tip": "Please upload picture less than 30KB",
+      "image_too_big": "The picture greater than 30KB",
+      "image_too_small": "The pixels too large or too small.",
+      "image_not_face": "No faces were detected",
+      "tooltip": {
+        "Guest": "Visit Cycle - the time range of the visitor list",
+        "Register": "Registered time - The time range of the personnel registered list, with all personnel displayed by default."
+      },
+      "delete_tag": [
+        "Delete",
+        "Confirm delete the label 「 ",
+        " 」 ?"
+      ],
+      "delete_register": [
+        "Delete",
+        "Confirm delete the personnel 「 ",
+        " 」 ?",
+        "Please select the personnel to be deleted!",
+        "",
+        " personnel have been selected, are you sure to delete these personnel?"
+      ],
+      "day": "The last day",
+      "week": "The last week",
+      "month": "The last month",
+      "section": "The last 3 months"
+    },
+    "placeholder": {
+      "tag": "Please enter the label name"
+    },
+    "identity": [
+      "Member",
+      "VIP",
+      "Blacklist",
+      "Employee"
+    ],
+    "status": [
+      "Registered success",
+      "Registered failed"
+    ],
+    "type": [
+      "Specific Visitors",
+      "All Visitors"
+    ],
+    "multiple": {
+      "identity": {
+        "nSelectedText": "Identity",
+        "nonSelectedText": "Select Identity",
+        "selectAllText": "All",
+        "allSelectedText": "All Identity"
+      },
+      "frequency": {
+        "nSelectedText": "Times",
+        "nonSelectedText": "Select Times",
+        "selectAllText": "All",
+        "allSelectedText": "All Times"
+      },
+      "status": {
+        "nSelectedText": "Status",
+        "nonSelectedText": "Select Status",
+        "selectAllText": "All",
+        "allSelectedText": "All Status"
+      }
+    },
+    "btn": {
+      "search": "Search",
+      "add": "Add",
+      "add_tag": "Add Label",
+      "save": "Save",
+      "register": "Register",
+      "registered": "Register",
+      "again": "Re-register"
+    },
+    "table": {
+      "number": "No.",
+      "avatar": "Picture",
+      "register_avatar": "Picture",
+      "tag": "Label",
+      "last": "Last visit time",
+      "all": "Company site visits (times)",
+      "registered": "Registered Time",
+      "failed": "Register failed!",
+      "fail": [
+        " site register failed",
+        ", They are: "
+      ],
+      "fails": [
+        " sites register failed",
+        ", They are: "
+      ]
+    }
+  },
+  "audience": {
+    "title": [
+      [
+        "Overview"
+      ],
+      [
+        "Report"
+      ]
+    ],
+    "header": {
+      "Overview": [
+        {
+          "head": "Indicators",
+          "info": "Provide 8 key operational indicators, each of which can be compared periodically."
+        },
+        {
+          "head": "Viewers/Male Viewers/Female Viewers",
+          "info": "Show each site's audience in terms of the following three parameters: viewers, male viewers and female viewers."
+        }
+      ],
+      "Report": [
+        {
+          "head": "Data Report",
+          "info": "Provide the data report export function. The range is up to 365 days of data. The range is in hours, up to 90 days."
+        }
+      ]
+    },
+    "button": {
+      "all": "All",
+      "male": "Male",
+      "female": "Female"
+    },
+    "substance": {
+      "viewer": "Viewers",
+      "viewer_num": "Viewers",
+      "viewer_time": "Avg. View time",
+      "viewer_male": "Audience Gender - Male",
+      "viewer_female": "Audience Gender - Female",
+      "viewer_age_10": "Audience Age - 10+",
+      "viewer_age_20": "Audience Age - 20+",
+      "viewer_age_40": "Audience Age - 40+",
+      "viewer_age_60": "Audience Age - 60+"
+    }
+  },
+  "pdf": {
+    "avg_amount": "Revenue Per Transaction",
+    "avg_item_amount": "Average Sale Items",
+    "avg_item_count": "Revenue Per Item",
+    "total_amount": "Revenue",
+    "transaction_count": "Transaction",
+    "item_count": "Items Per Transaction",
+    "return_rate": "Returning Customer Rate",
+    "turn_in_rate": "Turn in Rate",
+    "pout": "Passing-by Traffic",
+    "pin": "Visitors",
+    "profit": "Profit Margin",
+    "sales_conversion": "Conversion Rate",
+    "date": "Date",
+    "time": "Time",
+    "name": "Site",
+    "item_name": "Product",
+    "class": "Product Category",
+    "qty": "Item",
+    "amount": "Revenue",
+    "qty_rate": "Item Percentage",
+    "amount_rate": "Revenue Percentage",
+    "week": "Average for last four weeks",
+    "report": "Operating Weekly Report",
+    "item_amount_asc": "TOP5 of the Highest Revenue",
+    "item_amount_desc": "TOP5 of the Lowest Revenue",
+    "item_qty_asc": "TOP5 of the Highest Item",
+    "item_qty_desc": "TOP5 of the Lowest Item",
+    "item_profit_asc": "TOP5 of the Highest Profit",
+    "item_profit_desc": "TOP5 of the Lowest Profit",
+    "unit": {
+      "avg_amount": "($)",
+      "avg_item_amount": "($)",
+      "avg_item_count": "(item)",
+      "total_amount": "($)",
+      "transaction_count": "(ppl.)",
+      "item_count": "(item)",
+      "return_rate": "(%)",
+      "turn_in_rate": "(%)",
+      "pout": "(ppl.)",
+      "pin": "(ppl.)",
+      "sales_conversion": "(%)",
+      "item_name": "",
+      "class": "",
+      "qty": "(item)",
+      "amount": "($)",
+      "qty_rate": "(%)",
+      "amount_rate": "(%)",
+      "date": "",
+      "time": "",
+      "name": ""
+    }
+  },
+  "datatype": {
+    "sales": "Revenue",
+    "consumers": "Transactions",
+    "enter": "Visitors",
+    "forecastEnter": "Visitors Forecast",
+    "forecastSales": "Revenue Forecast",
+    "forecastConsumers": "Transaction Forecast",
+    "purRate": "Conversion Rate",
+    "avgCost": "Revenue Per Transaction",
+    "avgProduct": "Items Per Transaction",
+    "avgPrice": "Revenue Per Item"
+  },
+  "unit": {
+    "people": "ppl.",
+    "number": "item",
+    "piece": "item"
+  },
+  "type": {
+    "UCam": "UCAM",
+    "Face_LR": "Face_LR"
+  },
+  "applicationScenarios": {
+    "in_door": "in_door",
+    "out_door": "out_door"
+  },
+  "setting": {
+    "save": "Save Setting",
+    "storeFail": "Please select Site/Site Type/Site Group Group At least one!",
+    "optionFail": "Please Select Position!",
+    "success": "SuccessFully Updated ",
+    "s": "site!",
+    "fail": "Updated Fail sites:"
+  },
+  "weeklyReport": {
+    "title": "Weekly operation report file"
+  }
+}
